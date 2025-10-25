@@ -1,9 +1,10 @@
-import Link from "next/link";
 import { notFound } from "next/navigation";
 import { readData } from "@/lib/storage";
 import Image from "next/image";
 import { existsSync } from "fs";
 import { join } from "path";
+import PageHeader from "@/components/PageHeader";
+import Link from "next/link";
 
 interface CharacterPageProps {
   params: Promise<{ char: string }>;
@@ -102,17 +103,7 @@ export default async function CharacterPage({ params }: CharacterPageProps) {
 
   return (
     <div className="h-screen overflow-hidden flex flex-col bg-white dark:bg-black">
-      {/* Full Width Header */}
-      <header className="w-full bg-white dark:bg-black z-20 py-8 border-b border-gray-200 dark:border-gray-800">
-        <div className="px-8">
-          <Link
-            href="/"
-            className="inline-block text-gray-600 hover:text-black dark:text-gray-400 dark:hover:text-white transition-colors"
-          >
-            ← Back
-          </Link>
-        </div>
-      </header>
+      <PageHeader />
 
       {/* Split Content Area */}
       <div className="flex flex-1 overflow-hidden">

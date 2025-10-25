@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { readData } from '@/lib/storage';
+import PageHeader from '@/components/PageHeader';
 
 interface WordPageProps {
   params: Promise<{ word: string }>;
@@ -76,17 +77,14 @@ export default async function WordPage({ params }: WordPageProps) {
   }
 
   return (
-    <div className="min-h-screen bg-white dark:bg-black">
-      <main className="container mx-auto px-4 py-12 max-w-3xl">
-        <Link
-          href="/"
-          className="inline-block mb-8 text-gray-600 hover:text-black dark:text-gray-400 dark:hover:text-white transition-colors"
-        >
-          ← Back
-        </Link>
+    <div className="h-screen overflow-hidden flex flex-col bg-white dark:bg-black">
+      <PageHeader />
 
-        {/* Word Display */}
-        <div className="text-center mb-12">
+      {/* Scrollable Content */}
+      <div className="flex-1 overflow-y-auto">
+        <main className="container mx-auto px-8 py-12 max-w-3xl">
+          {/* Word Display */}
+          <div className="text-center mb-12">
           <div className="text-6xl mb-4">
             {details.word}
           </div>
@@ -164,7 +162,8 @@ export default async function WordPage({ params }: WordPageProps) {
             </div>
           )}
         </div>
-      </main>
+        </main>
+      </div>
     </div>
   );
 }
