@@ -12,11 +12,13 @@ interface SentenceDetails {
   id: string;
   text: string;
   source: string;
-  words: Array<{
+  occurrences: Array<{
     id: string;
+    wordId: string;
     word: string;
     meaning: string;
     pinyin: string;
+    position: number;
   }>;
 }
 
@@ -31,33 +33,27 @@ function getSentenceDetails(id: string): SentenceDetails | null {
       return null;
     }
 
-    // Get all words in this sentence with their details
-    const words = sentence.wordIds.map((wordId) => {
-      const word = data.words[wordId];
-      if (!word) return null;
-
-      // Get pinyin for each character in the word
-      const pinyinParts: string[] = [];
-      for (const char of word.word) {
-        const charData = data.characters[char];
-        if (charData?.pinyin) {
-          pinyinParts.push(charData.pinyin);
-        }
-      }
+    // Get all word occurrences in this sentence
+    const occurrences = sentence.occurrenceIds?.map((occurrenceId) => {
+      const occurrence = data.wordOccurrences?.[occurrenceId];
+      if (!occurrence) return null;
 
       return {
-        id: word.id,
-        word: word.word,
-        meaning: word.meaning,
-        pinyin: pinyinParts.join(" "),
+        id: occurrence.id,
+        wordId: occurrence.wordId,
+        word: occurrence.word,
+        meaning: occurrence.meaning,
+        pinyin: occurrence.pinyin,
+        position: occurrence.position,
       };
-    }).filter((word): word is NonNullable<typeof word> => word !== null);
+    }).filter((occ): occ is NonNullable<typeof occ> => occ !== null)
+      .sort((a, b) => a.position - b.position) || []; // Sort by position
 
     return {
       id: sentence.id,
       text: sentence.text,
       source: sentence.source,
-      words,
+      occurrences,
     };
   } catch (error) {
     console.error("Error fetching sentence details:", error);
@@ -68,14 +64,18 @@ function getSentenceDetails(id: string): SentenceDetails | null {
 // Function to split sentence text into word segments
 function segmentSentence(text: string, words: Array<{ word: string; meaning: string; pinyin: string }>): Array<{ text: string; word?: { word: string; meaning: string; pinyin: string } }> {
   const segments: Array<{ text: string; word?: { word: string; meaning: string; pinyin: string } }> = [];
-  let remainingText = text;
+
+  // Sort words by length (longest first) to match longer words first
+  const sortedWords = [...words].sort((a, b) => b.word.length - a.word.length);
+
   let position = 0;
 
   while (position < text.length) {
-    // Try to find a matching word at current position
+    const remainingText = text.slice(position);
     let matched = false;
 
-    for (const word of words) {
+    // Try to find a matching word at current position (longest match first)
+    for (const word of sortedWords) {
       if (remainingText.startsWith(word.word)) {
         // Found a word match
         segments.push({
@@ -83,7 +83,6 @@ function segmentSentence(text: string, words: Array<{ word: string; meaning: str
           word: word,
         });
         position += word.word.length;
-        remainingText = text.slice(position);
         matched = true;
         break;
       }
@@ -99,7 +98,6 @@ function segmentSentence(text: string, words: Array<{ word: string; meaning: str
         segments.push({ text: char });
       }
       position++;
-      remainingText = text.slice(position);
     }
   }
 
@@ -114,7 +112,7 @@ export default async function SentencePage({ params }: SentencePageProps) {
     notFound();
   }
 
-  const segments = segmentSentence(details.text, details.words);
+  const segments = segmentSentence(details.text, details.occurrences);
 
   return (
     <div className="h-screen overflow-hidden flex flex-col bg-white dark:bg-black">
@@ -160,20 +158,20 @@ export default async function SentencePage({ params }: SentencePageProps) {
           {/* Words Section */}
           <div className="border-t border-gray-200 dark:border-gray-800 pt-12">
             <h2 className="text-sm uppercase tracking-wide text-gray-500 mb-6">
-              Words in this sentence ({details.words.length})
+              Words in this sentence ({details.occurrences.length})
             </h2>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-              {details.words.map((word) => (
+              {details.occurrences.map((occurrence) => (
                 <Link
-                  key={word.id}
-                  href={`/word/${encodeURIComponent(word.word)}`}
+                  key={occurrence.id}
+                  href={`/word/${encodeURIComponent(occurrence.word)}`}
                   className="p-4 border border-gray-200 dark:border-gray-800 rounded-lg hover:border-gray-400 dark:hover:border-gray-600 hover:bg-gray-50 dark:hover:bg-gray-900 transition-colors"
                 >
-                  <div className="text-2xl mb-2">{word.word}</div>
-                  <div className="text-sm text-gray-500 mb-1">{word.pinyin}</div>
+                  <div className="text-2xl mb-2">{occurrence.word}</div>
+                  <div className="text-sm text-gray-500 mb-1">{occurrence.pinyin}</div>
                   <div className="text-sm text-gray-600 dark:text-gray-400">
-                    {word.meaning}
+                    {occurrence.meaning}
                   </div>
                 </Link>
               ))}

@@ -10,12 +10,14 @@ interface WordPageProps {
 interface WordDetails {
   id: string;
   word: string;
-  meaning: string;
+  meanings: string[];
   seenCount: number;
-  sentences: Array<{
+  occurrences: Array<{
     id: string;
-    text: string;
-    source: string;
+    meaning: string;
+    pinyin: string;
+    sentenceId: string;
+    sentenceText: string;
   }>;
   characters: Array<{
     character: string;
@@ -34,15 +36,20 @@ function getWordDetails(word: string): WordDetails | null {
       return null;
     }
 
-    // Get all sentences that contain this word
-    const sentences = wordEntry.sentenceReferences.map(sentenceId => {
-      const sentence = data.sentences[sentenceId];
-      return sentence ? {
-        id: sentence.id,
-        text: sentence.text,
-        source: sentence.source
-      } : null;
-    }).filter((sentence): sentence is NonNullable<typeof sentence> => sentence !== null);
+    // Get all occurrences of this word
+    const occurrences = wordEntry.occurrenceIds?.map(occurrenceId => {
+      const occurrence = data.wordOccurrences?.[occurrenceId];
+      if (!occurrence) return null;
+
+      const sentence = data.sentences[occurrence.sentenceId];
+      return {
+        id: occurrence.id,
+        meaning: occurrence.meaning,
+        pinyin: occurrence.pinyin,
+        sentenceId: occurrence.sentenceId,
+        sentenceText: sentence?.text || ''
+      };
+    }).filter((occ): occ is NonNullable<typeof occ> => occ !== null) || [];
 
     // Get character information for each character in the word
     const characters = Array.from(word).map(char => {
@@ -56,9 +63,9 @@ function getWordDetails(word: string): WordDetails | null {
     return {
       id: wordEntry.id,
       word: wordEntry.word,
-      meaning: wordEntry.meaning,
+      meanings: wordEntry.meanings || [wordEntry.meaning || ''],
       seenCount: wordEntry.seenCount,
-      sentences,
+      occurrences,
       characters
     };
   } catch (error) {
@@ -88,8 +95,8 @@ export default async function WordPage({ params }: WordPageProps) {
           <div className="text-6xl mb-4">
             {details.word}
           </div>
-          <div className="text-xl text-gray-500 dark:text-gray-500">
-            {details.meaning}
+          <div className="text-xl text-gray-500 dark:text-gray-500 mb-4">
+            {details.meanings.join('; ')}
           </div>
         </div>
 
@@ -101,8 +108,8 @@ export default async function WordPage({ params }: WordPageProps) {
           </div>
 
           <div>
-            <div className="text-3xl font-light mb-1">{details.sentences.length}</div>
-            <div className="text-xs uppercase tracking-wide text-gray-500">Sentences</div>
+            <div className="text-3xl font-light mb-1">{details.occurrences.length}</div>
+            <div className="text-xs uppercase tracking-wide text-gray-500">Occurrences</div>
           </div>
         </div>
 
@@ -129,29 +136,32 @@ export default async function WordPage({ params }: WordPageProps) {
           </div>
         </div>
 
-        {/* Sentences Section */}
+        {/* Occurrences Section */}
         <div>
           <h3 className="text-sm uppercase tracking-wide text-gray-500 mb-6">
-            Sentences ({details.sentences.length})
+            Occurrences in Sentences ({details.occurrences.length})
           </h3>
 
-          {details.sentences.length === 0 ? (
+          {details.occurrences.length === 0 ? (
             <p className="text-gray-400 dark:text-gray-600 text-sm">
-              No sentences captured yet
+              No occurrences captured yet
             </p>
           ) : (
             <div className="space-y-6">
-              {details.sentences.map((sentence) => (
+              {details.occurrences.map((occurrence) => (
                 <Link
-                  key={sentence.id}
-                  href={`/sentence/${sentence.id}`}
+                  key={occurrence.id}
+                  href={`/sentence/${occurrence.sentenceId}`}
                   className="block pb-6 border-b border-gray-200 dark:border-gray-800 last:border-0 hover:bg-gray-50 dark:hover:bg-gray-900 -mx-4 px-4 transition-colors"
                 >
                   <div className="text-xl mb-3">
-                    {sentence.text}
+                    {occurrence.sentenceText}
+                  </div>
+                  <div className="text-sm text-gray-500 mb-2">
+                    {occurrence.pinyin} • {occurrence.meaning}
                   </div>
                   <span className="text-xs text-gray-400">
-                    Click to view details →
+                    Click to view sentence details →
                   </span>
                 </Link>
               ))}

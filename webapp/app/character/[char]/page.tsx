@@ -26,7 +26,10 @@ interface CharacterDetails {
   words: Array<{
     id: string;
     word: string;
-    meaning: string;
+    meanings: string[];
+    mostCommonMeaning: string;
+    mostCommonPinyin: string;
+    variantCount: number;
     seenCount: number;
   }>;
 }
@@ -47,14 +50,54 @@ function getCharacterDetails(char: string): CharacterDetails | null {
     const words = characterData.wordReferences
       .map((wordId) => {
         const word = data.words[wordId];
-        return word
-          ? {
-              id: word.id,
-              word: word.word,
-              meaning: word.meaning,
-              seenCount: word.seenCount,
-            }
-          : null;
+        if (!word) return null;
+
+        // Get all occurrences to find most common meaning and pinyin
+        const occurrences = word.occurrenceIds?.map(occId => data.wordOccurrences?.[occId]).filter(Boolean) || [];
+
+        // Count frequency of each meaning and pinyin
+        const meaningCounts = new Map<string, number>();
+        const pinyinCounts = new Map<string, number>();
+
+        occurrences.forEach(occ => {
+          if (occ) {
+            meaningCounts.set(occ.meaning, (meaningCounts.get(occ.meaning) || 0) + 1);
+            pinyinCounts.set(occ.pinyin, (pinyinCounts.get(occ.pinyin) || 0) + 1);
+          }
+        });
+
+        // Get most common meaning and pinyin
+        let mostCommonMeaning = word.meanings?.[0] || '';
+        let mostCommonPinyin = '';
+        let maxMeaningCount = 0;
+        let maxPinyinCount = 0;
+
+        meaningCounts.forEach((count, meaning) => {
+          if (count > maxMeaningCount) {
+            maxMeaningCount = count;
+            mostCommonMeaning = meaning;
+          }
+        });
+
+        pinyinCounts.forEach((count, pinyin) => {
+          if (count > maxPinyinCount) {
+            maxPinyinCount = count;
+            mostCommonPinyin = pinyin;
+          }
+        });
+
+        // Calculate variant count (total unique meanings - 1)
+        const variantCount = Math.max(0, (word.meanings?.length || 1) - 1);
+
+        return {
+          id: word.id,
+          word: word.word,
+          meanings: word.meanings || [],
+          mostCommonMeaning,
+          mostCommonPinyin,
+          variantCount,
+          seenCount: word.seenCount,
+        };
       })
       .filter((word): word is NonNullable<typeof word> => word !== null);
 
@@ -212,14 +255,24 @@ export default async function CharacterPage({ params }: CharacterPageProps) {
                     href={`/word/${encodeURIComponent(word.word)}`}
                     className="block py-3 border-b border-gray-200 dark:border-gray-800 hover:border-gray-400 dark:hover:border-gray-600 transition-colors"
                   >
-                    <div className="flex justify-between items-baseline">
-                      <div>
-                        <span className="text-xl mr-3">{word.word}</span>
-                        <span className="text-sm text-gray-500">
-                          {word.meaning}
-                        </span>
+                    <div className="flex justify-between items-start">
+                      <div className="flex-1">
+                        <div className="mb-1">
+                          <span className="text-xl mr-3">{word.word}</span>
+                          {word.variantCount > 0 && (
+                            <span className="text-xs text-gray-400 bg-gray-100 dark:bg-gray-800 px-2 py-1 rounded">
+                              +{word.variantCount}
+                            </span>
+                          )}
+                        </div>
+                        <div className="text-sm text-gray-500 mb-1">
+                          {word.mostCommonPinyin}
+                        </div>
+                        <div className="text-sm text-gray-600 dark:text-gray-400">
+                          {word.mostCommonMeaning}
+                        </div>
                       </div>
-                      <span className="text-xs text-gray-400">
+                      <span className="text-xs text-gray-400 ml-4">
                         {word.seenCount}×
                       </span>
                     </div>
