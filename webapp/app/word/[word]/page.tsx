@@ -52,11 +52,14 @@ function getWordDetails(word: string): WordDetails | null {
     }).filter((occ): occ is NonNullable<typeof occ> => occ !== null) || [];
 
     // Get character information for each character in the word
-    const characters = Array.from(word).map(char => {
-      const characterData = data.characters[char];
+    // Use the pinyin from the first occurrence to get the correct pronunciation for this word
+    const wordPinyin = occurrences[0]?.pinyin || '';
+    const pinyinParts = wordPinyin.split(/\s+/).filter(p => p.length > 0);
+
+    const characters = Array.from(word).map((char, index) => {
       return {
         character: char,
-        pinyin: characterData?.pinyin || ''
+        pinyin: pinyinParts[index] || ''
       };
     });
 

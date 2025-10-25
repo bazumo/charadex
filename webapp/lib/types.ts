@@ -1,7 +1,8 @@
 export interface Character {
   character: string;
   seenCount: number;
-  pinyin: string;
+  pinyin: string; // Primary/most common pinyin
+  pinyinVariants?: string[]; // All unique pinyin pronunciations encountered
   wordReferences: string[]; // word IDs
   // HanziDB metadata
   frequencyRank?: string;

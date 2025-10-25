@@ -14,6 +14,7 @@ interface CharacterDetails {
   character: string;
   seenCount: number;
   pinyin: string;
+  pinyinVariants?: string[];
   wordReferences: string[];
   hanziData: {
     frequency_rank: string;
@@ -105,6 +106,7 @@ function getCharacterDetails(char: string): CharacterDetails | null {
       character: characterData.character,
       seenCount: characterData.seenCount,
       pinyin: characterData.pinyin,
+      pinyinVariants: characterData.pinyinVariants,
       wordReferences: characterData.wordReferences,
       hanziData: characterData.frequencyRank
         ? {
@@ -173,6 +175,11 @@ export default async function CharacterPage({ params }: CharacterPageProps) {
               <div className="text-8xl mb-4">{details.character}</div>
               <div className="text-2xl text-gray-600 dark:text-gray-400 mb-2">
                 {details.pinyin}
+                {details.pinyinVariants && details.pinyinVariants.length > 1 && (
+                  <span className="text-sm ml-3 text-gray-400">
+                    ({details.pinyinVariants.join(', ')})
+                  </span>
+                )}
               </div>
               {details.hanziData?.definition && (
                 <div className="text-lg text-gray-500 dark:text-gray-500">

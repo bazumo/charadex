@@ -2,15 +2,20 @@
   "characters": {
     "的": {
       "character": "的",
-      "seenCount": 0,
+      "seenCount": 1,
       "pinyin": "de",
-      "wordReferences": [],
+      "wordReferences": [
+        "d0322460-57fa-4d8a-a63d-774300dced81"
+      ],
       "frequencyRank": "1",
       "definition": "possessive, adjectival suffix",
       "radical": "白",
       "radicalCode": "106.3",
       "strokeCount": "8",
-      "hskLevel": "1"
+      "hskLevel": "1",
+      "pinyinVariants": [
+        "de"
+      ]
     },
     "一": {
       "character": "一",
@@ -242,27 +247,37 @@
     },
     "地": {
       "character": "地",
-      "seenCount": 0,
+      "seenCount": 1,
       "pinyin": "de",
-      "wordReferences": [],
+      "wordReferences": [
+        "79bf723b-5162-4e07-b3e6-7ff8cfe313b4"
+      ],
       "frequencyRank": "21",
       "definition": "earth; soil, ground; region",
       "radical": "土",
       "radicalCode": "32.3",
       "strokeCount": "6",
-      "hskLevel": "3"
+      "hskLevel": "3",
+      "pinyinVariants": [
+        "de"
+      ]
     },
     "到": {
       "character": "到",
-      "seenCount": 0,
+      "seenCount": 1,
       "pinyin": "dào",
-      "wordReferences": [],
+      "wordReferences": [
+        "9ae5544b-74e7-4b77-8307-3d35f5e9e48e"
+      ],
       "frequencyRank": "22",
       "definition": "go to, arrive, been to",
       "radical": "刀",
       "radicalCode": "18.6",
       "strokeCount": "8",
-      "hskLevel": "2"
+      "hskLevel": "2",
+      "pinyinVariants": [
+        "dào"
+      ]
     },
     "以": {
       "character": "以",
@@ -626,15 +641,24 @@
     },
     "行": {
       "character": "行",
-      "seenCount": 0,
+      "seenCount": 4,
       "pinyin": "xíng",
-      "wordReferences": [],
+      "wordReferences": [
+        "fe3a49ab-4fd6-4a5d-8945-4f103ae27099",
+        "d2a15e7e-aac3-42bb-a3cb-ae546f462c3e",
+        "23b7b825-49fb-42f1-b76b-8d57bce2db79",
+        "64f376f0-af93-4460-884e-11c9fa5ba018"
+      ],
       "frequencyRank": "53",
       "definition": "go; walk; move, travel; circulate",
       "radical": "行",
       "radicalCode": "144.0",
       "strokeCount": "6",
-      "hskLevel": "3"
+      "hskLevel": "3",
+      "pinyinVariants": [
+        "xíng",
+        "háng"
+      ]
     },
     "所": {
       "character": "所",
@@ -1298,27 +1322,37 @@
     },
     "长": {
       "character": "长",
-      "seenCount": 0,
+      "seenCount": 1,
       "pinyin": "zhǎng",
-      "wordReferences": [],
+      "wordReferences": [
+        "64f376f0-af93-4460-884e-11c9fa5ba018"
+      ],
       "frequencyRank": "109",
       "definition": "long; length; excel in; leader",
       "radical": "長",
       "radicalCode": "168.0",
       "strokeCount": "4",
-      "hskLevel": "2"
+      "hskLevel": "2",
+      "pinyinVariants": [
+        "zhǎng"
+      ]
     },
     "把": {
       "character": "把",
-      "seenCount": 0,
+      "seenCount": 1,
       "pinyin": "bǎ",
-      "wordReferences": [],
+      "wordReferences": [
+        "f8ff861c-5ee1-4084-a76f-4f45d9b53606"
+      ],
       "frequencyRank": "110",
       "definition": "hold, take; guard; regard as",
       "radical": "手",
       "radicalCode": "64.4",
       "strokeCount": "7",
-      "hskLevel": "3"
+      "hskLevel": "3",
+      "pinyinVariants": [
+        "bǎ"
+      ]
     },
     "机": {
       "character": "机",
@@ -1370,15 +1404,20 @@
     },
     "公": {
       "character": "公",
-      "seenCount": 0,
+      "seenCount": 1,
       "pinyin": "gōng",
-      "wordReferences": [],
+      "wordReferences": [
+        "7eaab1a4-76d6-45ed-9dec-8efa775315b5"
+      ],
       "frequencyRank": "115",
       "definition": "fair, equitable; public; duke",
       "radical": "八",
       "radicalCode": "12.2",
       "strokeCount": "4",
-      "hskLevel": "2"
+      "hskLevel": "2",
+      "pinyinVariants": [
+        "gōng"
+      ]
     },
     "此": {
       "character": "此",
@@ -1670,15 +1709,21 @@
     },
     "重": {
       "character": "重",
-      "seenCount": 0,
+      "seenCount": 2,
       "pinyin": "zhòng",
-      "wordReferences": [],
+      "wordReferences": [
+        "79bf723b-5162-4e07-b3e6-7ff8cfe313b4"
+      ],
       "frequencyRank": "140",
       "definition": "heavy, weighty; double",
       "radical": "里",
       "radicalCode": "166.2",
       "strokeCount": "9",
-      "hskLevel": "3"
+      "hskLevel": "3",
+      "pinyinVariants": [
+        "zhòng",
+        "chóng"
+      ]
     },
     "并": {
       "character": "并",
@@ -4394,15 +4439,20 @@
     },
     "办": {
       "character": "办",
-      "seenCount": 0,
+      "seenCount": 1,
       "pinyin": "bàn",
-      "wordReferences": [],
+      "wordReferences": [
+        "7eaab1a4-76d6-45ed-9dec-8efa775315b5"
+      ],
       "frequencyRank": "367",
       "definition": "manage, do, handle; deal with",
       "radical": "力",
       "radicalCode": "19.2",
       "strokeCount": "4",
-      "hskLevel": "3"
+      "hskLevel": "3",
+      "pinyinVariants": [
+        "bàn"
+      ]
     },
     "议": {
       "character": "议",
@@ -5654,15 +5704,20 @@
     },
     "李": {
       "character": "李",
-      "seenCount": 0,
+      "seenCount": 1,
       "pinyin": "lǐ",
-      "wordReferences": [],
+      "wordReferences": [
+        "fe3a49ab-4fd6-4a5d-8945-4f103ae27099"
+      ],
       "frequencyRank": "472",
       "definition": "plum; judge; surname",
       "radical": "木",
       "radicalCode": "75.3",
       "strokeCount": "7",
-      "hskLevel": "3"
+      "hskLevel": "3",
+      "pinyinVariants": [
+        "lǐ"
+      ]
     },
     "标": {
       "character": "标",
@@ -8486,15 +8541,20 @@
     },
     "室": {
       "character": "室",
-      "seenCount": 0,
+      "seenCount": 1,
       "pinyin": "shì",
-      "wordReferences": [],
+      "wordReferences": [
+        "7eaab1a4-76d6-45ed-9dec-8efa775315b5"
+      ],
       "frequencyRank": "708",
       "definition": "room, home, house, chamber",
       "radical": "宀",
       "radicalCode": "40.6",
       "strokeCount": "9",
-      "hskLevel": "2"
+      "hskLevel": "2",
+      "pinyinVariants": [
+        "shì"
+      ]
     },
     "异": {
       "character": "异",
@@ -9074,15 +9134,20 @@
     },
     "银": {
       "character": "银",
-      "seenCount": 0,
+      "seenCount": 1,
       "pinyin": "yín",
-      "wordReferences": [],
+      "wordReferences": [
+        "23b7b825-49fb-42f1-b76b-8d57bce2db79"
+      ],
       "frequencyRank": "757",
       "definition": "silver; cash, money, wealth",
       "radical": "金",
       "radicalCode": "167.6",
       "strokeCount": "11",
-      "hskLevel": "3"
+      "hskLevel": "3",
+      "pinyinVariants": [
+        "yín"
+      ]
     },
     "买": {
       "character": "买",
@@ -24547,7 +24612,206 @@
       "wordReferences": []
     }
   },
-  "words": {},
-  "sentences": {},
-  "wordOccurrences": {}
+  "words": {
+    "79bf723b-5162-4e07-b3e6-7ff8cfe313b4": {
+      "id": "79bf723b-5162-4e07-b3e6-7ff8cfe313b4",
+      "word": "重重地",
+      "meanings": [
+        "heavily"
+      ],
+      "seenCount": 1,
+      "occurrenceIds": [
+        "195f95ae-1f1a-4cd8-a4ec-ea84267bce26"
+      ]
+    },
+    "f8ff861c-5ee1-4084-a76f-4f45d9b53606": {
+      "id": "f8ff861c-5ee1-4084-a76f-4f45d9b53606",
+      "word": "把",
+      "meanings": [
+        "particle indicating disposal/handling"
+      ],
+      "seenCount": 1,
+      "occurrenceIds": [
+        "84f9915e-235e-40a0-8ee0-449a98427780"
+      ]
+    },
+    "fe3a49ab-4fd6-4a5d-8945-4f103ae27099": {
+      "id": "fe3a49ab-4fd6-4a5d-8945-4f103ae27099",
+      "word": "行李",
+      "meanings": [
+        "luggage"
+      ],
+      "seenCount": 1,
+      "occurrenceIds": [
+        "2b725c5e-84b3-4702-a94f-406cb39b816b"
+      ]
+    },
+    "d2a15e7e-aac3-42bb-a3cb-ae546f462c3e": {
+      "id": "d2a15e7e-aac3-42bb-a3cb-ae546f462c3e",
+      "word": "行",
+      "meanings": [
+        "to carry/transport"
+      ],
+      "seenCount": 1,
+      "occurrenceIds": [
+        "586da9b8-3242-49ca-b766-deba6ec39a4e"
+      ]
+    },
+    "9ae5544b-74e7-4b77-8307-3d35f5e9e48e": {
+      "id": "9ae5544b-74e7-4b77-8307-3d35f5e9e48e",
+      "word": "到",
+      "meanings": [
+        "to/until"
+      ],
+      "seenCount": 1,
+      "occurrenceIds": [
+        "824a2ba1-56b5-49ea-9014-cc685a90a53a"
+      ]
+    },
+    "23b7b825-49fb-42f1-b76b-8d57bce2db79": {
+      "id": "23b7b825-49fb-42f1-b76b-8d57bce2db79",
+      "word": "银行",
+      "meanings": [
+        "bank"
+      ],
+      "seenCount": 1,
+      "occurrenceIds": [
+        "cbb16cd0-cac9-4da1-a3f3-d13b5c0b318e"
+      ]
+    },
+    "64f376f0-af93-4460-884e-11c9fa5ba018": {
+      "id": "64f376f0-af93-4460-884e-11c9fa5ba018",
+      "word": "行长",
+      "meanings": [
+        "bank president/manager"
+      ],
+      "seenCount": 1,
+      "occurrenceIds": [
+        "6f2eb932-bfb8-4df2-8321-d80a95cd567f"
+      ]
+    },
+    "d0322460-57fa-4d8a-a63d-774300dced81": {
+      "id": "d0322460-57fa-4d8a-a63d-774300dced81",
+      "word": "的",
+      "meanings": [
+        "possessive particle"
+      ],
+      "seenCount": 1,
+      "occurrenceIds": [
+        "37def26c-6a28-43f9-b7c4-a531c7f3edc5"
+      ]
+    },
+    "7eaab1a4-76d6-45ed-9dec-8efa775315b5": {
+      "id": "7eaab1a4-76d6-45ed-9dec-8efa775315b5",
+      "word": "办公室",
+      "meanings": [
+        "office"
+      ],
+      "seenCount": 1,
+      "occurrenceIds": [
+        "7d4ee2f8-349b-4fca-b5be-a43f3502d311"
+      ]
+    }
+  },
+  "sentences": {
+    "705d685e-dcaf-43c9-87c9-fd308b7e25c6": {
+      "id": "705d685e-dcaf-43c9-87c9-fd308b7e25c6",
+      "text": "重重地把行李行到银行行长的办公室。",
+      "occurrenceIds": [
+        "195f95ae-1f1a-4cd8-a4ec-ea84267bce26",
+        "84f9915e-235e-40a0-8ee0-449a98427780",
+        "2b725c5e-84b3-4702-a94f-406cb39b816b",
+        "586da9b8-3242-49ca-b766-deba6ec39a4e",
+        "824a2ba1-56b5-49ea-9014-cc685a90a53a",
+        "cbb16cd0-cac9-4da1-a3f3-d13b5c0b318e",
+        "6f2eb932-bfb8-4df2-8321-d80a95cd567f",
+        "37def26c-6a28-43f9-b7c4-a531c7f3edc5",
+        "7d4ee2f8-349b-4fca-b5be-a43f3502d311"
+      ],
+      "source": "https://chatgpt.com/c/68fd6188-7bb4-8328-8672-7566af1aa4af"
+    }
+  },
+  "wordOccurrences": {
+    "195f95ae-1f1a-4cd8-a4ec-ea84267bce26": {
+      "id": "195f95ae-1f1a-4cd8-a4ec-ea84267bce26",
+      "wordId": "79bf723b-5162-4e07-b3e6-7ff8cfe313b4",
+      "word": "重重地",
+      "meaning": "heavily",
+      "pinyin": "chóng chóng de",
+      "sentenceId": "705d685e-dcaf-43c9-87c9-fd308b7e25c6",
+      "position": 0
+    },
+    "84f9915e-235e-40a0-8ee0-449a98427780": {
+      "id": "84f9915e-235e-40a0-8ee0-449a98427780",
+      "wordId": "f8ff861c-5ee1-4084-a76f-4f45d9b53606",
+      "word": "把",
+      "meaning": "particle indicating disposal/handling",
+      "pinyin": "bǎ",
+      "sentenceId": "705d685e-dcaf-43c9-87c9-fd308b7e25c6",
+      "position": 1
+    },
+    "2b725c5e-84b3-4702-a94f-406cb39b816b": {
+      "id": "2b725c5e-84b3-4702-a94f-406cb39b816b",
+      "wordId": "fe3a49ab-4fd6-4a5d-8945-4f103ae27099",
+      "word": "行李",
+      "meaning": "luggage",
+      "pinyin": "xíng lǐ",
+      "sentenceId": "705d685e-dcaf-43c9-87c9-fd308b7e25c6",
+      "position": 2
+    },
+    "586da9b8-3242-49ca-b766-deba6ec39a4e": {
+      "id": "586da9b8-3242-49ca-b766-deba6ec39a4e",
+      "wordId": "d2a15e7e-aac3-42bb-a3cb-ae546f462c3e",
+      "word": "行",
+      "meaning": "to carry/transport",
+      "pinyin": "xíng",
+      "sentenceId": "705d685e-dcaf-43c9-87c9-fd308b7e25c6",
+      "position": 3
+    },
+    "824a2ba1-56b5-49ea-9014-cc685a90a53a": {
+      "id": "824a2ba1-56b5-49ea-9014-cc685a90a53a",
+      "wordId": "9ae5544b-74e7-4b77-8307-3d35f5e9e48e",
+      "word": "到",
+      "meaning": "to/until",
+      "pinyin": "dào",
+      "sentenceId": "705d685e-dcaf-43c9-87c9-fd308b7e25c6",
+      "position": 4
+    },
+    "cbb16cd0-cac9-4da1-a3f3-d13b5c0b318e": {
+      "id": "cbb16cd0-cac9-4da1-a3f3-d13b5c0b318e",
+      "wordId": "23b7b825-49fb-42f1-b76b-8d57bce2db79",
+      "word": "银行",
+      "meaning": "bank",
+      "pinyin": "yín háng",
+      "sentenceId": "705d685e-dcaf-43c9-87c9-fd308b7e25c6",
+      "position": 5
+    },
+    "6f2eb932-bfb8-4df2-8321-d80a95cd567f": {
+      "id": "6f2eb932-bfb8-4df2-8321-d80a95cd567f",
+      "wordId": "64f376f0-af93-4460-884e-11c9fa5ba018",
+      "word": "行长",
+      "meaning": "bank president/manager",
+      "pinyin": "háng zhǎng",
+      "sentenceId": "705d685e-dcaf-43c9-87c9-fd308b7e25c6",
+      "position": 6
+    },
+    "37def26c-6a28-43f9-b7c4-a531c7f3edc5": {
+      "id": "37def26c-6a28-43f9-b7c4-a531c7f3edc5",
+      "wordId": "d0322460-57fa-4d8a-a63d-774300dced81",
+      "word": "的",
+      "meaning": "possessive particle",
+      "pinyin": "de",
+      "sentenceId": "705d685e-dcaf-43c9-87c9-fd308b7e25c6",
+      "position": 7
+    },
+    "7d4ee2f8-349b-4fca-b5be-a43f3502d311": {
+      "id": "7d4ee2f8-349b-4fca-b5be-a43f3502d311",
+      "wordId": "7eaab1a4-76d6-45ed-9dec-8efa775315b5",
+      "word": "办公室",
+      "meaning": "office",
+      "pinyin": "bàn gōng shì",
+      "sentenceId": "705d685e-dcaf-43c9-87c9-fd308b7e25c6",
+      "position": 8
+    }
+  }
 }

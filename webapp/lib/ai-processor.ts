@@ -157,6 +157,7 @@ interface ProcessedText {
     words: Array<{
       word: string;
       meaning: string;
+      pinyin: string;
     }>;
   }>;
   words: Array<{
@@ -179,6 +180,10 @@ IMPORTANT RULES:
 - Each sentence should be fully reconstructable from the words array
 - The words should cover 100% of the Chinese characters in the sentence
 - Do NOT skip any words, no matter how simple or common they are
+- Do NOT include punctuation marks (，。！？、；：""''（）《》【】…—) as words
+- Do NOT include reference markers like [13], [14], etc. as words
+- Do NOT include numbers, letters, or symbols as words
+- ONLY extract Chinese characters (汉字) as words
 
 Return your response in the following JSON format:
 {
@@ -207,7 +212,7 @@ Important: Return ONLY the JSON, no additional text. DO NOT USE \`\`\`json \`\`\
 
     const response = await client.messages.create({
       model: 'claude-sonnet-4-20250514',
-      max_tokens: 4000,
+      max_tokens: 40000,
       messages: [
         {
           role: 'user',
@@ -218,6 +223,8 @@ Important: Return ONLY the JSON, no additional text. DO NOT USE \`\`\`json \`\`\
 
     // Extract the text content from Claude's response
     const resultText = response.content[0].type === 'text' ? response.content[0].text : '';
+
+    console.log(resultText);
     const result = JSON.parse(resultText);
 
     // Validate the LLM output
@@ -284,15 +291,8 @@ export function storeProcessedData(
     for (let position = 0; position < sentenceData.words.length; position++) {
       const wordData = sentenceData.words[position];
 
-      // Get pinyin for the word
-      const pinyinParts: string[] = [];
-      for (const char of wordData.word) {
-        const charData = data.characters[char];
-        if (charData?.pinyin) {
-          pinyinParts.push(charData.pinyin);
-        }
-      }
-      const pinyin = pinyinParts.join(' ');
+      // Use pinyin from LLM (which is context-aware)
+      const pinyin = wordData.pinyin || '';
 
       // Check if word already exists, if not create it
       let existingWord = Object.values(data.words).find(w => w.word === wordData.word);
@@ -332,25 +332,46 @@ export function storeProcessedData(
       occurrenceIds.push(occurrenceId);
       existingWord.occurrenceIds.push(occurrenceId);
 
-      // Update character references
-      for (const char of wordData.word) {
-        if (/[\u4e00-\u9fa5]/.test(char)) {
-          if (!data.characters[char]) {
-            data.characters[char] = {
-              character: char,
-              seenCount: 0,
-              pinyin: '',
-              wordReferences: []
-            };
+      // Update character references and track pinyin variants
+      const pinyinParts = pinyin.split(/\s+/).filter((p: string) => p.length > 0);
+      const chars = Array.from(wordData.word).filter((c: string) => /[\u4e00-\u9fa5]/.test(c));
+
+      chars.forEach((char, idx) => {
+        if (!data.characters[char]) {
+          data.characters[char] = {
+            character: char,
+            seenCount: 0,
+            pinyin: '',
+            pinyinVariants: [],
+            wordReferences: []
+          };
+        }
+
+        data.characters[char].seenCount++;
+
+        // Track pinyin variant for this character
+        const charPinyin = pinyinParts[idx];
+        if (charPinyin) {
+          // Set primary pinyin if not set
+          if (!data.characters[char].pinyin) {
+            data.characters[char].pinyin = charPinyin;
           }
 
-          data.characters[char].seenCount++;
+          // Initialize pinyinVariants if it doesn't exist
+          if (!data.characters[char].pinyinVariants) {
+            data.characters[char].pinyinVariants = [];
+          }
 
-          if (!data.characters[char].wordReferences.includes(wordId)) {
-            data.characters[char].wordReferences.push(wordId);
+          // Add to variants if not already present
+          if (!data.characters[char].pinyinVariants.includes(charPinyin)) {
+            data.characters[char].pinyinVariants.push(charPinyin);
           }
         }
-      }
+
+        if (!data.characters[char].wordReferences.includes(wordId)) {
+          data.characters[char].wordReferences.push(wordId);
+        }
+      });
     }
 
     // Store sentence
