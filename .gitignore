@@ -1,0 +1,25 @@
+# Dependencies
+webapp/node_modules/
+webapp/.next/
+webapp/out/
+
+# Environment variables
+webapp/.env.local
+webapp/.env.development.local
+webapp/.env.production.local
+
+# Build outputs
+webapp/.vercel
+
+# OS files
+.DS_Store
+*.swp
+*.swo
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+npm-debug.log*

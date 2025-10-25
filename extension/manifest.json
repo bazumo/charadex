@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Charadex",
+  "version": "1.0.0",
+  "description": "Catch Chinese characters as you browse the web",
+  "permissions": [
+    "contextMenus",
+    "activeTab",
+    "notifications"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+
+  }
+}
