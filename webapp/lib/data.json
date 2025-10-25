@@ -2,7 +2,7 @@
   "characters": {
     "的": {
       "character": "的",
-      "seenCount": 15,
+      "seenCount": 28,
       "pinyin": "de",
       "wordReferences": [
         "8acb8ce4-214d-4e69-a2ec-2bc86069557e",
@@ -19,7 +19,20 @@
         "5ea52016-0c96-4b71-9f34-918a335de826",
         "61e7e8a2-4419-4b20-acae-33084b836921",
         "e99845e2-2e98-4803-82c9-6158a40ec78c",
-        "9cca92b6-423a-4101-9e9f-72f84f11c1ed"
+        "9cca92b6-423a-4101-9e9f-72f84f11c1ed",
+        "3152f6e1-d4b7-46e3-a4a5-55033bf642cd",
+        "7974e7c6-b492-4a09-b0a4-78505fbdf0d5",
+        "9c6144db-2758-4018-ba1b-bca868e2f359",
+        "c52f64bb-0f63-477c-b4fb-8103ec68f528",
+        "fdec9f86-e12a-4df1-834e-b5c63d6cd042",
+        "69825d46-e12e-48bc-8747-e156f7150375",
+        "7256db1c-7a1f-4439-b523-922f765d9c99",
+        "f93a0be6-88c7-4370-985a-94c72807e60b",
+        "ff8d1ecd-c794-43b4-b4ac-fd5a15b7350c",
+        "ef36cc1f-44cc-4e57-a7f1-8038297f6e60",
+        "c6f10706-8f52-453b-b836-8ac02d41ab75",
+        "82416a33-df0f-4944-8bf1-afcc6cff245c",
+        "ba0b5486-230b-4508-96c4-050175edba06"
       ],
       "frequencyRank": "1",
       "definition": "possessive, adjectival suffix",
@@ -30,14 +43,20 @@
     },
     "一": {
       "character": "一",
-      "seenCount": 5,
+      "seenCount": 11,
       "pinyin": "yī",
       "wordReferences": [
         "46dc45f1-d138-49fc-8e23-7f34b94cacd3",
         "c328485c-65a8-4620-8333-59074bb9109b",
         "34e6cf60-d8fd-4712-8579-032971c5789a",
         "53c603bd-93ee-4115-b111-600db1f9ac8c",
-        "b048115d-e1c9-4efe-b15a-309414ef6fae"
+        "b048115d-e1c9-4efe-b15a-309414ef6fae",
+        "15269cf0-b2b5-459e-8b1d-b56dec013f7b",
+        "74d3f4bd-8fdb-43a4-824d-f9dd31a297d6",
+        "5df1a1b9-aa8b-4485-a6d3-e24ff8daee78",
+        "89c3d66f-8e6f-4075-80f1-52f774087743",
+        "9ed1c784-d11e-4763-a898-9b137768249d",
+        "302eed85-5fc6-413c-8e1c-86f6d70d36ca"
       ],
       "frequencyRank": "2",
       "definition": "one; a, an; alone",
@@ -48,7 +67,7 @@
     },
     "是": {
       "character": "是",
-      "seenCount": 7,
+      "seenCount": 8,
       "pinyin": "shì",
       "wordReferences": [
         "c3d92fbb-d7b3-4a11-a2f3-50fbeff7efb5",
@@ -57,7 +76,8 @@
         "ec2c16d3-82d4-4be7-afc3-b80cc1d968d8",
         "52668f60-5c80-48ff-879a-6d2e086388ca",
         "bc6276e1-b152-48c4-988e-5ece5d505727",
-        "cf23d21e-1b7d-41ee-84af-7e11a9fc118b"
+        "cf23d21e-1b7d-41ee-84af-7e11a9fc118b",
+        "2e6a56bc-a7b1-47a6-bd42-c0fb14f7f9ab"
       ],
       "frequencyRank": "3",
       "definition": "indeed, yes, right; to be; demonstrative pronoun, this, that",
@@ -68,11 +88,13 @@
     },
     "不": {
       "character": "不",
-      "seenCount": 2,
+      "seenCount": 4,
       "pinyin": "bù",
       "wordReferences": [
         "d18abbb0-1633-4df2-a093-a48c13bc40be",
-        "9dad7e21-8b27-47c1-b3a2-8d7fef02a3a8"
+        "9dad7e21-8b27-47c1-b3a2-8d7fef02a3a8",
+        "a6848750-9737-468f-bd20-1b5434d39b01",
+        "2a37a66e-5266-4c63-bbc2-db6fae868866"
       ],
       "frequencyRank": "4",
       "definition": "no, not; un-; negative prefix",
@@ -83,9 +105,12 @@
     },
     "了": {
       "character": "了",
-      "seenCount": 0,
+      "seenCount": 2,
       "pinyin": "le",
-      "wordReferences": [],
+      "wordReferences": [
+        "4b0302e9-bdbf-4ea1-a9d3-adbefe112404",
+        "cbc4ee7c-f34a-4edd-925b-c0c02d6c0b76"
+      ],
       "frequencyRank": "5",
       "definition": "to finish; particle of completed action",
       "radical": "亅",
@@ -95,7 +120,7 @@
     },
     "在": {
       "character": "在",
-      "seenCount": 8,
+      "seenCount": 13,
       "pinyin": "zài",
       "wordReferences": [
         "7dfaa3b3-3be1-4aa5-b43b-78f3a53d9dd8",
@@ -105,7 +130,12 @@
         "e99e01a2-1dec-41e7-9b50-c2e7332ce918",
         "008d0ea6-4928-413b-9e18-1d1b724cf568",
         "770eb649-79d0-4095-9e5a-598c95df84d4",
-        "799e3102-e4a5-486a-b389-96b08c921924"
+        "799e3102-e4a5-486a-b389-96b08c921924",
+        "b69a1115-9763-42ad-a8c2-7927b7cbc38c",
+        "0b2befc0-9621-416c-abb5-221c9eaf47be",
+        "a61a21f0-49c0-421e-a907-b2ebb2cb8b6c",
+        "4dcb6164-86f7-4d75-91b1-8bb9df486beb",
+        "54ec830b-4bc6-4eab-a2c2-c47ca0ac9f1c"
       ],
       "frequencyRank": "6",
       "definition": "be at, in, on; consist in, rest",
@@ -116,11 +146,13 @@
     },
     "人": {
       "character": "人",
-      "seenCount": 2,
+      "seenCount": 4,
       "pinyin": "rén",
       "wordReferences": [
         "b29830e1-a2ac-4bc7-ab7f-2e3049078926",
-        "d9556a52-cb43-4ed9-9d35-adf744cb2101"
+        "d9556a52-cb43-4ed9-9d35-adf744cb2101",
+        "f3d0857f-8b59-414d-a726-2a882fa5b564",
+        "d4573190-4723-451b-9737-e5cd8d4a5d6c"
       ],
       "frequencyRank": "7",
       "definition": "man; people; mankind; someone else",
@@ -131,14 +163,16 @@
     },
     "有": {
       "character": "有",
-      "seenCount": 5,
+      "seenCount": 7,
       "pinyin": "yǒu",
       "wordReferences": [
         "e9f49571-0735-4161-af12-a9ff619f3022",
         "e9fdddc9-189b-459b-9aa0-7dad1f374841",
         "b0ef86d5-ffbd-4df1-bf1f-2f952999d906",
         "ae4885c8-48f9-4d53-9065-c589c58f0b09",
-        "a66507ef-4dc7-414c-8f95-9c9fe54d27b2"
+        "a66507ef-4dc7-414c-8f95-9c9fe54d27b2",
+        "4f5dfccf-5deb-408c-8d76-18f1dadfd8f6",
+        "54497ec0-ba28-454b-b97e-55a46fdf8883"
       ],
       "frequencyRank": "8",
       "definition": "have, own, possess; exist",
@@ -190,11 +224,14 @@
     },
     "个": {
       "character": "个",
-      "seenCount": 2,
+      "seenCount": 5,
       "pinyin": "gè",
       "wordReferences": [
         "53c603bd-93ee-4115-b111-600db1f9ac8c",
-        "39415807-11df-4cca-ad37-91f399caa9c4"
+        "39415807-11df-4cca-ad37-91f399caa9c4",
+        "161c89eb-1264-4c5b-a0c1-c4191f47c027",
+        "74d3f4bd-8fdb-43a4-824d-f9dd31a297d6",
+        "535adfde-cb13-4ac0-a9b8-28304f1cf09e"
       ],
       "frequencyRank": "12",
       "definition": "numerary adjunct, piece; single",
@@ -217,7 +254,7 @@
     },
     "中": {
       "character": "中",
-      "seenCount": 6,
+      "seenCount": 8,
       "pinyin": "zhōng",
       "wordReferences": [
         "dbb063dc-123e-4774-a433-89442a93c078",
@@ -225,7 +262,9 @@
         "d562af1b-df5e-4e31-93df-48634d6e7743",
         "fb25ef9a-bfce-48b6-8b3c-42892db52a0c",
         "28cb4450-a87b-479d-b119-474150124aed",
-        "91f33b76-f8d1-49b2-92f4-184333c83a5d"
+        "91f33b76-f8d1-49b2-92f4-184333c83a5d",
+        "5ccb56e9-e271-43b5-868e-e9839cb2b96e",
+        "ed770b22-089e-49b2-973d-dfd32aa405d6"
       ],
       "frequencyRank": "14",
       "definition": "central; center, middle; in the midst of; hit (target); attain",
@@ -236,10 +275,11 @@
     },
     "来": {
       "character": "来",
-      "seenCount": 1,
+      "seenCount": 2,
       "pinyin": "lái",
       "wordReferences": [
-        "b53d5d60-6e59-4f89-bb0a-fdefbe5ee48b"
+        "b53d5d60-6e59-4f89-bb0a-fdefbe5ee48b",
+        "32dab3cd-bcf4-4380-bd85-978a7d921860"
       ],
       "frequencyRank": "15",
       "definition": "come, coming; return, returning",
@@ -250,13 +290,17 @@
     },
     "上": {
       "character": "上",
-      "seenCount": 4,
+      "seenCount": 8,
       "pinyin": "shàng",
       "wordReferences": [
         "ecda9241-a851-49fd-b985-a44cb4f31904",
         "2448036b-46e8-4937-ae9d-f177dab4a492",
         "1048fb7c-c4c2-453b-8c81-942b485f1835",
-        "57c8ab6f-95a0-4848-acb5-c79fe87acd1b"
+        "57c8ab6f-95a0-4848-acb5-c79fe87acd1b",
+        "1e57ec10-46c5-4409-b91a-4913f18c006b",
+        "79748b61-2623-45fe-8cc4-1b9d4d27c374",
+        "1640f609-da55-4f7a-a074-9ac1cde5c5a0",
+        "5a6d0662-7267-44fd-90b6-b783906cf84a"
       ],
       "frequencyRank": "16",
       "definition": "top; superior, highest; go up, send up",
@@ -267,10 +311,16 @@
     },
     "大": {
       "character": "大",
-      "seenCount": 1,
+      "seenCount": 7,
       "pinyin": "dà",
       "wordReferences": [
-        "a69ec228-0779-4322-bd1f-f5188677d741"
+        "a69ec228-0779-4322-bd1f-f5188677d741",
+        "78f6d529-9f9f-41ab-9b12-3c172740b140",
+        "3d1cbda4-82b7-4e00-9ad4-29f6a9e52bef",
+        "b1f600ce-593f-4f1c-9036-7d37c8b95d19",
+        "f1c64cb0-8783-47c6-90ee-0acb27ac5a8f",
+        "a97fa20d-fd31-4788-ba1e-b041b1cd404f",
+        "5f4125ac-5379-49c6-88df-cb26c1ab1c5e"
       ],
       "frequencyRank": "17",
       "definition": "big, great, vast, large, high",
@@ -295,14 +345,16 @@
     },
     "和": {
       "character": "和",
-      "seenCount": 5,
+      "seenCount": 7,
       "pinyin": "hé",
       "wordReferences": [
         "abfeafce-edef-4ece-b49d-cf377c9d4ee4",
         "464ac81b-e7b6-4510-8276-535272e28b08",
         "763dffe1-c1e1-4f80-9c7c-c82c80d41e47",
         "3fd54ae7-3c11-4a2f-a88a-a64c903a1a6d",
-        "e9c5a980-c413-4634-a8df-65637b46e834"
+        "e9c5a980-c413-4634-a8df-65637b46e834",
+        "1ca1c274-22bc-4f30-a3ed-a6ef3505b56c",
+        "a78731b3-cc3b-41e3-adf0-5d18c1af4fa4"
       ],
       "frequencyRank": "19",
       "definition": "harmony, peace; peaceful, calm",
@@ -327,13 +379,17 @@
     },
     "地": {
       "character": "地",
-      "seenCount": 4,
+      "seenCount": 8,
       "pinyin": "de",
       "wordReferences": [
         "a1217488-3a8b-403f-8f40-25083ed2c21e",
         "a561d240-b6ca-4dcc-84f5-e746cdd9de10",
         "8f04dfb1-9770-4555-9e40-cb7755eb084b",
-        "799e3102-e4a5-486a-b389-96b08c921924"
+        "799e3102-e4a5-486a-b389-96b08c921924",
+        "64c72ade-c71f-48bf-8086-f79105f4eac7",
+        "941cc1fc-78e0-41ed-a27a-d0f8ef8f0b94",
+        "9c2fcef8-ccac-4352-b911-b8df98e33e74",
+        "f911a30d-5d90-4ef6-ad42-8fd6c588f0bd"
       ],
       "frequencyRank": "21",
       "definition": "earth; soil, ground; region",
@@ -344,11 +400,12 @@
     },
     "到": {
       "character": "到",
-      "seenCount": 2,
+      "seenCount": 3,
       "pinyin": "dào",
       "wordReferences": [
         "47917b94-f795-4f16-a35b-946deacb7d2f",
-        "0fb51ddd-0168-4701-acfe-5ad6e3c31d35"
+        "0fb51ddd-0168-4701-acfe-5ad6e3c31d35",
+        "a31e2cc0-63f9-4c2b-87ea-f048f142ea78"
       ],
       "frequencyRank": "22",
       "definition": "go to, arrive, been to",
@@ -359,10 +416,11 @@
     },
     "以": {
       "character": "以",
-      "seenCount": 1,
+      "seenCount": 2,
       "pinyin": "yǐ",
       "wordReferences": [
-        "a8c18092-74ce-4d26-8faa-839ecb1749ad"
+        "a8c18092-74ce-4d26-8faa-839ecb1749ad",
+        "03eade00-e963-4581-8073-027bcbc9f441"
       ],
       "frequencyRank": "23",
       "definition": "by means of; thereby, therefore; consider as; in order to",
@@ -385,9 +443,11 @@
     },
     "时": {
       "character": "时",
-      "seenCount": 0,
+      "seenCount": 1,
       "pinyin": "shí",
-      "wordReferences": [],
+      "wordReferences": [
+        "97a7fe20-96d9-43ee-844e-fcbf200ead81"
+      ],
       "frequencyRank": "25",
       "definition": "time, season; era, age, period",
       "radical": "日",
@@ -426,9 +486,13 @@
     },
     "出": {
       "character": "出",
-      "seenCount": 0,
+      "seenCount": 3,
       "pinyin": "chū",
-      "wordReferences": [],
+      "wordReferences": [
+        "0ffcfdd7-3c47-4b34-8d23-1cbf70d99188",
+        "4b00b2dd-023e-41b1-95b0-5416b9b9a2e2",
+        "06d28229-97aa-4083-8a7d-b9a4b7d42b71"
+      ],
       "frequencyRank": "28",
       "definition": "go out, send out; stand; produce",
       "radical": "凵",
@@ -464,10 +528,12 @@
     },
     "也": {
       "character": "也",
-      "seenCount": 1,
+      "seenCount": 3,
       "pinyin": "yě",
       "wordReferences": [
-        "79bdaec3-8f7b-4e7c-b1dc-455a176b6139"
+        "79bdaec3-8f7b-4e7c-b1dc-455a176b6139",
+        "741d87be-2884-4d52-b2f1-dcaf543a9497",
+        "edfd813d-6bbd-4093-9b31-c77946dc2e68"
       ],
       "frequencyRank": "31",
       "definition": "also; classical final particle of strong affirmation or identity",
@@ -490,9 +556,11 @@
     },
     "对": {
       "character": "对",
-      "seenCount": 0,
+      "seenCount": 1,
       "pinyin": "duì",
-      "wordReferences": [],
+      "wordReferences": [
+        "7d424a95-3aaf-4507-a875-bd6727442950"
+      ],
       "frequencyRank": "33",
       "definition": "correct, right; facing, opposed",
       "radical": "寸",
@@ -502,10 +570,11 @@
     },
     "生": {
       "character": "生",
-      "seenCount": 1,
+      "seenCount": 2,
       "pinyin": "shēng",
       "wordReferences": [
-        "91682af7-05ff-4acf-9180-3764bf990a4e"
+        "91682af7-05ff-4acf-9180-3764bf990a4e",
+        "d4ee20b8-3ef0-46f6-9761-ec114ac64d39"
       ],
       "frequencyRank": "34",
       "definition": "life, living, lifetime; birth",
@@ -545,9 +614,11 @@
     },
     "子": {
       "character": "子",
-      "seenCount": 0,
+      "seenCount": 1,
       "pinyin": "zi",
-      "wordReferences": [],
+      "wordReferences": [
+        "50ab2f7e-cc52-4116-8c1c-d417f40f35ce"
+      ],
       "frequencyRank": "37",
       "definition": "offspring, child; fruit, seed of; 1st terrestrial branch",
       "radical": "子",
@@ -621,11 +692,12 @@
     },
     "自": {
       "character": "自",
-      "seenCount": 2,
+      "seenCount": 3,
       "pinyin": "zì",
       "wordReferences": [
         "dba2e09c-91c2-4efd-9adb-59c0580fbe5f",
-        "75bda141-ab16-43d7-b1e2-76ec48a1e8f2"
+        "75bda141-ab16-43d7-b1e2-76ec48a1e8f2",
+        "6983cfa0-07c6-4493-8854-25606525b2a9"
       ],
       "frequencyRank": "43",
       "definition": "self, private, personal; from",
@@ -650,11 +722,20 @@
     },
     "年": {
       "character": "年",
-      "seenCount": 2,
+      "seenCount": 11,
       "pinyin": "nián",
       "wordReferences": [
         "1d3866b5-17e3-4b78-bcf6-dc199250bee1",
-        "ddd2f122-7b60-4e32-a461-9a57b77f61ca"
+        "ddd2f122-7b60-4e32-a461-9a57b77f61ca",
+        "a1b9b75c-e7df-4ebd-8995-ae2ecb20ba5f",
+        "2cea3213-5cde-428b-89f2-030920e28c6c",
+        "28200e77-2418-4447-8ea3-d0015ddf6c30",
+        "814c050b-ba62-473b-81eb-7eac62239fb2",
+        "999d50c4-7b67-43f0-8dac-27f5ec3f1a20",
+        "e26f9a21-c681-44ec-a6e3-9c9841c2db19",
+        "c36e5a0e-c851-45d4-bc0a-8432c94d2c3f",
+        "c4a8b8be-a901-4462-9b7e-aa9780fabc43",
+        "1e87b85e-af05-4ca4-8770-0a60a3f7645f"
       ],
       "frequencyRank": "45",
       "definition": null,
@@ -665,10 +746,11 @@
     },
     "过": {
       "character": "过",
-      "seenCount": 1,
+      "seenCount": 2,
       "pinyin": "guò",
       "wordReferences": [
-        "fe5dbbde-f3d3-4561-9e05-5f443d050be0"
+        "fe5dbbde-f3d3-4561-9e05-5f443d050be0",
+        "39724b1e-7fb8-46a5-bdbe-8931c03cc081"
       ],
       "frequencyRank": "46",
       "definition": "pass, pass through, go across",
@@ -719,11 +801,12 @@
     },
     "里": {
       "character": "里",
-      "seenCount": 2,
+      "seenCount": 3,
       "pinyin": "lǐ",
       "wordReferences": [
         "06e315d1-5560-4e46-aa84-6f1bddda8886",
-        "3fbdea56-ce14-4569-9c09-d8a391829620"
+        "3fbdea56-ce14-4569-9c09-d8a391829620",
+        "520e466d-c48d-4402-bee7-8e281bdcbd2d"
       ],
       "frequencyRank": "50",
       "definition": "unit of distance; village; lane",
@@ -761,9 +844,11 @@
     },
     "行": {
       "character": "行",
-      "seenCount": 0,
+      "seenCount": 1,
       "pinyin": "xíng",
-      "wordReferences": [],
+      "wordReferences": [
+        "9141fb04-78db-4fbe-8f7a-055c504d0b0c"
+      ],
       "frequencyRank": "53",
       "definition": "go; walk; move, travel; circulate",
       "radical": "行",
@@ -773,10 +858,13 @@
     },
     "所": {
       "character": "所",
-      "seenCount": 1,
+      "seenCount": 4,
       "pinyin": "suǒ",
       "wordReferences": [
-        "799e3102-e4a5-486a-b389-96b08c921924"
+        "799e3102-e4a5-486a-b389-96b08c921924",
+        "034680d9-5621-4cac-96bb-b490e6368271",
+        "9ac34843-5ccb-4e0c-a46a-7fb7e1eb7202",
+        "02591554-2dd5-44ea-b02c-ddb14d470607"
       ],
       "frequencyRank": "54",
       "definition": "place, location; numerary adjunct",
@@ -927,9 +1015,11 @@
     },
     "法": {
       "character": "法",
-      "seenCount": 0,
+      "seenCount": 1,
       "pinyin": "fǎ",
-      "wordReferences": [],
+      "wordReferences": [
+        "6ecc7f0c-400b-44c1-9627-f937392cd8b8"
+      ],
       "frequencyRank": "65",
       "definition": "law, rule, regulation, statute; France, French",
       "radical": "水",
@@ -978,10 +1068,14 @@
     },
     "同": {
       "character": "同",
-      "seenCount": 1,
+      "seenCount": 5,
       "pinyin": "tóng",
       "wordReferences": [
-        "01ddf51e-ea4d-4a9a-8ab0-30537b725888"
+        "01ddf51e-ea4d-4a9a-8ab0-30537b725888",
+        "814c050b-ba62-473b-81eb-7eac62239fb2",
+        "c36e5a0e-c851-45d4-bc0a-8432c94d2c3f",
+        "a6848750-9737-468f-bd20-1b5434d39b01",
+        "2a37a66e-5266-4c63-bbc2-db6fae868866"
       ],
       "frequencyRank": "69",
       "definition": "same, similar; together with",
@@ -992,11 +1086,12 @@
     },
     "现": {
       "character": "现",
-      "seenCount": 2,
+      "seenCount": 3,
       "pinyin": "xiàn",
       "wordReferences": [
         "cf3418e1-0676-414e-a328-f2af1936f90a",
-        "f6ed7d15-51d2-43de-b3d2-b9bff6324bfa"
+        "f6ed7d15-51d2-43de-b3d2-b9bff6324bfa",
+        "0ffcfdd7-3c47-4b34-8d23-1cbf70d99188"
       ],
       "frequencyRank": "70",
       "definition": "appear, manifest, become visible",
@@ -1071,9 +1166,11 @@
     },
     "起": {
       "character": "起",
-      "seenCount": 0,
+      "seenCount": 1,
       "pinyin": "qǐ",
-      "wordReferences": [],
+      "wordReferences": [
+        "72197764-0750-48a7-b69b-07b5f65a1151"
+      ],
       "frequencyRank": "75",
       "definition": "rise, stand up; go up; begin",
       "radical": "走",
@@ -1188,10 +1285,14 @@
     },
     "部": {
       "character": "部",
-      "seenCount": 1,
+      "seenCount": 5,
       "pinyin": "bù",
       "wordReferences": [
-        "80f35307-b117-4327-aca4-2fbba0f8bbac"
+        "80f35307-b117-4327-aca4-2fbba0f8bbac",
+        "aa61e881-7222-440f-a370-b04703f14fd1",
+        "99924ea1-7747-4acc-9540-1a806bf0d3b0",
+        "18c9fd50-d94c-47f2-a4f1-df7e1a6f995a",
+        "546c50bb-ecd3-471d-bff3-2ba9cbd77eea"
       ],
       "frequencyRank": "84",
       "definition": "part, division, section",
@@ -1336,11 +1437,13 @@
     },
     "但": {
       "character": "但",
-      "seenCount": 2,
+      "seenCount": 4,
       "pinyin": "dàn",
       "wordReferences": [
         "c9378a4c-5c4e-47f0-80fa-1fe25b97b08c",
-        "4fd0ff48-a4aa-4bba-a496-ed25c0d69a56"
+        "4fd0ff48-a4aa-4bba-a496-ed25c0d69a56",
+        "b6f4b4bd-2b02-49b0-a30d-0344d10824a0",
+        "3a7b2768-aa13-4b17-81f9-8fff88799442"
       ],
       "frequencyRank": "95",
       "definition": "only; but, however, yet, still",
@@ -1488,10 +1591,12 @@
     },
     "力": {
       "character": "力",
-      "seenCount": 1,
+      "seenCount": 3,
       "pinyin": "lì",
       "wordReferences": [
-        "b29830e1-a2ac-4bc7-ab7f-2e3049078926"
+        "b29830e1-a2ac-4bc7-ab7f-2e3049078926",
+        "d4573190-4723-451b-9737-e5cd8d4a5d6c",
+        "806d1a77-c87f-467a-9651-0697eefb2163"
       ],
       "frequencyRank": "106",
       "definition": "power, capability, influence",
@@ -1550,9 +1655,11 @@
     },
     "机": {
       "character": "机",
-      "seenCount": 0,
+      "seenCount": 1,
       "pinyin": "jī",
-      "wordReferences": [],
+      "wordReferences": [
+        "9a9feb19-e8d7-4abf-b9a8-58f702c97e3d"
+      ],
       "frequencyRank": "111",
       "definition": "desk; machine; moment",
       "radical": "木",
@@ -1589,9 +1696,11 @@
     },
     "第": {
       "character": "第",
-      "seenCount": 0,
+      "seenCount": 1,
       "pinyin": "dì",
-      "wordReferences": [],
+      "wordReferences": [
+        "15269cf0-b2b5-459e-8b1d-b56dec013f7b"
+      ],
       "frequencyRank": "114",
       "definition": "sequence, number; grade, degree",
       "radical": "竹",
@@ -1642,9 +1751,14 @@
     },
     "工": {
       "character": "工",
-      "seenCount": 0,
+      "seenCount": 4,
       "pinyin": "gōng",
-      "wordReferences": [],
+      "wordReferences": [
+        "dc898a88-8ead-45c4-aaaf-f21e1a67b900",
+        "db42c1a0-b61a-46e6-b294-679348c22c2a",
+        "a26b4c24-5965-4c8f-bbe6-80bb5a226372",
+        "5e2d8545-c1c5-4121-a05c-c17924bec259"
+      ],
       "frequencyRank": "118",
       "definition": "labor, work; worker, laborer",
       "radical": "工",
@@ -1690,10 +1804,16 @@
     },
     "性": {
       "character": "性",
-      "seenCount": 1,
+      "seenCount": 7,
       "pinyin": "xìng",
       "wordReferences": [
-        "39415807-11df-4cca-ad37-91f399caa9c4"
+        "39415807-11df-4cca-ad37-91f399caa9c4",
+        "506ba804-4aef-4884-89c8-e57be4ea0043",
+        "18f9129f-4a62-4617-94bf-78fa8352131c",
+        "f1c64cb0-8783-47c6-90ee-0acb27ac5a8f",
+        "b7996d0b-58ff-4c1c-a37c-aabcc73efced",
+        "ea9f0a86-57a6-4de8-b8cc-fbbc93bf98c8",
+        "5f4125ac-5379-49c6-88df-cb26c1ab1c5e"
       ],
       "frequencyRank": "122",
       "definition": "nature, character, sex",
@@ -1742,10 +1862,11 @@
     },
     "又": {
       "character": "又",
-      "seenCount": 1,
+      "seenCount": 2,
       "pinyin": "yòu",
       "wordReferences": [
-        "4842f94f-17f7-4187-9a03-64935f0a0eee"
+        "4842f94f-17f7-4187-9a03-64935f0a0eee",
+        "639e48cd-9332-4d78-b201-9ac07ccd46ba"
       ],
       "frequencyRank": "126",
       "definition": "and, also, again, in addition",
@@ -1768,10 +1889,11 @@
     },
     "点": {
       "character": "点",
-      "seenCount": 1,
+      "seenCount": 2,
       "pinyin": "diǎn",
       "wordReferences": [
-        "8ddfadbd-71e3-441c-8758-8a55219964aa"
+        "8ddfadbd-71e3-441c-8758-8a55219964aa",
+        "72197764-0750-48a7-b69b-07b5f65a1151"
       ],
       "frequencyRank": "128",
       "definition": "dot, speck, spot; point, degree",
@@ -1796,10 +1918,12 @@
     },
     "业": {
       "character": "业",
-      "seenCount": 1,
+      "seenCount": 3,
       "pinyin": "yè",
       "wordReferences": [
-        "95c9df64-717b-4e81-8979-9d0fbff04043"
+        "95c9df64-717b-4e81-8979-9d0fbff04043",
+        "dc898a88-8ead-45c4-aaaf-f21e1a67b900",
+        "9a942a52-bc3e-4e06-9e9d-d41a4e7ecc64"
       ],
       "frequencyRank": "130",
       "definition": "profession, business; GB radical 111",
@@ -1849,11 +1973,13 @@
     },
     "高": {
       "character": "高",
-      "seenCount": 2,
+      "seenCount": 4,
       "pinyin": "gāo",
       "wordReferences": [
         "acb5ab4b-1f55-470b-96e6-272b3029db71",
-        "30abaa1a-4a62-4bc6-91c7-575d44ce96f2"
+        "30abaa1a-4a62-4bc6-91c7-575d44ce96f2",
+        "96540971-b8f2-4efd-b585-41caba435c55",
+        "cf8b82ee-9707-4662-af0b-3fde26fc6bbc"
       ],
       "frequencyRank": "134",
       "definition": "high, tall; lofty, elevated",
@@ -1864,9 +1990,12 @@
     },
     "间": {
       "character": "间",
-      "seenCount": 0,
+      "seenCount": 2,
       "pinyin": "jiān",
-      "wordReferences": [],
+      "wordReferences": [
+        "e514048f-4520-4cea-bcf3-7640f1d333df",
+        "96b25bfb-d5c4-4322-b276-657ff6a9653d"
+      ],
       "frequencyRank": "135",
       "definition": "midpoint, space; place, locality",
       "radical": "門",
@@ -1876,9 +2005,14 @@
     },
     "由": {
       "character": "由",
-      "seenCount": 0,
+      "seenCount": 4,
       "pinyin": "yóu",
-      "wordReferences": [],
+      "wordReferences": [
+        "b236c290-87dd-42f1-b6d0-2495581eab10",
+        "937d2526-cce9-439b-9810-f12b517670bd",
+        "16702f45-192f-44ca-83c9-fabcfc63d505",
+        "27a45157-1ed8-4fca-9ea5-f1f8989784b4"
+      ],
       "frequencyRank": "136",
       "definition": "cause, reason; from",
       "radical": "田",
@@ -1912,10 +2046,11 @@
     },
     "最": {
       "character": "最",
-      "seenCount": 1,
+      "seenCount": 2,
       "pinyin": "zuì",
       "wordReferences": [
-        "ce920b4f-70c9-44b9-ac2d-aff220f6da66"
+        "ce920b4f-70c9-44b9-ac2d-aff220f6da66",
+        "ce071438-5d62-4c4c-afc7-c68bb64fc2f0"
       ],
       "frequencyRank": "139",
       "definition": "most, extremely, exceedingly",
@@ -1973,9 +2108,11 @@
     },
     "手": {
       "character": "手",
-      "seenCount": 0,
+      "seenCount": 1,
       "pinyin": "shǒu",
-      "wordReferences": [],
+      "wordReferences": [
+        "5e2d8545-c1c5-4121-a05c-c17924bec259"
+      ],
       "frequencyRank": "143",
       "definition": "hand",
       "radical": "手",
@@ -2009,9 +2146,11 @@
     },
     "向": {
       "character": "向",
-      "seenCount": 0,
+      "seenCount": 1,
       "pinyin": "xiàng",
-      "wordReferences": [],
+      "wordReferences": [
+        "d754b97b-b9ac-48c6-aff3-77f0a2caac22"
+      ],
       "frequencyRank": "146",
       "definition": "toward, direction, trend",
       "radical": "口",
@@ -2047,9 +2186,11 @@
     },
     "体": {
       "character": "体",
-      "seenCount": 0,
+      "seenCount": 1,
       "pinyin": "tǐ",
-      "wordReferences": [],
+      "wordReferences": [
+        "535adfde-cb13-4ac0-a9b8-28304f1cf09e"
+      ],
       "frequencyRank": "149",
       "definition": "body; group, class, body, unit; inferior",
       "radical": "人",
@@ -2059,9 +2200,13 @@
     },
     "政": {
       "character": "政",
-      "seenCount": 0,
+      "seenCount": 3,
       "pinyin": "zhèng",
-      "wordReferences": [],
+      "wordReferences": [
+        "9350eb04-aa79-4006-99ec-173e0f788ae6",
+        "c7d22f26-a2fa-45c8-b5b8-1f4007f55b6f",
+        "07efb8f1-a43e-41ba-8495-b0400198c61f"
+      ],
       "frequencyRank": "150",
       "definition": "government, political affairs",
       "radical": "攴",
@@ -2086,9 +2231,12 @@
     },
     "相": {
       "character": "相",
-      "seenCount": 0,
+      "seenCount": 2,
       "pinyin": "xiāng",
-      "wordReferences": [],
+      "wordReferences": [
+        "6a0e498b-2f68-42f8-a3d6-967fd04c47ad",
+        "3df12b1d-0f01-4650-88b3-50f7217fa70d"
+      ],
       "frequencyRank": "152",
       "definition": "mutual, reciprocal, each other",
       "radical": "目",
@@ -2176,10 +2324,12 @@
     },
     "产": {
       "character": "产",
-      "seenCount": 1,
+      "seenCount": 3,
       "pinyin": "chǎn",
       "wordReferences": [
-        "95c9df64-717b-4e81-8979-9d0fbff04043"
+        "95c9df64-717b-4e81-8979-9d0fbff04043",
+        "9a942a52-bc3e-4e06-9e9d-d41a4e7ecc64",
+        "d4ee20b8-3ef0-46f6-9761-ec114ac64d39"
       ],
       "frequencyRank": "159",
       "definition": "give birth, bring forth, produce",
@@ -2205,10 +2355,11 @@
     },
     "新": {
       "character": "新",
-      "seenCount": 1,
+      "seenCount": 2,
       "pinyin": "xīn",
       "wordReferences": [
-        "77ec0452-e5ea-4f08-af12-77d129d9b5b4"
+        "77ec0452-e5ea-4f08-af12-77d129d9b5b4",
+        "39f38279-cc38-48d9-a1ed-837cc61aea51"
       ],
       "frequencyRank": "161",
       "definition": "new, recent, fresh, modern",
@@ -2231,11 +2382,13 @@
     },
     "制": {
       "character": "制",
-      "seenCount": 2,
+      "seenCount": 4,
       "pinyin": "zhì",
       "wordReferences": [
         "4ea3ef4a-24d7-4ece-be99-1471f4de5872",
-        "7a59637c-a002-4497-8845-3dfe8c3b9a49"
+        "7a59637c-a002-4497-8845-3dfe8c3b9a49",
+        "2b7f9b8b-9a67-4fd5-bbe4-863a8cbc3d94",
+        "df7bb614-5309-4870-ae12-6a2e50bf24f7"
       ],
       "frequencyRank": "163",
       "definition": "system; establish; overpower",
@@ -2270,11 +2423,12 @@
     },
     "加": {
       "character": "加",
-      "seenCount": 2,
+      "seenCount": 3,
       "pinyin": "jiā",
       "wordReferences": [
         "61231744-0471-4c5d-b3d5-158d04d5b69d",
-        "2bfaf77b-a8f2-4712-8474-a5dbe393d21f"
+        "2bfaf77b-a8f2-4712-8474-a5dbe393d21f",
+        "e7719f39-8522-4f2e-987a-357c0163430f"
       ],
       "frequencyRank": "166",
       "definition": "add to, increase, augment",
@@ -2285,10 +2439,12 @@
     },
     "西": {
       "character": "西",
-      "seenCount": 1,
+      "seenCount": 3,
       "pinyin": "xī",
       "wordReferences": [
-        "370028e9-4a15-4da1-8b68-45fcff44416f"
+        "370028e9-4a15-4da1-8b68-45fcff44416f",
+        "aa61e881-7222-440f-a370-b04703f14fd1",
+        "18c9fd50-d94c-47f2-a4f1-df7e1a6f995a"
       ],
       "frequencyRank": "167",
       "definition": "west(ern); westward, occident",
@@ -2375,10 +2531,12 @@
     },
     "代": {
       "character": "代",
-      "seenCount": 1,
+      "seenCount": 3,
       "pinyin": "dài",
       "wordReferences": [
-        "cf3418e1-0676-414e-a328-f2af1936f90a"
+        "cf3418e1-0676-414e-a328-f2af1936f90a",
+        "a1b9b75c-e7df-4ebd-8995-ae2ecb20ba5f",
+        "4459eaad-68b2-40c9-ba7b-dabb8b04b31e"
       ],
       "frequencyRank": "174",
       "definition": "replace, replacement (of person or generation); era, generation",
@@ -2464,12 +2622,13 @@
     },
     "世": {
       "character": "世",
-      "seenCount": 3,
+      "seenCount": 4,
       "pinyin": "shì",
       "wordReferences": [
         "a1ba9bfe-27dc-4bed-9bb5-e495b4e8c19a",
         "b448715c-ed03-4ce4-a4d5-799a60bb3435",
-        "b38569af-a08c-4313-9143-7afd73c3319f"
+        "b38569af-a08c-4313-9143-7afd73c3319f",
+        "59d3bc49-6f3b-48a8-a941-988cf00c72bf"
       ],
       "frequencyRank": "181",
       "definition": "generation; world; era",
@@ -2492,9 +2651,11 @@
     },
     "次": {
       "character": "次",
-      "seenCount": 0,
+      "seenCount": 1,
       "pinyin": "cì",
-      "wordReferences": [],
+      "wordReferences": [
+        "15269cf0-b2b5-459e-8b1d-b56dec013f7b"
+      ],
       "frequencyRank": "183",
       "definition": "order, sequence; next",
       "radical": "欠",
@@ -2567,10 +2728,12 @@
     },
     "海": {
       "character": "海",
-      "seenCount": 1,
+      "seenCount": 3,
       "pinyin": "hǎi",
       "wordReferences": [
-        "140cb6a6-9c22-4378-aa1b-9717d6f7bb3b"
+        "140cb6a6-9c22-4378-aa1b-9717d6f7bb3b",
+        "18f9129f-4a62-4617-94bf-78fa8352131c",
+        "ea9f0a86-57a6-4de8-b8cc-fbbc93bf98c8"
       ],
       "frequencyRank": "189",
       "definition": "sea, ocean; maritime",
@@ -2662,12 +2825,14 @@
     },
     "提": {
       "character": "提",
-      "seenCount": 3,
+      "seenCount": 5,
       "pinyin": "tí",
       "wordReferences": [
         "47917b94-f795-4f16-a35b-946deacb7d2f",
         "31b6f0fc-6602-4658-b806-5eaf6685769a",
-        "1a10a8d0-d9dd-4591-a8d8-eb8f6f1ea22e"
+        "1a10a8d0-d9dd-4591-a8d8-eb8f6f1ea22e",
+        "4b00b2dd-023e-41b1-95b0-5416b9b9a2e2",
+        "06d28229-97aa-4083-8a7d-b9a4b7d42b71"
       ],
       "frequencyRank": "196",
       "definition": "hold in hand; lift in hand",
@@ -2678,9 +2843,13 @@
     },
     "立": {
       "character": "立",
-      "seenCount": 0,
+      "seenCount": 3,
       "pinyin": "lì",
-      "wordReferences": [],
+      "wordReferences": [
+        "5ccb56e9-e271-43b5-868e-e9839cb2b96e",
+        "ed770b22-089e-49b2-973d-dfd32aa405d6",
+        "2a8e738b-977e-41a9-bd0d-bd89aa2bebcd"
+      ],
       "frequencyRank": "197",
       "definition": "stand; let stand; establish, set",
       "radical": "立",
@@ -2831,9 +3000,12 @@
     },
     "各": {
       "character": "各",
-      "seenCount": 0,
+      "seenCount": 2,
       "pinyin": "gè",
-      "wordReferences": [],
+      "wordReferences": [
+        "102e0509-b0c7-4080-b2c9-6494f2594913",
+        "e5ee667f-e064-4678-8945-f90881705653"
+      ],
       "frequencyRank": "209",
       "definition": "each, individually, every, all",
       "radical": "口",
@@ -2934,9 +3106,14 @@
     },
     "气": {
       "character": "气",
-      "seenCount": 0,
+      "seenCount": 4,
       "pinyin": "qì",
-      "wordReferences": [],
+      "wordReferences": [
+        "b65a1935-5a80-42cb-ab76-5e23329b2681",
+        "6cea3c58-4e6c-4ed1-8eae-c4b8ffd43492",
+        "c64ae155-38cb-4832-a329-04a5fb259c1c",
+        "91af72c1-d1de-47bb-b4e0-8da0da06df6b"
+      ],
       "frequencyRank": "217",
       "definition": "steam, vapor; KangXi radical 84",
       "radical": "气",
@@ -2984,10 +3161,11 @@
     },
     "更": {
       "character": "更",
-      "seenCount": 1,
+      "seenCount": 2,
       "pinyin": "gèng",
       "wordReferences": [
-        "61231744-0471-4c5d-b3d5-158d04d5b69d"
+        "61231744-0471-4c5d-b3d5-158d04d5b69d",
+        "e7719f39-8522-4f2e-987a-357c0163430f"
       ],
       "frequencyRank": "221",
       "definition": "more, still further, much more",
@@ -3324,9 +3502,12 @@
     },
     "场": {
       "character": "场",
-      "seenCount": 0,
+      "seenCount": 2,
       "pinyin": "chǎng",
-      "wordReferences": [],
+      "wordReferences": [
+        "a26b4c24-5965-4c8f-bbe6-80bb5a226372",
+        "89c3d66f-8e6f-4075-80f1-52f774087743"
+      ],
       "frequencyRank": "249",
       "definition": "open space, field, market",
       "radical": "土",
@@ -3374,9 +3555,11 @@
     },
     "期": {
       "character": "期",
-      "seenCount": 0,
+      "seenCount": 1,
       "pinyin": "qī",
-      "wordReferences": [],
+      "wordReferences": [
+        "97a7fe20-96d9-43ee-844e-fcbf200ead81"
+      ],
       "frequencyRank": "253",
       "definition": "period of time; date; time limit",
       "radical": "月",
@@ -3400,9 +3583,11 @@
     },
     "直": {
       "character": "直",
-      "seenCount": 0,
+      "seenCount": 1,
       "pinyin": "zhí",
-      "wordReferences": [],
+      "wordReferences": [
+        "5df1a1b9-aa8b-4485-a6d3-e24ff8daee78"
+      ],
       "frequencyRank": "255",
       "definition": "straight, erect, vertical",
       "radical": "目",
@@ -3436,9 +3621,11 @@
     },
     "命": {
       "character": "命",
-      "seenCount": 0,
+      "seenCount": 1,
       "pinyin": "mìng",
-      "wordReferences": [],
+      "wordReferences": [
+        "66e8f02f-52f7-4f15-9fe3-ec16c4650904"
+      ],
       "frequencyRank": "258",
       "definition": "life; destiny, fate, luck; an order, instruction",
       "radical": "口",
@@ -3448,12 +3635,16 @@
     },
     "山": {
       "character": "山",
-      "seenCount": 3,
+      "seenCount": 7,
       "pinyin": "shān",
       "wordReferences": [
         "b623a672-0515-45ee-bdd9-ce26bfc8b661",
         "da6c2d59-f9e4-4372-b4b1-a22dce56505e",
-        "8f04dfb1-9770-4555-9e40-cb7755eb084b"
+        "8f04dfb1-9770-4555-9e40-cb7755eb084b",
+        "e514048f-4520-4cea-bcf3-7640f1d333df",
+        "96540971-b8f2-4efd-b585-41caba435c55",
+        "96b25bfb-d5c4-4322-b276-657ff6a9653d",
+        "cf8b82ee-9707-4662-af0b-3fde26fc6bbc"
       ],
       "frequencyRank": "259",
       "definition": "mountain, hill, peak",
@@ -3542,9 +3733,11 @@
     },
     "保": {
       "character": "保",
-      "seenCount": 0,
+      "seenCount": 1,
       "pinyin": "bǎo",
-      "wordReferences": [],
+      "wordReferences": [
+        "7cfbdc9a-f160-4267-bb0b-a14f57c6d2cd"
+      ],
       "frequencyRank": "266",
       "definition": "protect, safeguard, defend, care",
       "radical": "人",
@@ -3554,9 +3747,13 @@
     },
     "至": {
       "character": "至",
-      "seenCount": 0,
+      "seenCount": 3,
       "pinyin": "zhì",
-      "wordReferences": [],
+      "wordReferences": [
+        "46aab03f-5510-4159-85ea-b39313975888",
+        "05ae36e5-55b6-4651-bb3c-bae9b25be85e",
+        "4fa49660-fd4d-45a9-8eec-4fd5c9abd050"
+      ],
       "frequencyRank": "267",
       "definition": "reach, arrive; extremely, very",
       "radical": "至",
@@ -3676,9 +3873,11 @@
     },
     "科": {
       "character": "科",
-      "seenCount": 0,
+      "seenCount": 1,
       "pinyin": "kē",
-      "wordReferences": [],
+      "wordReferences": [
+        "7f4f46d6-bafc-4aa3-a75d-d9f5c47d9c65"
+      ],
       "frequencyRank": "277",
       "definition": "section, department, science",
       "radical": "禾",
@@ -3714,9 +3913,11 @@
     },
     "基": {
       "character": "基",
-      "seenCount": 0,
+      "seenCount": 1,
       "pinyin": "jī",
-      "wordReferences": [],
+      "wordReferences": [
+        "ac89b8de-8deb-4b56-949a-80fcc8ceafd4"
+      ],
       "frequencyRank": "280",
       "definition": "foundation, base",
       "radical": "土",
@@ -3839,10 +4040,11 @@
     },
     "光": {
       "character": "光",
-      "seenCount": 1,
+      "seenCount": 2,
       "pinyin": "guāng",
       "wordReferences": [
-        "611d3085-81ec-4803-a7ab-48faa34e8622"
+        "611d3085-81ec-4803-a7ab-48faa34e8622",
+        "2c8b7628-bd41-4be6-9cf7-99df733c4228"
       ],
       "frequencyRank": "290",
       "definition": "light, brilliant, shine; only",
@@ -4103,12 +4305,13 @@
     },
     "类": {
       "character": "类",
-      "seenCount": 3,
+      "seenCount": 4,
       "pinyin": "lèi",
       "wordReferences": [
         "62094bf6-3a87-4b5d-9575-e65f2c05c57d",
         "d85ceae8-5d21-4b16-84fe-803a520945bc",
-        "bbf1f06e-1cb1-4f2e-a68a-922d98f62b9b"
+        "bbf1f06e-1cb1-4f2e-a68a-922d98f62b9b",
+        "f3d0857f-8b59-414d-a726-2a882fa5b564"
       ],
       "frequencyRank": "311",
       "definition": "class, group, kind, category",
@@ -4143,9 +4346,11 @@
     },
     "程": {
       "character": "程",
-      "seenCount": 0,
+      "seenCount": 1,
       "pinyin": "chéng",
-      "wordReferences": [],
+      "wordReferences": [
+        "39724b1e-7fb8-46a5-bdbe-8931c03cc081"
+      ],
       "frequencyRank": "314",
       "definition": "journey, trip; schedule, agenda",
       "radical": "禾",
@@ -4227,9 +4432,11 @@
     },
     "规": {
       "character": "规",
-      "seenCount": 0,
+      "seenCount": 1,
       "pinyin": "guī",
-      "wordReferences": [],
+      "wordReferences": [
+        "3d1cbda4-82b7-4e00-9ad4-29f6a9e52bef"
+      ],
       "frequencyRank": "321",
       "definition": "rules, regulations, customs, law",
       "radical": "見",
@@ -4251,9 +4458,11 @@
     },
     "取": {
       "character": "取",
-      "seenCount": 0,
+      "seenCount": 1,
       "pinyin": "qǔ",
-      "wordReferences": [],
+      "wordReferences": [
+        "4459eaad-68b2-40c9-ba7b-dabb8b04b31e"
+      ],
       "frequencyRank": "323",
       "definition": "take, receive, obtain; select",
       "radical": "又",
@@ -4407,9 +4616,11 @@
     },
     "今": {
       "character": "今",
-      "seenCount": 0,
+      "seenCount": 1,
       "pinyin": "jīn",
-      "wordReferences": [],
+      "wordReferences": [
+        "cdadd527-7a1a-4168-a58b-1cd78ec24ad0"
+      ],
       "frequencyRank": "336",
       "definition": "now, today, modern era",
       "radical": "人",
@@ -4467,10 +4678,20 @@
     },
     "候": {
       "character": "候",
-      "seenCount": 1,
+      "seenCount": 11,
       "pinyin": "hòu",
       "wordReferences": [
-        "0955ab8e-e7e2-400c-96cf-c9d7ff524a15"
+        "0955ab8e-e7e2-400c-96cf-c9d7ff524a15",
+        "b65a1935-5a80-42cb-ab76-5e23329b2681",
+        "cf23f79e-9ba2-4dd3-852e-431709068744",
+        "805f065b-58c5-4da8-b1d1-87ea041dfab5",
+        "6cea3c58-4e6c-4ed1-8eae-c4b8ffd43492",
+        "eff54c86-415a-4e61-8d01-7adebf808130",
+        "c64ae155-38cb-4832-a329-04a5fb259c1c",
+        "1a5ad5a5-2ae3-4e45-a976-acde23a65351",
+        "5fa3284b-850c-489d-a482-cc5e2d617b97",
+        "91af72c1-d1de-47bb-b4e0-8da0da06df6b",
+        "007a24ec-166c-47ed-930c-40dbcd1bbe51"
       ],
       "frequencyRank": "341",
       "definition": "wait; expect; visit; greet",
@@ -4625,9 +4846,11 @@
     },
     "造": {
       "character": "造",
-      "seenCount": 0,
+      "seenCount": 1,
       "pinyin": "zào",
-      "wordReferences": [],
+      "wordReferences": [
+        "2b7f9b8b-9a67-4fd5-bbe4-863a8cbc3d94"
+      ],
       "frequencyRank": "354",
       "definition": "construct, build, make, begin; prepare",
       "radical": "辵",
@@ -4661,9 +4884,11 @@
     },
     "持": {
       "character": "持",
-      "seenCount": 0,
+      "seenCount": 1,
       "pinyin": "chí",
-      "wordReferences": [],
+      "wordReferences": [
+        "872220fb-22a2-435d-9e3c-349270a20051"
+      ],
       "frequencyRank": "357",
       "definition": "sustain, support; hold, grasp",
       "radical": "手",
@@ -4829,9 +5054,11 @@
     },
     "英": {
       "character": "英",
-      "seenCount": 0,
+      "seenCount": 1,
       "pinyin": "yīng",
-      "wordReferences": [],
+      "wordReferences": [
+        "59db1b51-7dde-49a3-b5d1-5307c034e865"
+      ],
       "frequencyRank": "371",
       "definition": "petal, flower, leaf; brave, a hero; England, English",
       "radical": "艸",
@@ -4841,12 +5068,19 @@
     },
     "士": {
       "character": "士",
-      "seenCount": 3,
+      "seenCount": 10,
       "pinyin": "shì",
       "wordReferences": [
         "d800fc1b-deae-41f6-a268-46cba9f39fca",
         "b263431a-9ec1-434d-9e64-55922a7d733e",
-        "aa84ca20-15fd-430d-ad6d-d6e282c10696"
+        "aa84ca20-15fd-430d-ad6d-d6e282c10696",
+        "d7ea0e65-c9f7-4fe1-a7f1-88b6af06adb6",
+        "4f598da6-d953-4378-b797-9c6190753da3",
+        "09efd528-a565-4211-b0f0-6b8db1dc37bd",
+        "e016632a-90ad-477d-8925-2a6ef97553f0",
+        "284ebaff-19a7-4a64-982b-c031a5d920a4",
+        "6afb9f32-31ed-4cab-95c3-76d040a86ed7",
+        "8d0a7767-9ed0-4d01-9e20-b90b501ddefc"
       ],
       "frequencyRank": "372",
       "definition": "scholar, gentleman; soldier",
@@ -4896,9 +5130,11 @@
     },
     "转": {
       "character": "转",
-      "seenCount": 0,
+      "seenCount": 1,
       "pinyin": "zhuǎn",
-      "wordReferences": [],
+      "wordReferences": [
+        "d754b97b-b9ac-48c6-aff3-77f0a2caac22"
+      ],
       "frequencyRank": "376",
       "definition": "shift, move, turn",
       "radical": "車",
@@ -4956,9 +5192,12 @@
     },
     "始": {
       "character": "始",
-      "seenCount": 0,
+      "seenCount": 2,
       "pinyin": "shǐ",
-      "wordReferences": [],
+      "wordReferences": [
+        "0e91efc5-029c-47ba-8f72-514617b44621",
+        "86651c09-8b66-4bab-9284-bab223733381"
+      ],
       "frequencyRank": "381",
       "definition": "begin, start; then, only then",
       "radical": "女",
@@ -4992,9 +5231,13 @@
     },
     "存": {
       "character": "存",
-      "seenCount": 0,
+      "seenCount": 3,
       "pinyin": "cún",
-      "wordReferences": [],
+      "wordReferences": [
+        "00bcf70e-a1fe-457c-a44d-bb7864507cc8",
+        "4dcb6164-86f7-4d75-91b1-8bb9df486beb",
+        "54ec830b-4bc6-4eab-a2c2-c47ca0ac9f1c"
+      ],
       "frequencyRank": "384",
       "definition": "exist, live, be; survive; remain",
       "radical": "子",
@@ -5028,10 +5271,11 @@
     },
     "叫": {
       "character": "叫",
-      "seenCount": 1,
+      "seenCount": 2,
       "pinyin": "jiào",
       "wordReferences": [
-        "0152f190-b1b0-481a-a016-e1002ccf47cf"
+        "0152f190-b1b0-481a-a016-e1002ccf47cf",
+        "b86859d6-95f0-4cf4-90f9-f21405270d43"
       ],
       "frequencyRank": "387",
       "definition": "cry, shout; hail, greet, call",
@@ -5401,9 +5645,11 @@
     },
     "府": {
       "character": "府",
-      "seenCount": 0,
+      "seenCount": 1,
       "pinyin": "fǔ",
-      "wordReferences": [],
+      "wordReferences": [
+        "07efb8f1-a43e-41ba-8495-b0400198c61f"
+      ],
       "frequencyRank": "417",
       "definition": "prefecture; prefect; government",
       "radical": "广",
@@ -5461,9 +5707,11 @@
     },
     "技": {
       "character": "技",
-      "seenCount": 0,
+      "seenCount": 1,
       "pinyin": "jì",
-      "wordReferences": [],
+      "wordReferences": [
+        "7f4f46d6-bafc-4aa3-a75d-d9f5c47d9c65"
+      ],
       "frequencyRank": "422",
       "definition": "skill, ability, talent, ingenuity",
       "radical": "手",
@@ -5691,9 +5939,11 @@
     },
     "器": {
       "character": "器",
-      "seenCount": 0,
+      "seenCount": 1,
       "pinyin": "qì",
-      "wordReferences": [],
+      "wordReferences": [
+        "9a9feb19-e8d7-4abf-b9a8-58f702c97e3d"
+      ],
       "frequencyRank": "441",
       "definition": "receptacle, vessel; instrument",
       "radical": "口",
@@ -5888,10 +6138,11 @@
     },
     "史": {
       "character": "史",
-      "seenCount": 1,
+      "seenCount": 2,
       "pinyin": "shǐ",
       "wordReferences": [
-        "92886ae4-c110-4e6f-963b-b46ce5f450b5"
+        "92886ae4-c110-4e6f-963b-b46ce5f450b5",
+        "fd92d509-442e-43fc-b074-0bc8394912d0"
       ],
       "frequencyRank": "456",
       "definition": "history, chronicle, annals",
@@ -6185,10 +6436,11 @@
     },
     "历": {
       "character": "历",
-      "seenCount": 1,
+      "seenCount": 2,
       "pinyin": "lì",
       "wordReferences": [
-        "92886ae4-c110-4e6f-963b-b46ce5f450b5"
+        "92886ae4-c110-4e6f-963b-b46ce5f450b5",
+        "fd92d509-442e-43fc-b074-0bc8394912d0"
       ],
       "frequencyRank": "480",
       "definition": "history; calendar",
@@ -6319,9 +6571,12 @@
     },
     "较": {
       "character": "较",
-      "seenCount": 0,
+      "seenCount": 2,
       "pinyin": "jiào",
-      "wordReferences": [],
+      "wordReferences": [
+        "2389def3-14d7-4e55-9973-09732cf88fda",
+        "14f60ba2-0e3f-44e3-a85f-4d168b725faa"
+      ],
       "frequencyRank": "491",
       "definition": "compare; comparatively, more",
       "radical": "車",
@@ -6345,9 +6600,11 @@
     },
     "语": {
       "character": "语",
-      "seenCount": 0,
+      "seenCount": 1,
       "pinyin": "yǔ",
-      "wordReferences": [],
+      "wordReferences": [
+        "59db1b51-7dde-49a3-b5d1-5307c034e865"
+      ],
       "frequencyRank": "493",
       "definition": "language, words; saying, expression",
       "radical": "言",
@@ -6503,9 +6760,11 @@
     },
     "势": {
       "character": "势",
-      "seenCount": 0,
+      "seenCount": 1,
       "pinyin": "shì",
-      "wordReferences": [],
+      "wordReferences": [
+        "35f4b405-06f4-49c3-8018-ce1dd46d8eb3"
+      ],
       "frequencyRank": "506",
       "definition": "power, force; tendency",
       "radical": "力",
@@ -6683,9 +6942,11 @@
     },
     "革": {
       "character": "革",
-      "seenCount": 0,
+      "seenCount": 1,
       "pinyin": "gé",
-      "wordReferences": [],
+      "wordReferences": [
+        "66e8f02f-52f7-4f15-9fe3-ec16c4650904"
+      ],
       "frequencyRank": "521",
       "definition": "leather, animal hides; rad. 177",
       "radical": "革",
@@ -6992,9 +7253,12 @@
     },
     "巴": {
       "character": "巴",
-      "seenCount": 0,
+      "seenCount": 2,
       "pinyin": "bā",
-      "wordReferences": [],
+      "wordReferences": [
+        "0cfb2be4-fed3-47b2-81af-1c5cf69a1de4",
+        "70adf7cc-8df2-4e3f-911e-ee257d9fbaf0"
+      ],
       "frequencyRank": "546",
       "definition": "greatly desire, anxiously hope",
       "radical": "己",
@@ -7064,9 +7328,11 @@
     },
     "续": {
       "character": "续",
-      "seenCount": 0,
+      "seenCount": 1,
       "pinyin": "xù",
-      "wordReferences": [],
+      "wordReferences": [
+        "872220fb-22a2-435d-9e3c-349270a20051"
+      ],
       "frequencyRank": "552",
       "definition": "continue, carry on; succeed",
       "radical": "糸",
@@ -7076,9 +7342,11 @@
     },
     "施": {
       "character": "施",
-      "seenCount": 0,
+      "seenCount": 1,
       "pinyin": "shī",
-      "wordReferences": [],
+      "wordReferences": [
+        "9141fb04-78db-4fbe-8f7a-055c504d0b0c"
+      ],
       "frequencyRank": "553",
       "definition": "grant, bestow; give; act; name",
       "radical": "方",
@@ -7100,9 +7368,11 @@
     },
     "讲": {
       "character": "讲",
-      "seenCount": 0,
+      "seenCount": 1,
       "pinyin": "jiǎng",
-      "wordReferences": [],
+      "wordReferences": [
+        "5d126943-f84f-4ab9-996d-3e6af30e6dfe"
+      ],
       "frequencyRank": "555",
       "definition": "explain; discuss; talk",
       "radical": "言",
@@ -7246,10 +7516,11 @@
     },
     "段": {
       "character": "段",
-      "seenCount": 1,
+      "seenCount": 2,
       "pinyin": "duàn",
       "wordReferences": [
-        "ca5e86f3-5e76-4725-9233-4829c20fd40f"
+        "ca5e86f3-5e76-4725-9233-4829c20fd40f",
+        "80b88cbe-46a7-448f-808e-5d34a289de05"
       ],
       "frequencyRank": "567",
       "definition": "section, piece, division",
@@ -8004,10 +8275,12 @@
     },
     "般": {
       "character": "般",
-      "seenCount": 1,
+      "seenCount": 3,
       "pinyin": "bān",
       "wordReferences": [
-        "34e6cf60-d8fd-4712-8579-032971c5789a"
+        "34e6cf60-d8fd-4712-8579-032971c5789a",
+        "9ed1c784-d11e-4763-a898-9b137768249d",
+        "302eed85-5fc6-413c-8e1c-86f6d70d36ca"
       ],
       "frequencyRank": "629",
       "definition": "sort, manner, kind, category",
@@ -8126,9 +8399,12 @@
     },
     "承": {
       "character": "承",
-      "seenCount": 0,
+      "seenCount": 2,
       "pinyin": "chéng",
-      "wordReferences": [],
+      "wordReferences": [
+        "8333921e-eeae-439b-89e7-26249800b34a",
+        "5527ac19-32b4-4e5f-ad95-468288ed8401"
+      ],
       "frequencyRank": "639",
       "definition": "inherit, receive; succeed",
       "radical": "手",
@@ -8464,9 +8740,11 @@
     },
     "初": {
       "character": "初",
-      "seenCount": 0,
+      "seenCount": 1,
       "pinyin": "chū",
-      "wordReferences": [],
+      "wordReferences": [
+        "ce071438-5d62-4c4c-afc7-c68bb64fc2f0"
+      ],
       "frequencyRank": "667",
       "definition": "beginning, initial, primary",
       "radical": "刀",
@@ -8739,9 +9017,11 @@
     },
     "模": {
       "character": "模",
-      "seenCount": 0,
+      "seenCount": 1,
       "pinyin": "mó",
-      "wordReferences": [],
+      "wordReferences": [
+        "3d1cbda4-82b7-4e00-9ad4-29f6a9e52bef"
+      ],
       "frequencyRank": "689",
       "definition": "model, standard, pattern; copy",
       "radical": "木",
@@ -8871,9 +9151,12 @@
     },
     "冷": {
       "character": "冷",
-      "seenCount": 0,
+      "seenCount": 2,
       "pinyin": "lěng",
-      "wordReferences": [],
+      "wordReferences": [
+        "d985ba42-ea71-446e-b446-8141b004d876",
+        "6d479608-b61e-4c1b-b9bd-29009b39228b"
+      ],
       "frequencyRank": "700",
       "definition": "cold, cool; lonely",
       "radical": "冫",
@@ -9041,9 +9324,12 @@
     },
     "策": {
       "character": "策",
-      "seenCount": 0,
+      "seenCount": 2,
       "pinyin": "cè",
-      "wordReferences": [],
+      "wordReferences": [
+        "9350eb04-aa79-4006-99ec-173e0f788ae6",
+        "c7d22f26-a2fa-45c8-b5b8-1f4007f55b6f"
+      ],
       "frequencyRank": "714",
       "definition": "scheme, plan; to whip; urge",
       "radical": "竹",
@@ -9257,9 +9543,12 @@
     },
     "差": {
       "character": "差",
-      "seenCount": 0,
+      "seenCount": 2,
       "pinyin": "chà",
-      "wordReferences": [],
+      "wordReferences": [
+        "ce643e86-5dfc-4469-bb7d-8fefec8b95c3",
+        "9f03b3d5-bf07-4e7d-b2ff-afe739931810"
+      ],
       "frequencyRank": "732",
       "definition": "to differ; different, wrong; nearly, almost; an officer",
       "radical": "工",
@@ -9975,10 +10264,11 @@
     },
     "概": {
       "character": "概",
-      "seenCount": 1,
+      "seenCount": 2,
       "pinyin": "gài",
       "wordReferences": [
-        "c7dd1169-51e0-48c4-a963-d4e9e133429b"
+        "c7dd1169-51e0-48c4-a963-d4e9e133429b",
+        "78f6d529-9f9f-41ab-9b12-3c172740b140"
       ],
       "frequencyRank": "791",
       "definition": "generally, approximately",
@@ -10121,9 +10411,12 @@
     },
     "洋": {
       "character": "洋",
-      "seenCount": 0,
+      "seenCount": 2,
       "pinyin": "yáng",
-      "wordReferences": [],
+      "wordReferences": [
+        "18f9129f-4a62-4617-94bf-78fa8352131c",
+        "ea9f0a86-57a6-4de8-b8cc-fbbc93bf98c8"
+      ],
       "frequencyRank": "803",
       "definition": "ocean, sea; foreign; western",
       "radical": "水",
@@ -10884,9 +11177,11 @@
     },
     "散": {
       "character": "散",
-      "seenCount": 0,
+      "seenCount": 1,
       "pinyin": "sàn",
-      "wordReferences": [],
+      "wordReferences": [
+        "21d0f93b-7728-41b9-a1d7-f6638024d14c"
+      ],
       "frequencyRank": "866",
       "definition": "scatter, disperse, break up",
       "radical": "攴",
@@ -10896,9 +11191,12 @@
     },
     "温": {
       "character": "温",
-      "seenCount": 0,
+      "seenCount": 2,
       "pinyin": "wēn",
-      "wordReferences": [],
+      "wordReferences": [
+        "1ca1c274-22bc-4f30-a3ed-a6ef3505b56c",
+        "a78731b3-cc3b-41e3-adf0-5d18c1af4fa4"
+      ],
       "frequencyRank": "867",
       "definition": "lukewarm",
       "radical": "水",
@@ -10932,9 +11230,11 @@
     },
     "渐": {
       "character": "渐",
-      "seenCount": 0,
+      "seenCount": 1,
       "pinyin": "jiàn",
-      "wordReferences": [],
+      "wordReferences": [
+        "13110d82-116a-4692-afb3-2a11c4fe1163"
+      ],
       "frequencyRank": "870",
       "definition": "gradually",
       "radical": "水",
@@ -11726,9 +12026,11 @@
     },
     "额": {
       "character": "额",
-      "seenCount": 0,
+      "seenCount": 1,
       "pinyin": "é",
-      "wordReferences": [],
+      "wordReferences": [
+        "df93fbdb-c1b2-4097-8a81-2d7f1d054b76"
+      ],
       "frequencyRank": "936",
       "definition": "forehead; tablet, plaque; fixed",
       "radical": "頁",
@@ -11942,9 +12244,11 @@
     },
     "逐": {
       "character": "逐",
-      "seenCount": 0,
+      "seenCount": 1,
       "pinyin": "zhú",
-      "wordReferences": [],
+      "wordReferences": [
+        "13110d82-116a-4692-afb3-2a11c4fe1163"
+      ],
       "frequencyRank": "954",
       "definition": "chase, expel; one by one",
       "radical": "辵",
@@ -12050,9 +12354,11 @@
     },
     "厂": {
       "character": "厂",
-      "seenCount": 0,
+      "seenCount": 1,
       "pinyin": "chǎng",
-      "wordReferences": [],
+      "wordReferences": [
+        "db42c1a0-b61a-46e6-b294-679348c22c2a"
+      ],
       "frequencyRank": "963",
       "definition": "factory, workshop; radical 27",
       "radical": "厂",
@@ -12086,9 +12392,11 @@
     },
     "勒": {
       "character": "勒",
-      "seenCount": 0,
+      "seenCount": 1,
       "pinyin": "lēi",
-      "wordReferences": [],
+      "wordReferences": [
+        "ee2d3bf3-28de-4cd2-a8f8-4ce92283467b"
+      ],
       "frequencyRank": "966",
       "definition": "strangle, tighten",
       "radical": "力",
@@ -13634,10 +13942,12 @@
     },
     "谷": {
       "character": "谷",
-      "seenCount": 1,
+      "seenCount": 3,
       "pinyin": "gǔ",
       "wordReferences": [
-        "90696a9d-f6e3-48d8-92cc-0c70344f65c1"
+        "90696a9d-f6e3-48d8-92cc-0c70344f65c1",
+        "64c72ade-c71f-48bf-8086-f79105f4eac7",
+        "9c2fcef8-ccac-4352-b911-b8df98e33e74"
       ],
       "frequencyRank": "1095",
       "definition": "valley, gorge, ravine",
@@ -14452,9 +14762,11 @@
     },
     "盟": {
       "character": "盟",
-      "seenCount": 0,
+      "seenCount": 1,
       "pinyin": "méng",
-      "wordReferences": [],
+      "wordReferences": [
+        "4ed38f44-b512-47cf-ae90-f461bca5b393"
+      ],
       "frequencyRank": "1163",
       "definition": "swear; oath, covenant, alliance",
       "radical": "皿",
@@ -16068,9 +16380,12 @@
     },
     "寒": {
       "character": "寒",
-      "seenCount": 0,
+      "seenCount": 2,
       "pinyin": "hán",
-      "wordReferences": [],
+      "wordReferences": [
+        "d985ba42-ea71-446e-b446-8141b004d876",
+        "6d479608-b61e-4c1b-b9bd-29009b39228b"
+      ],
       "frequencyRank": "1297",
       "definition": "cold, wintry, chilly",
       "radical": "宀",
@@ -16490,12 +16805,19 @@
     },
     "瑞": {
       "character": "瑞",
-      "seenCount": 3,
+      "seenCount": 10,
       "pinyin": "ruì",
       "wordReferences": [
         "d800fc1b-deae-41f6-a268-46cba9f39fca",
         "b263431a-9ec1-434d-9e64-55922a7d733e",
-        "aa84ca20-15fd-430d-ad6d-d6e282c10696"
+        "aa84ca20-15fd-430d-ad6d-d6e282c10696",
+        "d7ea0e65-c9f7-4fe1-a7f1-88b6af06adb6",
+        "4f598da6-d953-4378-b797-9c6190753da3",
+        "09efd528-a565-4211-b0f0-6b8db1dc37bd",
+        "e016632a-90ad-477d-8925-2a6ef97553f0",
+        "284ebaff-19a7-4a64-982b-c031a5d920a4",
+        "6afb9f32-31ed-4cab-95c3-76d040a86ed7",
+        "8d0a7767-9ed0-4d01-9e20-b90b501ddefc"
       ],
       "frequencyRank": "1332",
       "definition": "felicitous omen; auspicious",
@@ -16866,9 +17188,12 @@
     },
     "邦": {
       "character": "邦",
-      "seenCount": 0,
+      "seenCount": 2,
       "pinyin": "bāng",
-      "wordReferences": [],
+      "wordReferences": [
+        "e2eb5a8d-6d95-468d-b372-2e27f5888aa1",
+        "60572565-8980-45a9-8e46-9cc1ede3315c"
+      ],
       "frequencyRank": "1363",
       "definition": "nation, country, state",
       "radical": "邑",
@@ -17382,9 +17707,14 @@
     },
     "渡": {
       "character": "渡",
-      "seenCount": 0,
+      "seenCount": 4,
       "pinyin": "dù",
-      "wordReferences": [],
+      "wordReferences": [
+        "da046c81-83dc-4893-a595-bcf85af30cd8",
+        "5e75c2dc-9882-4f10-998f-a97b2f7728d7",
+        "e2e2a93f-dd13-4bce-8109-fcebdf556507",
+        "8bfb8ce7-3fd3-4ad2-8c97-0e6bfe6e7a23"
+      ],
       "frequencyRank": "1406",
       "definition": "cross, ferry over; ferry",
       "radical": "水",
@@ -18222,10 +18552,12 @@
     },
     "黎": {
       "character": "黎",
-      "seenCount": 1,
+      "seenCount": 3,
       "pinyin": "lí",
       "wordReferences": [
-        "b448715c-ed03-4ce4-a4d5-799a60bb3435"
+        "b448715c-ed03-4ce4-a4d5-799a60bb3435",
+        "0cfb2be4-fed3-47b2-81af-1c5cf69a1de4",
+        "70adf7cc-8df2-4e3f-911e-ee257d9fbaf0"
       ],
       "frequencyRank": "1476",
       "definition": "surname; numerous, many; black",
@@ -18344,9 +18676,11 @@
     },
     "趋": {
       "character": "趋",
-      "seenCount": 0,
+      "seenCount": 1,
       "pinyin": "qū",
-      "wordReferences": [],
+      "wordReferences": [
+        "35f4b405-06f4-49c3-8018-ce1dd46d8eb3"
+      ],
       "frequencyRank": "1486",
       "definition": "hasten, hurry; be attracted to",
       "radical": "走",
@@ -19740,9 +20074,11 @@
     },
     "兽": {
       "character": "兽",
-      "seenCount": 0,
+      "seenCount": 1,
       "pinyin": "shòu",
-      "wordReferences": [],
+      "wordReferences": [
+        "806d1a77-c87f-467a-9651-0697eefb2163"
+      ],
       "frequencyRank": "1602",
       "definition": "beast, animal; bestial",
       "radical": "八",
@@ -22622,9 +22958,11 @@
     },
     "搭": {
       "character": "搭",
-      "seenCount": 0,
+      "seenCount": 1,
       "pinyin": "dā",
-      "wordReferences": [],
+      "wordReferences": [
+        "50ab2f7e-cc52-4116-8c1c-d417f40f35ce"
+      ],
       "frequencyRank": "1842",
       "definition": "join together, attach to; add to",
       "radical": "手",
@@ -24654,10 +24992,12 @@
     },
     "質": {
       "character": "質",
-      "seenCount": 1,
+      "seenCount": 3,
       "pinyin": "",
       "wordReferences": [
-        "97cad422-d2bf-499c-adde-aee0338f8bc5"
+        "97cad422-d2bf-499c-adde-aee0338f8bc5",
+        "506ba804-4aef-4884-89c8-e57be4ea0043",
+        "b7996d0b-58ff-4c1c-a37c-aabcc73efced"
       ]
     },
     "庸": {
@@ -24687,19 +25027,23 @@
     },
     "陸": {
       "character": "陸",
-      "seenCount": 1,
+      "seenCount": 3,
       "pinyin": "",
       "wordReferences": [
-        "8f5c469b-ca72-48a2-89fc-131de87e0209"
+        "8f5c469b-ca72-48a2-89fc-131de87e0209",
+        "f1c64cb0-8783-47c6-90ee-0acb27ac5a8f",
+        "5f4125ac-5379-49c6-88df-cb26c1ab1c5e"
       ]
     },
     "國": {
       "character": "國",
-      "seenCount": 2,
+      "seenCount": 4,
       "pinyin": "",
       "wordReferences": [
         "8922fe0e-2eda-4855-977c-e9d3eb2ea048",
-        "af1af405-cc63-4271-ba1e-ab17ab3ac7fb"
+        "af1af405-cc63-4271-ba1e-ab17ab3ac7fb",
+        "102e0509-b0c7-4080-b2c9-6494f2594913",
+        "e5ee667f-e064-4678-8945-f90881705653"
       ]
     },
     "劃": {
@@ -24776,18 +25120,24 @@
     },
     "當": {
       "character": "當",
-      "seenCount": 1,
+      "seenCount": 5,
       "pinyin": "",
       "wordReferences": [
-        "fb25ef9a-bfce-48b6-8b3c-42892db52a0c"
+        "fb25ef9a-bfce-48b6-8b3c-42892db52a0c",
+        "28200e77-2418-4447-8ea3-d0015ddf6c30",
+        "e26f9a21-c681-44ec-a6e3-9c9841c2db19",
+        "6a0e498b-2f68-42f8-a3d6-967fd04c47ad",
+        "3df12b1d-0f01-4650-88b3-50f7217fa70d"
       ]
     },
     "為": {
       "character": "為",
-      "seenCount": 1,
+      "seenCount": 3,
       "pinyin": "",
       "wordReferences": [
-        "ce920b4f-70c9-44b9-ac2d-aff220f6da66"
+        "ce920b4f-70c9-44b9-ac2d-aff220f6da66",
+        "e778e785-f154-47bb-adcf-b71b143c98f5",
+        "3dae6909-4fb7-4c9e-b00a-7fa732e1226f"
       ]
     },
     "廣": {
@@ -24824,10 +25174,12 @@
     },
     "區": {
       "character": "區",
-      "seenCount": 1,
+      "seenCount": 3,
       "pinyin": "",
       "wordReferences": [
-        "1fe40b5c-4555-4d12-8cc7-efe26db4b8dc"
+        "1fe40b5c-4555-4d12-8cc7-efe26db4b8dc",
+        "941cc1fc-78e0-41ed-a27a-d0f8ef8f0b94",
+        "f911a30d-5d90-4ef6-ad42-8fd6c588f0bd"
       ]
     },
     "該": {
@@ -24872,18 +25224,26 @@
     },
     "氣": {
       "character": "氣",
-      "seenCount": 1,
+      "seenCount": 7,
       "pinyin": "",
       "wordReferences": [
-        "0955ab8e-e7e2-400c-96cf-c9d7ff524a15"
+        "0955ab8e-e7e2-400c-96cf-c9d7ff524a15",
+        "cf23f79e-9ba2-4dd3-852e-431709068744",
+        "805f065b-58c5-4da8-b1d1-87ea041dfab5",
+        "eff54c86-415a-4e61-8d01-7adebf808130",
+        "1a5ad5a5-2ae3-4e45-a976-acde23a65351",
+        "5fa3284b-850c-489d-a482-cc5e2d617b97",
+        "007a24ec-166c-47ed-930c-40dbcd1bbe51"
       ]
     },
     "條": {
       "character": "條",
-      "seenCount": 1,
+      "seenCount": 3,
       "pinyin": "",
       "wordReferences": [
-        "b229b2b9-e30a-413a-8603-d701bba04ac8"
+        "b229b2b9-e30a-413a-8603-d701bba04ac8",
+        "0cfb2be4-fed3-47b2-81af-1c5cf69a1de4",
+        "de9de4c8-7d90-4a4c-99f7-96bb1e3cf383"
       ]
     },
     "優": {
@@ -24909,6 +25269,301 @@
       "pinyin": "",
       "wordReferences": [
         "545aec26-44b1-49fa-9093-069f8ab2c697"
+      ]
+    },
+    "迭": {
+      "character": "迭",
+      "seenCount": 1,
+      "pinyin": "",
+      "wordReferences": [
+        "80b88cbe-46a7-448f-808e-5d34a289de05"
+      ]
+    },
+    "辰": {
+      "character": "辰",
+      "seenCount": 1,
+      "pinyin": "",
+      "wordReferences": [
+        "2c8b7628-bd41-4be6-9cf7-99df733c4228"
+      ]
+    },
+    "厢": {
+      "character": "厢",
+      "seenCount": 1,
+      "pinyin": "",
+      "wordReferences": [
+        "520e466d-c48d-4402-bee7-8e281bdcbd2d"
+      ]
+    },
+    "開": {
+      "character": "開",
+      "seenCount": 2,
+      "pinyin": "",
+      "wordReferences": [
+        "0e91efc5-029c-47ba-8f72-514617b44621",
+        "86651c09-8b66-4bab-9284-bab223733381"
+      ]
+    },
+    "於": {
+      "character": "於",
+      "seenCount": 5,
+      "pinyin": "",
+      "wordReferences": [
+        "84c20705-bc27-4154-b9c2-98979b314991",
+        "06cf1955-5212-432a-994d-fec11a7decc6",
+        "8f2951a5-5082-4203-9834-ec5237285750",
+        "b128d0cd-3d2c-42db-8428-8da6d7d9cf93",
+        "c17f5783-e3f4-44b5-82bd-94e4358d3995"
+      ]
+    },
+    "約": {
+      "character": "約",
+      "seenCount": 2,
+      "pinyin": "",
+      "wordReferences": [
+        "0cfb2be4-fed3-47b2-81af-1c5cf69a1de4",
+        "de9de4c8-7d90-4a4c-99f7-96bb1e3cf383"
+      ]
+    },
+    "並": {
+      "character": "並",
+      "seenCount": 2,
+      "pinyin": "",
+      "wordReferences": [
+        "9c5c2143-9927-44be-915f-b83b9a7028d0",
+        "bc1e935b-b748-48f7-9058-e3e874273b94"
+      ]
+    },
+    "維": {
+      "character": "維",
+      "seenCount": 2,
+      "pinyin": "",
+      "wordReferences": [
+        "741d87be-2884-4d52-b2f1-dcaf543a9497",
+        "edfd813d-6bbd-4093-9b31-c77946dc2e68"
+      ]
+    },
+    "納": {
+      "character": "納",
+      "seenCount": 2,
+      "pinyin": "",
+      "wordReferences": [
+        "741d87be-2884-4d52-b2f1-dcaf543a9497",
+        "edfd813d-6bbd-4093-9b31-c77946dc2e68"
+      ]
+    },
+    "會": {
+      "character": "會",
+      "seenCount": 2,
+      "pinyin": "",
+      "wordReferences": [
+        "247b52f4-fc0a-4c0b-80db-62da4bef4f65",
+        "7c01c93e-c45c-4bba-acde-ca6a079e9ca7"
+      ]
+    },
+    "議": {
+      "character": "議",
+      "seenCount": 2,
+      "pinyin": "",
+      "wordReferences": [
+        "247b52f4-fc0a-4c0b-80db-62da4bef4f65",
+        "7c01c93e-c45c-4bba-acde-ca6a079e9ca7"
+      ]
+    },
+    "認": {
+      "character": "認",
+      "seenCount": 2,
+      "pinyin": "",
+      "wordReferences": [
+        "8333921e-eeae-439b-89e7-26249800b34a",
+        "5527ac19-32b4-4e5f-ad95-468288ed8401"
+      ]
+    },
+    "現": {
+      "character": "現",
+      "seenCount": 1,
+      "pinyin": "",
+      "wordReferences": [
+        "cdadd527-7a1a-4168-a58b-1cd78ec24ad0"
+      ]
+    },
+    "聯": {
+      "character": "聯",
+      "seenCount": 2,
+      "pinyin": "",
+      "wordReferences": [
+        "e2eb5a8d-6d95-468d-b372-2e27f5888aa1",
+        "60572565-8980-45a9-8e46-9cc1ede3315c"
+      ]
+    },
+    "體": {
+      "character": "體",
+      "seenCount": 1,
+      "pinyin": "",
+      "wordReferences": [
+        "df7bb614-5309-4870-ae12-6a2e50bf24f7"
+      ]
+    },
+    "憲": {
+      "character": "憲",
+      "seenCount": 1,
+      "pinyin": "",
+      "wordReferences": [
+        "6ecc7f0c-400b-44c1-9627-f937392cd8b8"
+      ]
+    },
+    "確": {
+      "character": "確",
+      "seenCount": 1,
+      "pinyin": "",
+      "wordReferences": [
+        "2a8e738b-977e-41a9-bd0d-bd89aa2bebcd"
+      ]
+    },
+    "奠": {
+      "character": "奠",
+      "seenCount": 1,
+      "pinyin": "",
+      "wordReferences": [
+        "ac89b8de-8deb-4b56-949a-80fcc8ceafd4"
+      ]
+    },
+    "締": {
+      "character": "締",
+      "seenCount": 1,
+      "pinyin": "",
+      "wordReferences": [
+        "2954d42a-7fc5-4ae2-8311-7a232a70aad5"
+      ]
+    },
+    "結": {
+      "character": "結",
+      "seenCount": 2,
+      "pinyin": "",
+      "wordReferences": [
+        "2954d42a-7fc5-4ae2-8311-7a232a70aad5",
+        "4ed38f44-b512-47cf-ae90-f461bca5b393"
+      ]
+    },
+    "護": {
+      "character": "護",
+      "seenCount": 1,
+      "pinyin": "",
+      "wordReferences": [
+        "7cfbdc9a-f160-4267-bb0b-a14f57c6d2cd"
+      ]
+    },
+    "鬆": {
+      "character": "鬆",
+      "seenCount": 1,
+      "pinyin": "",
+      "wordReferences": [
+        "21d0f93b-7728-41b9-a1d7-f6638024d14c"
+      ]
+    },
+    "關": {
+      "character": "關",
+      "seenCount": 1,
+      "pinyin": "",
+      "wordReferences": [
+        "f1f2fcf0-43d1-4823-ac99-65bcf30181f2"
+      ]
+    },
+    "係": {
+      "character": "係",
+      "seenCount": 1,
+      "pinyin": "",
+      "wordReferences": [
+        "f1f2fcf0-43d1-4823-ac99-65bcf30181f2"
+      ]
+    },
+    "續": {
+      "character": "續",
+      "seenCount": 1,
+      "pinyin": "",
+      "wordReferences": [
+        "00bcf70e-a1fe-457c-a44d-bb7864507cc8"
+      ]
+    },
+    "數": {
+      "character": "數",
+      "seenCount": 1,
+      "pinyin": "",
+      "wordReferences": [
+        "a5ca3a04-ba5d-4306-89b3-7c5d72198a5c"
+      ]
+    },
+    "紀": {
+      "character": "紀",
+      "seenCount": 1,
+      "pinyin": "",
+      "wordReferences": [
+        "59d3bc49-6f3b-48a8-a941-988cf00c72bf"
+      ]
+    },
+    "屬": {
+      "character": "屬",
+      "seenCount": 2,
+      "pinyin": "",
+      "wordReferences": [
+        "cf2c82df-496e-4368-9259-eae3824a22cb",
+        "58a1b274-9b6c-4ace-b272-d7933faf9de6"
+      ]
+    },
+    "溫": {
+      "character": "溫",
+      "seenCount": 2,
+      "pinyin": "",
+      "wordReferences": [
+        "5434baa2-ddca-4a68-81be-77962232054a",
+        "1acd4556-be6f-4795-8956-c3db80753b8c"
+      ]
+    },
+    "帶": {
+      "character": "帶",
+      "seenCount": 2,
+      "pinyin": "",
+      "wordReferences": [
+        "5434baa2-ddca-4a68-81be-77962232054a",
+        "1acd4556-be6f-4795-8956-c3db80753b8c"
+      ]
+    },
+    "則": {
+      "character": "則",
+      "seenCount": 2,
+      "pinyin": "",
+      "wordReferences": [
+        "7a6217d4-7ba7-4478-8b10-c8611b13f97b",
+        "20ac584a-ae66-4701-94b5-cd234e9c4011"
+      ]
+    },
+    "異": {
+      "character": "異",
+      "seenCount": 2,
+      "pinyin": "",
+      "wordReferences": [
+        "ce643e86-5dfc-4469-bb7d-8fefec8b95c3",
+        "9f03b3d5-bf07-4e7d-b2ff-afe739931810"
+      ]
+    },
+    "過": {
+      "character": "過",
+      "seenCount": 4,
+      "pinyin": "",
+      "wordReferences": [
+        "da046c81-83dc-4893-a595-bcf85af30cd8",
+        "5e75c2dc-9882-4f10-998f-a97b2f7728d7",
+        "e2e2a93f-dd13-4bce-8109-fcebdf556507",
+        "8bfb8ce7-3fd3-4ad2-8c97-0e6bfe6e7a23"
+      ]
+    },
+    "東": {
+      "character": "東",
+      "seenCount": 2,
+      "pinyin": "",
+      "wordReferences": [
+        "99924ea1-7747-4acc-9540-1a806bf0d3b0",
+        "546c50bb-ecd3-471d-bff3-2ba9cbd77eea"
       ]
     }
   },
@@ -24985,7 +25640,7 @@
       "id": "8acb8ce4-214d-4e69-a2ec-2bc86069557e",
       "word": "的",
       "meaning": "possessive particle",
-      "seenCount": 15,
+      "seenCount": 28,
       "sentenceReferences": [
         "b4b213c1-4a5b-47ea-98a0-bdb67ba73792",
         "83a077b2-475b-43bf-a341-62682029620d",
@@ -24995,7 +25650,14 @@
         "b4923c60-1c05-4829-a570-2ed9003ec2eb",
         "c5db6d0c-205e-47f8-9449-af1baf4e43f5",
         "8a383de4-83c8-40cf-ac05-447d47bf1cd3",
-        "7ac71c9b-07fe-49ce-9f4b-d8f51693476a"
+        "7ac71c9b-07fe-49ce-9f4b-d8f51693476a",
+        "ffda43c6-7a50-400d-816e-2894ea48dc90",
+        "7b73eee5-21b5-41c5-a4ab-4322a6e2f048",
+        "ed1e5fe6-8421-4894-b1e6-fb7429271089",
+        "3481ee7c-c733-4b34-bb29-60bbf81498c5",
+        "90819cb3-8752-4169-a564-5c1af54d50fc",
+        "8c28fbbe-5809-4025-bf63-9a1a46d6423b",
+        "bfc54d03-6454-40b9-91fc-211ecd5aab18"
       ]
     },
     "eefe3fa7-9df8-4947-923b-7cce2908d44f": {
@@ -25114,9 +25776,10 @@
       "id": "61231744-0471-4c5d-b3d5-158d04d5b69d",
       "word": "更加",
       "meaning": "even more",
-      "seenCount": 1,
+      "seenCount": 2,
       "sentenceReferences": [
-        "83a077b2-475b-43bf-a341-62682029620d"
+        "83a077b2-475b-43bf-a341-62682029620d",
+        "687f91c4-1941-4413-9987-0832eee92734"
       ]
     },
     "86ef8cd2-15bd-43c9-bcfb-91a0c96e1639": {
@@ -25142,11 +25805,13 @@
       "id": "2448036b-46e8-4937-ae9d-f177dab4a492",
       "word": "上",
       "meaning": "on, above",
-      "seenCount": 3,
+      "seenCount": 7,
       "sentenceReferences": [
         "83a077b2-475b-43bf-a341-62682029620d",
         "0486a574-dad3-4244-b013-d883556185ee",
-        "66e934bc-d80c-4064-8b95-fd9380750d4e"
+        "66e934bc-d80c-4064-8b95-fd9380750d4e",
+        "ffda43c6-7a50-400d-816e-2894ea48dc90",
+        "7b73eee5-21b5-41c5-a4ab-4322a6e2f048"
       ]
     },
     "a48af9e8-6343-47bc-ba88-b7c08a343b39": {
@@ -25162,11 +25827,13 @@
       "id": "e9f49571-0735-4161-af12-a9ff619f3022",
       "word": "有",
       "meaning": "have, there is/are",
-      "seenCount": 3,
+      "seenCount": 5,
       "sentenceReferences": [
         "83a077b2-475b-43bf-a341-62682029620d",
         "0486a574-dad3-4244-b013-d883556185ee",
-        "b4923c60-1c05-4829-a570-2ed9003ec2eb"
+        "b4923c60-1c05-4829-a570-2ed9003ec2eb",
+        "3481ee7c-c733-4b34-bb29-60bbf81498c5",
+        "8c28fbbe-5809-4025-bf63-9a1a46d6423b"
       ]
     },
     "041b21dc-f39b-4789-95b4-d3aced58881e": {
@@ -25210,14 +25877,17 @@
       "id": "7dfaa3b3-3be1-4aa5-b43b-78f3a53d9dd8",
       "word": "在",
       "meaning": "in, at",
-      "seenCount": 7,
+      "seenCount": 10,
       "sentenceReferences": [
         "bc8eebbf-dd54-4cad-a356-a521d680ec5a",
         "0486a574-dad3-4244-b013-d883556185ee",
         "ee5c6c74-2412-4d5d-980f-46190209f2a7",
         "b4923c60-1c05-4829-a570-2ed9003ec2eb",
         "c5db6d0c-205e-47f8-9449-af1baf4e43f5",
-        "66e934bc-d80c-4064-8b95-fd9380750d4e"
+        "66e934bc-d80c-4064-8b95-fd9380750d4e",
+        "83bf248a-3a41-43a0-8458-7e1eb78d7a69",
+        "ffda43c6-7a50-400d-816e-2894ea48dc90",
+        "7b73eee5-21b5-41c5-a4ab-4322a6e2f048"
       ]
     },
     "f79f951d-b753-45bb-8a45-149011e068bd": {
@@ -25233,18 +25903,20 @@
       "id": "4842f94f-17f7-4187-9a03-64935f0a0eee",
       "word": "又",
       "meaning": "also, again",
-      "seenCount": 1,
+      "seenCount": 2,
       "sentenceReferences": [
-        "bc8eebbf-dd54-4cad-a356-a521d680ec5a"
+        "bc8eebbf-dd54-4cad-a356-a521d680ec5a",
+        "687f91c4-1941-4413-9987-0832eee92734"
       ]
     },
     "0152f190-b1b0-481a-a016-e1002ccf47cf": {
       "id": "0152f190-b1b0-481a-a016-e1002ccf47cf",
       "word": "叫",
       "meaning": "to call, to be called",
-      "seenCount": 1,
+      "seenCount": 2,
       "sentenceReferences": [
-        "bc8eebbf-dd54-4cad-a356-a521d680ec5a"
+        "bc8eebbf-dd54-4cad-a356-a521d680ec5a",
+        "687f91c4-1941-4413-9987-0832eee92734"
       ]
     },
     "f4e21da3-173e-4918-8c5f-9f103eb83c86": {
@@ -25305,10 +25977,12 @@
       "id": "c9378a4c-5c4e-47f0-80fa-1fe25b97b08c",
       "word": "但",
       "meaning": "but, however",
-      "seenCount": 2,
+      "seenCount": 4,
       "sentenceReferences": [
         "bc8eebbf-dd54-4cad-a356-a521d680ec5a",
-        "b4923c60-1c05-4829-a570-2ed9003ec2eb"
+        "b4923c60-1c05-4829-a570-2ed9003ec2eb",
+        "3481ee7c-c733-4b34-bb29-60bbf81498c5",
+        "8c28fbbe-5809-4025-bf63-9a1a46d6423b"
       ]
     },
     "619758f4-3a45-42e4-946c-969efc656476": {
@@ -25397,14 +26071,15 @@
       "id": "c3d92fbb-d7b3-4a11-a2f3-50fbeff7efb5",
       "word": "是",
       "meaning": "is, to be",
-      "seenCount": 6,
+      "seenCount": 7,
       "sentenceReferences": [
         "bc8eebbf-dd54-4cad-a356-a521d680ec5a",
         "0486a574-dad3-4244-b013-d883556185ee",
         "ee5c6c74-2412-4d5d-980f-46190209f2a7",
         "c5db6d0c-205e-47f8-9449-af1baf4e43f5",
         "66e934bc-d80c-4064-8b95-fd9380750d4e",
-        "8a383de4-83c8-40cf-ac05-447d47bf1cd3"
+        "8a383de4-83c8-40cf-ac05-447d47bf1cd3",
+        "687f91c4-1941-4413-9987-0832eee92734"
       ]
     },
     "c328485c-65a8-4620-8333-59074bb9109b": {
@@ -25438,9 +26113,11 @@
       "id": "34e6cf60-d8fd-4712-8579-032971c5789a",
       "word": "一般",
       "meaning": "generally, usually",
-      "seenCount": 1,
+      "seenCount": 3,
       "sentenceReferences": [
-        "bc8eebbf-dd54-4cad-a356-a521d680ec5a"
+        "bc8eebbf-dd54-4cad-a356-a521d680ec5a",
+        "3481ee7c-c733-4b34-bb29-60bbf81498c5",
+        "8c28fbbe-5809-4025-bf63-9a1a46d6423b"
       ]
     },
     "d85ceae8-5d21-4b16-84fe-803a520945bc": {
@@ -25513,9 +26190,10 @@
       "id": "92886ae4-c110-4e6f-963b-b46ce5f450b5",
       "word": "历史",
       "meaning": "history",
-      "seenCount": 1,
+      "seenCount": 2,
       "sentenceReferences": [
-        "0486a574-dad3-4244-b013-d883556185ee"
+        "0486a574-dad3-4244-b013-d883556185ee",
+        "687f91c4-1941-4413-9987-0832eee92734"
       ]
     },
     "abfeafce-edef-4ece-b49d-cf377c9d4ee4": {
@@ -25823,9 +26501,10 @@
       "id": "53c603bd-93ee-4115-b111-600db1f9ac8c",
       "word": "一个",
       "meaning": "one, a",
-      "seenCount": 1,
+      "seenCount": 2,
       "sentenceReferences": [
-        "ee5c6c74-2412-4d5d-980f-46190209f2a7"
+        "ee5c6c74-2412-4d5d-980f-46190209f2a7",
+        "687f91c4-1941-4413-9987-0832eee92734"
       ]
     },
     "ab6b1149-f72c-497d-a95d-52b7596e9200": {
@@ -25949,9 +26628,10 @@
       "id": "b29830e1-a2ac-4bc7-ab7f-2e3049078926",
       "word": "人力",
       "meaning": "manpower, labor",
-      "seenCount": 1,
+      "seenCount": 2,
       "sentenceReferences": [
-        "b4923c60-1c05-4829-a570-2ed9003ec2eb"
+        "b4923c60-1c05-4829-a570-2ed9003ec2eb",
+        "83bf248a-3a41-43a0-8458-7e1eb78d7a69"
       ]
     },
     "1a10a8d0-d9dd-4591-a8d8-eb8f6f1ea22e": {
@@ -26030,9 +26710,10 @@
       "id": "95c9df64-717b-4e81-8979-9d0fbff04043",
       "word": "产业",
       "meaning": "industry",
-      "seenCount": 1,
+      "seenCount": 2,
       "sentenceReferences": [
-        "c5db6d0c-205e-47f8-9449-af1baf4e43f5"
+        "c5db6d0c-205e-47f8-9449-af1baf4e43f5",
+        "687f91c4-1941-4413-9987-0832eee92734"
       ]
     },
     "3e85086b-6fef-4c14-8c33-8c8bb9e39641": {
@@ -26084,11 +26765,18 @@
       "id": "d800fc1b-deae-41f6-a268-46cba9f39fca",
       "word": "瑞士",
       "meaning": "Switzerland",
-      "seenCount": 3,
+      "seenCount": 10,
       "sentenceReferences": [
         "66e934bc-d80c-4064-8b95-fd9380750d4e",
         "8a383de4-83c8-40cf-ac05-447d47bf1cd3",
-        "7ac71c9b-07fe-49ce-9f4b-d8f51693476a"
+        "7ac71c9b-07fe-49ce-9f4b-d8f51693476a",
+        "ffda43c6-7a50-400d-816e-2894ea48dc90",
+        "7b73eee5-21b5-41c5-a4ab-4322a6e2f048",
+        "ed1e5fe6-8421-4894-b1e6-fb7429271089",
+        "3481ee7c-c733-4b34-bb29-60bbf81498c5",
+        "90819cb3-8752-4169-a564-5c1af54d50fc",
+        "8c28fbbe-5809-4025-bf63-9a1a46d6423b",
+        "bfc54d03-6454-40b9-91fc-211ecd5aab18"
       ]
     },
     "b048115d-e1c9-4efe-b15a-309414ef6fae": {
@@ -26296,9 +26984,10 @@
       "id": "a8c18092-74ce-4d26-8faa-839ecb1749ad",
       "word": "以",
       "meaning": "with/by means of",
-      "seenCount": 1,
+      "seenCount": 2,
       "sentenceReferences": [
-        "66e934bc-d80c-4064-8b95-fd9380750d4e"
+        "66e934bc-d80c-4064-8b95-fd9380750d4e",
+        "83bf248a-3a41-43a0-8458-7e1eb78d7a69"
       ]
     },
     "ce920b4f-70c9-44b9-ac2d-aff220f6da66": {
@@ -26485,9 +27174,13 @@
       "id": "0955ab8e-e7e2-400c-96cf-c9d7ff524a15",
       "word": "氣候",
       "meaning": "climate",
-      "seenCount": 1,
+      "seenCount": 7,
       "sentenceReferences": [
-        "7ac71c9b-07fe-49ce-9f4b-d8f51693476a"
+        "7ac71c9b-07fe-49ce-9f4b-d8f51693476a",
+        "3481ee7c-c733-4b34-bb29-60bbf81498c5",
+        "90819cb3-8752-4169-a564-5c1af54d50fc",
+        "8c28fbbe-5809-4025-bf63-9a1a46d6423b",
+        "bfc54d03-6454-40b9-91fc-211ecd5aab18"
       ]
     },
     "b229b2b9-e30a-413a-8603-d701bba04ac8": {
@@ -26569,6 +27262,1018 @@
       "seenCount": 1,
       "sentenceReferences": [
         "7ac71c9b-07fe-49ce-9f4b-d8f51693476a"
+      ]
+    },
+    "15269cf0-b2b5-459e-8b1d-b56dec013f7b": {
+      "id": "15269cf0-b2b5-459e-8b1d-b56dec013f7b",
+      "word": "第一次",
+      "meaning": "first time",
+      "seenCount": 1,
+      "sentenceReferences": [
+        "687f91c4-1941-4413-9987-0832eee92734"
+      ]
+    },
+    "dc898a88-8ead-45c4-aaaf-f21e1a67b900": {
+      "id": "dc898a88-8ead-45c4-aaaf-f21e1a67b900",
+      "word": "工业",
+      "meaning": "industry",
+      "seenCount": 1,
+      "sentenceReferences": [
+        "687f91c4-1941-4413-9987-0832eee92734"
+      ]
+    },
+    "66e8f02f-52f7-4f15-9fe3-ec16c4650904": {
+      "id": "66e8f02f-52f7-4f15-9fe3-ec16c4650904",
+      "word": "革命",
+      "meaning": "revolution",
+      "seenCount": 1,
+      "sentenceReferences": [
+        "687f91c4-1941-4413-9987-0832eee92734"
+      ]
+    },
+    "59db1b51-7dde-49a3-b5d1-5307c034e865": {
+      "id": "59db1b51-7dde-49a3-b5d1-5307c034e865",
+      "word": "英语",
+      "meaning": "English language",
+      "seenCount": 1,
+      "sentenceReferences": [
+        "687f91c4-1941-4413-9987-0832eee92734"
+      ]
+    },
+    "7d424a95-3aaf-4507-a875-bd6727442950": {
+      "id": "7d424a95-3aaf-4507-a875-bd6727442950",
+      "word": "对",
+      "meaning": "to/for",
+      "seenCount": 1,
+      "sentenceReferences": [
+        "687f91c4-1941-4413-9987-0832eee92734"
+      ]
+    },
+    "161c89eb-1264-4c5b-a0c1-c4191f47c027": {
+      "id": "161c89eb-1264-4c5b-a0c1-c4191f47c027",
+      "word": "个",
+      "meaning": "classifier/possessive particle",
+      "seenCount": 1,
+      "sentenceReferences": [
+        "687f91c4-1941-4413-9987-0832eee92734"
+      ]
+    },
+    "5d126943-f84f-4ab9-996d-3e6af30e6dfe": {
+      "id": "5d126943-f84f-4ab9-996d-3e6af30e6dfe",
+      "word": "讲",
+      "meaning": "speak/say",
+      "seenCount": 1,
+      "sentenceReferences": [
+        "687f91c4-1941-4413-9987-0832eee92734"
+      ]
+    },
+    "72197764-0750-48a7-b69b-07b5f65a1151": {
+      "id": "72197764-0750-48a7-b69b-07b5f65a1151",
+      "word": "起点",
+      "meaning": "starting point",
+      "seenCount": 1,
+      "sentenceReferences": [
+        "687f91c4-1941-4413-9987-0832eee92734"
+      ]
+    },
+    "78f6d529-9f9f-41ab-9b12-3c172740b140": {
+      "id": "78f6d529-9f9f-41ab-9b12-3c172740b140",
+      "word": "大概",
+      "meaning": "approximately",
+      "seenCount": 1,
+      "sentenceReferences": [
+        "687f91c4-1941-4413-9987-0832eee92734"
+      ]
+    },
+    "32dab3cd-bcf4-4380-bd85-978a7d921860": {
+      "id": "32dab3cd-bcf4-4380-bd85-978a7d921860",
+      "word": "来",
+      "meaning": "come/at",
+      "seenCount": 1,
+      "sentenceReferences": [
+        "687f91c4-1941-4413-9987-0832eee92734"
+      ]
+    },
+    "ee2d3bf3-28de-4cd2-a8f8-4ce92283467b": {
+      "id": "ee2d3bf3-28de-4cd2-a8f8-4ce92283467b",
+      "word": "勒",
+      "meaning": "at/in (dialectal)",
+      "seenCount": 1,
+      "sentenceReferences": [
+        "687f91c4-1941-4413-9987-0832eee92734"
+      ]
+    },
+    "203fac16-3d56-4190-a358-13e2a7454cd9": {
+      "id": "203fac16-3d56-4190-a358-13e2a7454cd9",
+      "word": "1760",
+      "meaning": "1760",
+      "seenCount": 1,
+      "sentenceReferences": [
+        "687f91c4-1941-4413-9987-0832eee92734"
+      ]
+    },
+    "a1b9b75c-e7df-4ebd-8995-ae2ecb20ba5f": {
+      "id": "a1b9b75c-e7df-4ebd-8995-ae2ecb20ba5f",
+      "word": "年代",
+      "meaning": "decade/era",
+      "seenCount": 1,
+      "sentenceReferences": [
+        "687f91c4-1941-4413-9987-0832eee92734"
+      ]
+    },
+    "5df1a1b9-aa8b-4485-a6d3-e24ff8daee78": {
+      "id": "5df1a1b9-aa8b-4485-a6d3-e24ff8daee78",
+      "word": "一直",
+      "meaning": "always/continuously",
+      "seenCount": 1,
+      "sentenceReferences": [
+        "687f91c4-1941-4413-9987-0832eee92734"
+      ]
+    },
+    "872220fb-22a2-435d-9e3c-349270a20051": {
+      "id": "872220fb-22a2-435d-9e3c-349270a20051",
+      "word": "持续",
+      "meaning": "continue/persist",
+      "seenCount": 1,
+      "sentenceReferences": [
+        "687f91c4-1941-4413-9987-0832eee92734"
+      ]
+    },
+    "a31e2cc0-63f9-4c2b-87ea-f048f142ea78": {
+      "id": "a31e2cc0-63f9-4c2b-87ea-f048f142ea78",
+      "word": "到",
+      "meaning": "to/until",
+      "seenCount": 1,
+      "sentenceReferences": [
+        "687f91c4-1941-4413-9987-0832eee92734"
+      ]
+    },
+    "58e4c1c0-5861-4da3-aa86-23554c0681a4": {
+      "id": "58e4c1c0-5861-4da3-aa86-23554c0681a4",
+      "word": "1830",
+      "meaning": "1830",
+      "seenCount": 1,
+      "sentenceReferences": [
+        "687f91c4-1941-4413-9987-0832eee92734"
+      ]
+    },
+    "46aab03f-5510-4159-85ea-b39313975888": {
+      "id": "46aab03f-5510-4159-85ea-b39313975888",
+      "word": "至",
+      "meaning": "to/until",
+      "seenCount": 3,
+      "sentenceReferences": [
+        "687f91c4-1941-4413-9987-0832eee92734",
+        "90819cb3-8752-4169-a564-5c1af54d50fc",
+        "bfc54d03-6454-40b9-91fc-211ecd5aab18"
+      ]
+    },
+    "34cbd10c-b329-471f-9bb1-70091ec7e901": {
+      "id": "34cbd10c-b329-471f-9bb1-70091ec7e901",
+      "word": "1840",
+      "meaning": "1840",
+      "seenCount": 1,
+      "sentenceReferences": [
+        "687f91c4-1941-4413-9987-0832eee92734"
+      ]
+    },
+    "97a7fe20-96d9-43ee-844e-fcbf200ead81": {
+      "id": "97a7fe20-96d9-43ee-844e-fcbf200ead81",
+      "word": "时期",
+      "meaning": "period/era",
+      "seenCount": 1,
+      "sentenceReferences": [
+        "687f91c4-1941-4413-9987-0832eee92734"
+      ]
+    },
+    "80b88cbe-46a7-448f-808e-5d34a289de05": {
+      "id": "80b88cbe-46a7-448f-808e-5d34a289de05",
+      "word": "迭段",
+      "meaning": "this period (dialectal)",
+      "seenCount": 1,
+      "sentenceReferences": [
+        "83bf248a-3a41-43a0-8458-7e1eb78d7a69"
+      ]
+    },
+    "2c8b7628-bd41-4be6-9cf7-99df733c4228": {
+      "id": "2c8b7628-bd41-4be6-9cf7-99df733c4228",
+      "word": "辰光",
+      "meaning": "time (dialectal)",
+      "seenCount": 1,
+      "sentenceReferences": [
+        "83bf248a-3a41-43a0-8458-7e1eb78d7a69"
+      ]
+    },
+    "520e466d-c48d-4402-bee7-8e281bdcbd2d": {
+      "id": "520e466d-c48d-4402-bee7-8e281bdcbd2d",
+      "word": "里厢",
+      "meaning": "inside (dialectal)",
+      "seenCount": 1,
+      "sentenceReferences": [
+        "83bf248a-3a41-43a0-8458-7e1eb78d7a69"
+      ]
+    },
+    "f3d0857f-8b59-414d-a726-2a882fa5b564": {
+      "id": "f3d0857f-8b59-414d-a726-2a882fa5b564",
+      "word": "人类",
+      "meaning": "humanity/mankind",
+      "seenCount": 1,
+      "sentenceReferences": [
+        "83bf248a-3a41-43a0-8458-7e1eb78d7a69"
+      ]
+    },
+    "d4ee20b8-3ef0-46f6-9761-ec114ac64d39": {
+      "id": "d4ee20b8-3ef0-46f6-9761-ec114ac64d39",
+      "word": "生产",
+      "meaning": "production",
+      "seenCount": 1,
+      "sentenceReferences": [
+        "83bf248a-3a41-43a0-8458-7e1eb78d7a69"
+      ]
+    },
+    "13110d82-116a-4692-afb3-2a11c4fe1163": {
+      "id": "13110d82-116a-4692-afb3-2a11c4fe1163",
+      "word": "逐渐",
+      "meaning": "gradually",
+      "seenCount": 1,
+      "sentenceReferences": [
+        "83bf248a-3a41-43a0-8458-7e1eb78d7a69"
+      ]
+    },
+    "d754b97b-b9ac-48c6-aff3-77f0a2caac22": {
+      "id": "d754b97b-b9ac-48c6-aff3-77f0a2caac22",
+      "word": "转向",
+      "meaning": "turn toward",
+      "seenCount": 1,
+      "sentenceReferences": [
+        "83bf248a-3a41-43a0-8458-7e1eb78d7a69"
+      ]
+    },
+    "39f38279-cc38-48d9-a1ed-837cc61aea51": {
+      "id": "39f38279-cc38-48d9-a1ed-837cc61aea51",
+      "word": "新",
+      "meaning": "new",
+      "seenCount": 1,
+      "sentenceReferences": [
+        "83bf248a-3a41-43a0-8458-7e1eb78d7a69"
+      ]
+    },
+    "2b7f9b8b-9a67-4fd5-bbe4-863a8cbc3d94": {
+      "id": "2b7f9b8b-9a67-4fd5-bbe4-863a8cbc3d94",
+      "word": "制造",
+      "meaning": "manufacturing",
+      "seenCount": 1,
+      "sentenceReferences": [
+        "83bf248a-3a41-43a0-8458-7e1eb78d7a69"
+      ]
+    },
+    "39724b1e-7fb8-46a5-bdbe-8931c03cc081": {
+      "id": "39724b1e-7fb8-46a5-bdbe-8931c03cc081",
+      "word": "过程",
+      "meaning": "process",
+      "seenCount": 1,
+      "sentenceReferences": [
+        "83bf248a-3a41-43a0-8458-7e1eb78d7a69"
+      ]
+    },
+    "0ffcfdd7-3c47-4b34-8d23-1cbf70d99188": {
+      "id": "0ffcfdd7-3c47-4b34-8d23-1cbf70d99188",
+      "word": "出现",
+      "meaning": "appear/emerge",
+      "seenCount": 1,
+      "sentenceReferences": [
+        "83bf248a-3a41-43a0-8458-7e1eb78d7a69"
+      ]
+    },
+    "4b0302e9-bdbf-4ea1-a9d3-adbefe112404": {
+      "id": "4b0302e9-bdbf-4ea1-a9d3-adbefe112404",
+      "word": "了",
+      "meaning": "perfective particle",
+      "seenCount": 2,
+      "sentenceReferences": [
+        "83bf248a-3a41-43a0-8458-7e1eb78d7a69",
+        "ed1e5fe6-8421-4894-b1e6-fb7429271089"
+      ]
+    },
+    "9a9feb19-e8d7-4abf-b9a8-58f702c97e3d": {
+      "id": "9a9feb19-e8d7-4abf-b9a8-58f702c97e3d",
+      "word": "机器",
+      "meaning": "machine",
+      "seenCount": 1,
+      "sentenceReferences": [
+        "83bf248a-3a41-43a0-8458-7e1eb78d7a69"
+      ]
+    },
+    "4459eaad-68b2-40c9-ba7b-dabb8b04b31e": {
+      "id": "4459eaad-68b2-40c9-ba7b-dabb8b04b31e",
+      "word": "取代",
+      "meaning": "replace",
+      "seenCount": 1,
+      "sentenceReferences": [
+        "83bf248a-3a41-43a0-8458-7e1eb78d7a69"
+      ]
+    },
+    "806d1a77-c87f-467a-9651-0697eefb2163": {
+      "id": "806d1a77-c87f-467a-9651-0697eefb2163",
+      "word": "兽力",
+      "meaning": "animal power",
+      "seenCount": 1,
+      "sentenceReferences": [
+        "83bf248a-3a41-43a0-8458-7e1eb78d7a69"
+      ]
+    },
+    "35f4b405-06f4-49c3-8018-ce1dd46d8eb3": {
+      "id": "35f4b405-06f4-49c3-8018-ce1dd46d8eb3",
+      "word": "趋势",
+      "meaning": "trend",
+      "seenCount": 1,
+      "sentenceReferences": [
+        "83bf248a-3a41-43a0-8458-7e1eb78d7a69"
+      ]
+    },
+    "3d1cbda4-82b7-4e00-9ad4-29f6a9e52bef": {
+      "id": "3d1cbda4-82b7-4e00-9ad4-29f6a9e52bef",
+      "word": "大规模",
+      "meaning": "large scale",
+      "seenCount": 1,
+      "sentenceReferences": [
+        "83bf248a-3a41-43a0-8458-7e1eb78d7a69"
+      ]
+    },
+    "db42c1a0-b61a-46e6-b294-679348c22c2a": {
+      "id": "db42c1a0-b61a-46e6-b294-679348c22c2a",
+      "word": "工厂",
+      "meaning": "factory",
+      "seenCount": 1,
+      "sentenceReferences": [
+        "83bf248a-3a41-43a0-8458-7e1eb78d7a69"
+      ]
+    },
+    "535adfde-cb13-4ac0-a9b8-28304f1cf09e": {
+      "id": "535adfde-cb13-4ac0-a9b8-28304f1cf09e",
+      "word": "个体",
+      "meaning": "individual",
+      "seenCount": 1,
+      "sentenceReferences": [
+        "83bf248a-3a41-43a0-8458-7e1eb78d7a69"
+      ]
+    },
+    "a26b4c24-5965-4c8f-bbe6-80bb5a226372": {
+      "id": "a26b4c24-5965-4c8f-bbe6-80bb5a226372",
+      "word": "工场",
+      "meaning": "workshop",
+      "seenCount": 1,
+      "sentenceReferences": [
+        "83bf248a-3a41-43a0-8458-7e1eb78d7a69"
+      ]
+    },
+    "5e2d8545-c1c5-4121-a05c-c17924bec259": {
+      "id": "5e2d8545-c1c5-4121-a05c-c17924bec259",
+      "word": "手工",
+      "meaning": "manual/handicraft",
+      "seenCount": 1,
+      "sentenceReferences": [
+        "83bf248a-3a41-43a0-8458-7e1eb78d7a69"
+      ]
+    },
+    "df93fbdb-c1b2-4097-8a81-2d7f1d054b76": {
+      "id": "df93fbdb-c1b2-4097-8a81-2d7f1d054b76",
+      "word": "额",
+      "meaning": "particle (dialectal)",
+      "seenCount": 1,
+      "sentenceReferences": [
+        "83bf248a-3a41-43a0-8458-7e1eb78d7a69"
+      ]
+    },
+    "89c3d66f-8e6f-4075-80f1-52f774087743": {
+      "id": "89c3d66f-8e6f-4075-80f1-52f774087743",
+      "word": "一场",
+      "meaning": "a/one instance of",
+      "seenCount": 1,
+      "sentenceReferences": [
+        "83bf248a-3a41-43a0-8458-7e1eb78d7a69"
+      ]
+    },
+    "50ab2f7e-cc52-4116-8c1c-d417f40f35ce": {
+      "id": "50ab2f7e-cc52-4116-8c1c-d417f40f35ce",
+      "word": "搭子",
+      "meaning": "and (dialectal)",
+      "seenCount": 1,
+      "sentenceReferences": [
+        "83bf248a-3a41-43a0-8458-7e1eb78d7a69"
+      ]
+    },
+    "7f4f46d6-bafc-4aa3-a75d-d9f5c47d9c65": {
+      "id": "7f4f46d6-bafc-4aa3-a75d-d9f5c47d9c65",
+      "word": "科技",
+      "meaning": "science and technology",
+      "seenCount": 1,
+      "sentenceReferences": [
+        "83bf248a-3a41-43a0-8458-7e1eb78d7a69"
+      ]
+    },
+    "5ccb56e9-e271-43b5-868e-e9839cb2b96e": {
+      "id": "5ccb56e9-e271-43b5-868e-e9839cb2b96e",
+      "word": "中立",
+      "meaning": "neutrality",
+      "seenCount": 2,
+      "sentenceReferences": [
+        "ffda43c6-7a50-400d-816e-2894ea48dc90",
+        "7b73eee5-21b5-41c5-a4ab-4322a6e2f048"
+      ]
+    },
+    "9350eb04-aa79-4006-99ec-173e0f788ae6": {
+      "id": "9350eb04-aa79-4006-99ec-173e0f788ae6",
+      "word": "政策",
+      "meaning": "policy",
+      "seenCount": 2,
+      "sentenceReferences": [
+        "ffda43c6-7a50-400d-816e-2894ea48dc90",
+        "7b73eee5-21b5-41c5-a4ab-4322a6e2f048"
+      ]
+    },
+    "0e91efc5-029c-47ba-8f72-514617b44621": {
+      "id": "0e91efc5-029c-47ba-8f72-514617b44621",
+      "word": "開始",
+      "meaning": "begin, start",
+      "seenCount": 2,
+      "sentenceReferences": [
+        "ffda43c6-7a50-400d-816e-2894ea48dc90",
+        "7b73eee5-21b5-41c5-a4ab-4322a6e2f048"
+      ]
+    },
+    "84c20705-bc27-4154-b9c2-98979b314991": {
+      "id": "84c20705-bc27-4154-b9c2-98979b314991",
+      "word": "於",
+      "meaning": "at, in",
+      "seenCount": 5,
+      "sentenceReferences": [
+        "ffda43c6-7a50-400d-816e-2894ea48dc90",
+        "7b73eee5-21b5-41c5-a4ab-4322a6e2f048",
+        "ed1e5fe6-8421-4894-b1e6-fb7429271089",
+        "3481ee7c-c733-4b34-bb29-60bbf81498c5",
+        "8c28fbbe-5809-4025-bf63-9a1a46d6423b"
+      ]
+    },
+    "2cea3213-5cde-428b-89f2-030920e28c6c": {
+      "id": "2cea3213-5cde-428b-89f2-030920e28c6c",
+      "word": "1815年",
+      "meaning": "year 1815",
+      "seenCount": 2,
+      "sentenceReferences": [
+        "ffda43c6-7a50-400d-816e-2894ea48dc90",
+        "7b73eee5-21b5-41c5-a4ab-4322a6e2f048"
+      ]
+    },
+    "b236c290-87dd-42f1-b6d0-2495581eab10": {
+      "id": "b236c290-87dd-42f1-b6d0-2495581eab10",
+      "word": "由",
+      "meaning": "by, from",
+      "seenCount": 4,
+      "sentenceReferences": [
+        "ffda43c6-7a50-400d-816e-2894ea48dc90",
+        "7b73eee5-21b5-41c5-a4ab-4322a6e2f048",
+        "90819cb3-8752-4169-a564-5c1af54d50fc",
+        "bfc54d03-6454-40b9-91fc-211ecd5aab18"
+      ]
+    },
+    "28200e77-2418-4447-8ea3-d0015ddf6c30": {
+      "id": "28200e77-2418-4447-8ea3-d0015ddf6c30",
+      "word": "當年",
+      "meaning": "that year",
+      "seenCount": 2,
+      "sentenceReferences": [
+        "ffda43c6-7a50-400d-816e-2894ea48dc90",
+        "7b73eee5-21b5-41c5-a4ab-4322a6e2f048"
+      ]
+    },
+    "0cfb2be4-fed3-47b2-81af-1c5cf69a1de4": {
+      "id": "0cfb2be4-fed3-47b2-81af-1c5cf69a1de4",
+      "word": "巴黎條約",
+      "meaning": "Treaty of Paris",
+      "seenCount": 1,
+      "sentenceReferences": [
+        "ffda43c6-7a50-400d-816e-2894ea48dc90"
+      ]
+    },
+    "4b00b2dd-023e-41b1-95b0-5416b9b9a2e2": {
+      "id": "4b00b2dd-023e-41b1-95b0-5416b9b9a2e2",
+      "word": "提出",
+      "meaning": "propose, put forward",
+      "seenCount": 2,
+      "sentenceReferences": [
+        "ffda43c6-7a50-400d-816e-2894ea48dc90",
+        "7b73eee5-21b5-41c5-a4ab-4322a6e2f048"
+      ]
+    },
+    "9c5c2143-9927-44be-915f-b83b9a7028d0": {
+      "id": "9c5c2143-9927-44be-915f-b83b9a7028d0",
+      "word": "並",
+      "meaning": "and, also",
+      "seenCount": 2,
+      "sentenceReferences": [
+        "ffda43c6-7a50-400d-816e-2894ea48dc90",
+        "7b73eee5-21b5-41c5-a4ab-4322a6e2f048"
+      ]
+    },
+    "814c050b-ba62-473b-81eb-7eac62239fb2": {
+      "id": "814c050b-ba62-473b-81eb-7eac62239fb2",
+      "word": "同年",
+      "meaning": "same year",
+      "seenCount": 2,
+      "sentenceReferences": [
+        "ffda43c6-7a50-400d-816e-2894ea48dc90",
+        "7b73eee5-21b5-41c5-a4ab-4322a6e2f048"
+      ]
+    },
+    "741d87be-2884-4d52-b2f1-dcaf543a9497": {
+      "id": "741d87be-2884-4d52-b2f1-dcaf543a9497",
+      "word": "維也納",
+      "meaning": "Vienna",
+      "seenCount": 2,
+      "sentenceReferences": [
+        "ffda43c6-7a50-400d-816e-2894ea48dc90",
+        "7b73eee5-21b5-41c5-a4ab-4322a6e2f048"
+      ]
+    },
+    "247b52f4-fc0a-4c0b-80db-62da4bef4f65": {
+      "id": "247b52f4-fc0a-4c0b-80db-62da4bef4f65",
+      "word": "會議",
+      "meaning": "conference, meeting",
+      "seenCount": 2,
+      "sentenceReferences": [
+        "ffda43c6-7a50-400d-816e-2894ea48dc90",
+        "7b73eee5-21b5-41c5-a4ab-4322a6e2f048"
+      ]
+    },
+    "e778e785-f154-47bb-adcf-b71b143c98f5": {
+      "id": "e778e785-f154-47bb-adcf-b71b143c98f5",
+      "word": "為",
+      "meaning": "by, for",
+      "seenCount": 2,
+      "sentenceReferences": [
+        "ffda43c6-7a50-400d-816e-2894ea48dc90",
+        "7b73eee5-21b5-41c5-a4ab-4322a6e2f048"
+      ]
+    },
+    "102e0509-b0c7-4080-b2c9-6494f2594913": {
+      "id": "102e0509-b0c7-4080-b2c9-6494f2594913",
+      "word": "各國",
+      "meaning": "various countries",
+      "seenCount": 2,
+      "sentenceReferences": [
+        "ffda43c6-7a50-400d-816e-2894ea48dc90",
+        "7b73eee5-21b5-41c5-a4ab-4322a6e2f048"
+      ]
+    },
+    "034680d9-5621-4cac-96bb-b490e6368271": {
+      "id": "034680d9-5621-4cac-96bb-b490e6368271",
+      "word": "所",
+      "meaning": "passive marker",
+      "seenCount": 3,
+      "sentenceReferences": [
+        "ffda43c6-7a50-400d-816e-2894ea48dc90",
+        "7b73eee5-21b5-41c5-a4ab-4322a6e2f048",
+        "ed1e5fe6-8421-4894-b1e6-fb7429271089"
+      ]
+    },
+    "8333921e-eeae-439b-89e7-26249800b34a": {
+      "id": "8333921e-eeae-439b-89e7-26249800b34a",
+      "word": "承認",
+      "meaning": "recognize, acknowledge",
+      "seenCount": 2,
+      "sentenceReferences": [
+        "ffda43c6-7a50-400d-816e-2894ea48dc90",
+        "7b73eee5-21b5-41c5-a4ab-4322a6e2f048"
+      ]
+    },
+    "70adf7cc-8df2-4e3f-911e-ee257d9fbaf0": {
+      "id": "70adf7cc-8df2-4e3f-911e-ee257d9fbaf0",
+      "word": "巴黎",
+      "meaning": "Paris",
+      "seenCount": 1,
+      "sentenceReferences": [
+        "7b73eee5-21b5-41c5-a4ab-4322a6e2f048"
+      ]
+    },
+    "de9de4c8-7d90-4a4c-99f7-96bb1e3cf383": {
+      "id": "de9de4c8-7d90-4a4c-99f7-96bb1e3cf383",
+      "word": "條約",
+      "meaning": "treaty",
+      "seenCount": 1,
+      "sentenceReferences": [
+        "7b73eee5-21b5-41c5-a4ab-4322a6e2f048"
+      ]
+    },
+    "cdadd527-7a1a-4168-a58b-1cd78ec24ad0": {
+      "id": "cdadd527-7a1a-4168-a58b-1cd78ec24ad0",
+      "word": "現今",
+      "meaning": "nowadays, present day",
+      "seenCount": 1,
+      "sentenceReferences": [
+        "ed1e5fe6-8421-4894-b1e6-fb7429271089"
+      ]
+    },
+    "e2eb5a8d-6d95-468d-b372-2e27f5888aa1": {
+      "id": "e2eb5a8d-6d95-468d-b372-2e27f5888aa1",
+      "word": "聯邦",
+      "meaning": "federal, federation",
+      "seenCount": 1,
+      "sentenceReferences": [
+        "ed1e5fe6-8421-4894-b1e6-fb7429271089"
+      ]
+    },
+    "07efb8f1-a43e-41ba-8495-b0400198c61f": {
+      "id": "07efb8f1-a43e-41ba-8495-b0400198c61f",
+      "word": "政府",
+      "meaning": "government",
+      "seenCount": 1,
+      "sentenceReferences": [
+        "ed1e5fe6-8421-4894-b1e6-fb7429271089"
+      ]
+    },
+    "df7bb614-5309-4870-ae12-6a2e50bf24f7": {
+      "id": "df7bb614-5309-4870-ae12-6a2e50bf24f7",
+      "word": "體制",
+      "meaning": "system, institution",
+      "seenCount": 1,
+      "sentenceReferences": [
+        "ed1e5fe6-8421-4894-b1e6-fb7429271089"
+      ]
+    },
+    "6983cfa0-07c6-4493-8854-25606525b2a9": {
+      "id": "6983cfa0-07c6-4493-8854-25606525b2a9",
+      "word": "自",
+      "meaning": "since, from",
+      "seenCount": 1,
+      "sentenceReferences": [
+        "ed1e5fe6-8421-4894-b1e6-fb7429271089"
+      ]
+    },
+    "c4a8b8be-a901-4462-9b7e-aa9780fabc43": {
+      "id": "c4a8b8be-a901-4462-9b7e-aa9780fabc43",
+      "word": "1848年",
+      "meaning": "year 1848",
+      "seenCount": 1,
+      "sentenceReferences": [
+        "ed1e5fe6-8421-4894-b1e6-fb7429271089"
+      ]
+    },
+    "9141fb04-78db-4fbe-8f7a-055c504d0b0c": {
+      "id": "9141fb04-78db-4fbe-8f7a-055c504d0b0c",
+      "word": "施行",
+      "meaning": "implement, enforce",
+      "seenCount": 1,
+      "sentenceReferences": [
+        "ed1e5fe6-8421-4894-b1e6-fb7429271089"
+      ]
+    },
+    "6ecc7f0c-400b-44c1-9627-f937392cd8b8": {
+      "id": "6ecc7f0c-400b-44c1-9627-f937392cd8b8",
+      "word": "憲法",
+      "meaning": "constitution",
+      "seenCount": 1,
+      "sentenceReferences": [
+        "ed1e5fe6-8421-4894-b1e6-fb7429271089"
+      ]
+    },
+    "2a8e738b-977e-41a9-bd0d-bd89aa2bebcd": {
+      "id": "2a8e738b-977e-41a9-bd0d-bd89aa2bebcd",
+      "word": "確立",
+      "meaning": "establish, determine",
+      "seenCount": 1,
+      "sentenceReferences": [
+        "ed1e5fe6-8421-4894-b1e6-fb7429271089"
+      ]
+    },
+    "ce071438-5d62-4c4c-afc7-c68bb64fc2f0": {
+      "id": "ce071438-5d62-4c4c-afc7-c68bb64fc2f0",
+      "word": "最初",
+      "meaning": "initially, originally",
+      "seenCount": 1,
+      "sentenceReferences": [
+        "ed1e5fe6-8421-4894-b1e6-fb7429271089"
+      ]
+    },
+    "ac89b8de-8deb-4b56-949a-80fcc8ceafd4": {
+      "id": "ac89b8de-8deb-4b56-949a-80fcc8ceafd4",
+      "word": "奠基",
+      "meaning": "lay foundation",
+      "seenCount": 1,
+      "sentenceReferences": [
+        "ed1e5fe6-8421-4894-b1e6-fb7429271089"
+      ]
+    },
+    "1e87b85e-af05-4ca4-8770-0a60a3f7645f": {
+      "id": "1e87b85e-af05-4ca4-8770-0a60a3f7645f",
+      "word": "1291年",
+      "meaning": "year 1291",
+      "seenCount": 1,
+      "sentenceReferences": [
+        "ed1e5fe6-8421-4894-b1e6-fb7429271089"
+      ]
+    },
+    "2954d42a-7fc5-4ae2-8311-7a232a70aad5": {
+      "id": "2954d42a-7fc5-4ae2-8311-7a232a70aad5",
+      "word": "締結",
+      "meaning": "conclude, sign (treaty)",
+      "seenCount": 1,
+      "sentenceReferences": [
+        "ed1e5fe6-8421-4894-b1e6-fb7429271089"
+      ]
+    },
+    "7cfbdc9a-f160-4267-bb0b-a14f57c6d2cd": {
+      "id": "7cfbdc9a-f160-4267-bb0b-a14f57c6d2cd",
+      "word": "保護",
+      "meaning": "protection, protect",
+      "seenCount": 1,
+      "sentenceReferences": [
+        "ed1e5fe6-8421-4894-b1e6-fb7429271089"
+      ]
+    },
+    "4ed38f44-b512-47cf-ae90-f461bca5b393": {
+      "id": "4ed38f44-b512-47cf-ae90-f461bca5b393",
+      "word": "結盟",
+      "meaning": "alliance, form alliance",
+      "seenCount": 1,
+      "sentenceReferences": [
+        "ed1e5fe6-8421-4894-b1e6-fb7429271089"
+      ]
+    },
+    "21d0f93b-7728-41b9-a1d7-f6638024d14c": {
+      "id": "21d0f93b-7728-41b9-a1d7-f6638024d14c",
+      "word": "鬆散",
+      "meaning": "loose, scattered",
+      "seenCount": 1,
+      "sentenceReferences": [
+        "ed1e5fe6-8421-4894-b1e6-fb7429271089"
+      ]
+    },
+    "60572565-8980-45a9-8e46-9cc1ede3315c": {
+      "id": "60572565-8980-45a9-8e46-9cc1ede3315c",
+      "word": "邦聯",
+      "meaning": "confederation",
+      "seenCount": 1,
+      "sentenceReferences": [
+        "ed1e5fe6-8421-4894-b1e6-fb7429271089"
+      ]
+    },
+    "f1f2fcf0-43d1-4823-ac99-65bcf30181f2": {
+      "id": "f1f2fcf0-43d1-4823-ac99-65bcf30181f2",
+      "word": "關係",
+      "meaning": "relationship, relation",
+      "seenCount": 1,
+      "sentenceReferences": [
+        "ed1e5fe6-8421-4894-b1e6-fb7429271089"
+      ]
+    },
+    "00bcf70e-a1fe-457c-a44d-bb7864507cc8": {
+      "id": "00bcf70e-a1fe-457c-a44d-bb7864507cc8",
+      "word": "存續",
+      "meaning": "continue to exist, persist",
+      "seenCount": 1,
+      "sentenceReferences": [
+        "ed1e5fe6-8421-4894-b1e6-fb7429271089"
+      ]
+    },
+    "a5ca3a04-ba5d-4306-89b3-7c5d72198a5c": {
+      "id": "a5ca3a04-ba5d-4306-89b3-7c5d72198a5c",
+      "word": "數",
+      "meaning": "several, multiple",
+      "seenCount": 1,
+      "sentenceReferences": [
+        "ed1e5fe6-8421-4894-b1e6-fb7429271089"
+      ]
+    },
+    "59d3bc49-6f3b-48a8-a941-988cf00c72bf": {
+      "id": "59d3bc49-6f3b-48a8-a941-988cf00c72bf",
+      "word": "世紀",
+      "meaning": "century",
+      "seenCount": 1,
+      "sentenceReferences": [
+        "ed1e5fe6-8421-4894-b1e6-fb7429271089"
+      ]
+    },
+    "e514048f-4520-4cea-bcf3-7640f1d333df": {
+      "id": "e514048f-4520-4cea-bcf3-7640f1d333df",
+      "word": "山间",
+      "meaning": "between mountains",
+      "seenCount": 2,
+      "sentenceReferences": [
+        "3481ee7c-c733-4b34-bb29-60bbf81498c5",
+        "8c28fbbe-5809-4025-bf63-9a1a46d6423b"
+      ]
+    },
+    "64c72ade-c71f-48bf-8086-f79105f4eac7": {
+      "id": "64c72ade-c71f-48bf-8086-f79105f4eac7",
+      "word": "谷地",
+      "meaning": "valley",
+      "seenCount": 2,
+      "sentenceReferences": [
+        "3481ee7c-c733-4b34-bb29-60bbf81498c5",
+        "8c28fbbe-5809-4025-bf63-9a1a46d6423b"
+      ]
+    },
+    "b65a1935-5a80-42cb-ab76-5e23329b2681": {
+      "id": "b65a1935-5a80-42cb-ab76-5e23329b2681",
+      "word": "气候",
+      "meaning": "climate",
+      "seenCount": 4,
+      "sentenceReferences": [
+        "3481ee7c-c733-4b34-bb29-60bbf81498c5",
+        "90819cb3-8752-4169-a564-5c1af54d50fc",
+        "8c28fbbe-5809-4025-bf63-9a1a46d6423b",
+        "bfc54d03-6454-40b9-91fc-211ecd5aab18"
+      ]
+    },
+    "1ca1c274-22bc-4f30-a3ed-a6ef3505b56c": {
+      "id": "1ca1c274-22bc-4f30-a3ed-a6ef3505b56c",
+      "word": "温和",
+      "meaning": "mild, moderate",
+      "seenCount": 2,
+      "sentenceReferences": [
+        "3481ee7c-c733-4b34-bb29-60bbf81498c5",
+        "8c28fbbe-5809-4025-bf63-9a1a46d6423b"
+      ]
+    },
+    "96540971-b8f2-4efd-b585-41caba435c55": {
+      "id": "96540971-b8f2-4efd-b585-41caba435c55",
+      "word": "高山",
+      "meaning": "high mountain",
+      "seenCount": 2,
+      "sentenceReferences": [
+        "3481ee7c-c733-4b34-bb29-60bbf81498c5",
+        "8c28fbbe-5809-4025-bf63-9a1a46d6423b"
+      ]
+    },
+    "2389def3-14d7-4e55-9973-09732cf88fda": {
+      "id": "2389def3-14d7-4e55-9973-09732cf88fda",
+      "word": "较",
+      "meaning": "relatively, comparatively",
+      "seenCount": 2,
+      "sentenceReferences": [
+        "3481ee7c-c733-4b34-bb29-60bbf81498c5",
+        "8c28fbbe-5809-4025-bf63-9a1a46d6423b"
+      ]
+    },
+    "d985ba42-ea71-446e-b446-8141b004d876": {
+      "id": "d985ba42-ea71-446e-b446-8141b004d876",
+      "word": "寒冷",
+      "meaning": "cold",
+      "seenCount": 2,
+      "sentenceReferences": [
+        "3481ee7c-c733-4b34-bb29-60bbf81498c5",
+        "8c28fbbe-5809-4025-bf63-9a1a46d6423b"
+      ]
+    },
+    "cf2c82df-496e-4368-9259-eae3824a22cb": {
+      "id": "cf2c82df-496e-4368-9259-eae3824a22cb",
+      "word": "屬",
+      "meaning": "belong to",
+      "seenCount": 2,
+      "sentenceReferences": [
+        "3481ee7c-c733-4b34-bb29-60bbf81498c5",
+        "8c28fbbe-5809-4025-bf63-9a1a46d6423b"
+      ]
+    },
+    "5434baa2-ddca-4a68-81be-77962232054a": {
+      "id": "5434baa2-ddca-4a68-81be-77962232054a",
+      "word": "溫帶",
+      "meaning": "temperate zone",
+      "seenCount": 2,
+      "sentenceReferences": [
+        "3481ee7c-c733-4b34-bb29-60bbf81498c5",
+        "8c28fbbe-5809-4025-bf63-9a1a46d6423b"
+      ]
+    },
+    "a6848750-9737-468f-bd20-1b5434d39b01": {
+      "id": "a6848750-9737-468f-bd20-1b5434d39b01",
+      "word": "不同",
+      "meaning": "different",
+      "seenCount": 2,
+      "sentenceReferences": [
+        "3481ee7c-c733-4b34-bb29-60bbf81498c5",
+        "8c28fbbe-5809-4025-bf63-9a1a46d6423b"
+      ]
+    },
+    "941cc1fc-78e0-41ed-a27a-d0f8ef8f0b94": {
+      "id": "941cc1fc-78e0-41ed-a27a-d0f8ef8f0b94",
+      "word": "地區",
+      "meaning": "region, area",
+      "seenCount": 2,
+      "sentenceReferences": [
+        "3481ee7c-c733-4b34-bb29-60bbf81498c5",
+        "8c28fbbe-5809-4025-bf63-9a1a46d6423b"
+      ]
+    },
+    "7a6217d4-7ba7-4478-8b10-c8611b13f97b": {
+      "id": "7a6217d4-7ba7-4478-8b10-c8611b13f97b",
+      "word": "則",
+      "meaning": "then, however",
+      "seenCount": 2,
+      "sentenceReferences": [
+        "3481ee7c-c733-4b34-bb29-60bbf81498c5",
+        "8c28fbbe-5809-4025-bf63-9a1a46d6423b"
+      ]
+    },
+    "6a0e498b-2f68-42f8-a3d6-967fd04c47ad": {
+      "id": "6a0e498b-2f68-42f8-a3d6-967fd04c47ad",
+      "word": "相當",
+      "meaning": "quite, considerably",
+      "seenCount": 2,
+      "sentenceReferences": [
+        "3481ee7c-c733-4b34-bb29-60bbf81498c5",
+        "8c28fbbe-5809-4025-bf63-9a1a46d6423b"
+      ]
+    },
+    "b1f600ce-593f-4f1c-9036-7d37c8b95d19": {
+      "id": "b1f600ce-593f-4f1c-9036-7d37c8b95d19",
+      "word": "大",
+      "meaning": "big, large",
+      "seenCount": 2,
+      "sentenceReferences": [
+        "3481ee7c-c733-4b34-bb29-60bbf81498c5",
+        "8c28fbbe-5809-4025-bf63-9a1a46d6423b"
+      ]
+    },
+    "ce643e86-5dfc-4469-bb7d-8fefec8b95c3": {
+      "id": "ce643e86-5dfc-4469-bb7d-8fefec8b95c3",
+      "word": "差異",
+      "meaning": "difference, disparity",
+      "seenCount": 2,
+      "sentenceReferences": [
+        "3481ee7c-c733-4b34-bb29-60bbf81498c5",
+        "8c28fbbe-5809-4025-bf63-9a1a46d6423b"
+      ]
+    },
+    "4dcb6164-86f7-4d75-91b1-8bb9df486beb": {
+      "id": "4dcb6164-86f7-4d75-91b1-8bb9df486beb",
+      "word": "存在",
+      "meaning": "exist",
+      "seenCount": 2,
+      "sentenceReferences": [
+        "90819cb3-8752-4169-a564-5c1af54d50fc",
+        "bfc54d03-6454-40b9-91fc-211ecd5aab18"
+      ]
+    },
+    "da046c81-83dc-4893-a595-bcf85af30cd8": {
+      "id": "da046c81-83dc-4893-a595-bcf85af30cd8",
+      "word": "過渡",
+      "meaning": "transition",
+      "seenCount": 4,
+      "sentenceReferences": [
+        "90819cb3-8752-4169-a564-5c1af54d50fc",
+        "bfc54d03-6454-40b9-91fc-211ecd5aab18"
+      ]
+    },
+    "506ba804-4aef-4884-89c8-e57be4ea0043": {
+      "id": "506ba804-4aef-4884-89c8-e57be4ea0043",
+      "word": "性質",
+      "meaning": "nature, characteristic",
+      "seenCount": 2,
+      "sentenceReferences": [
+        "90819cb3-8752-4169-a564-5c1af54d50fc",
+        "bfc54d03-6454-40b9-91fc-211ecd5aab18"
+      ]
+    },
+    "aa61e881-7222-440f-a370-b04703f14fd1": {
+      "id": "aa61e881-7222-440f-a370-b04703f14fd1",
+      "word": "西部",
+      "meaning": "western part",
+      "seenCount": 2,
+      "sentenceReferences": [
+        "90819cb3-8752-4169-a564-5c1af54d50fc",
+        "bfc54d03-6454-40b9-91fc-211ecd5aab18"
+      ]
+    },
+    "18f9129f-4a62-4617-94bf-78fa8352131c": {
+      "id": "18f9129f-4a62-4617-94bf-78fa8352131c",
+      "word": "海洋性",
+      "meaning": "oceanic",
+      "seenCount": 2,
+      "sentenceReferences": [
+        "90819cb3-8752-4169-a564-5c1af54d50fc",
+        "bfc54d03-6454-40b9-91fc-211ecd5aab18"
+      ]
+    },
+    "99924ea1-7747-4acc-9540-1a806bf0d3b0": {
+      "id": "99924ea1-7747-4acc-9540-1a806bf0d3b0",
+      "word": "東部",
+      "meaning": "eastern part",
+      "seenCount": 2,
+      "sentenceReferences": [
+        "90819cb3-8752-4169-a564-5c1af54d50fc",
+        "bfc54d03-6454-40b9-91fc-211ecd5aab18"
+      ]
+    },
+    "f1c64cb0-8783-47c6-90ee-0acb27ac5a8f": {
+      "id": "f1c64cb0-8783-47c6-90ee-0acb27ac5a8f",
+      "word": "大陸性",
+      "meaning": "continental",
+      "seenCount": 2,
+      "sentenceReferences": [
+        "90819cb3-8752-4169-a564-5c1af54d50fc",
+        "bfc54d03-6454-40b9-91fc-211ecd5aab18"
       ]
     }
   },
@@ -26881,6 +28586,275 @@
         "719e5b49-288c-49d7-a7b6-29d79341f7ee",
         "ab4c5d3e-5038-4bd2-8b4a-711f1e1d7fac",
         "545aec26-44b1-49fa-9093-069f8ab2c697"
+      ],
+      "source": "https://zh.wikipedia.org/wiki/%E7%91%9E%E5%A3%AB"
+    },
+    "687f91c4-1941-4413-9987-0832eee92734": {
+      "id": "687f91c4-1941-4413-9987-0832eee92734",
+      "text": "第一次工业革命（英语：Industrial Revolution），又叫产业革命，更加对个讲是第一次工业革命，一个起点大概来勒1760年代，一直持续到1830年代至1840年代个历史时期。",
+      "wordIds": [
+        "15269cf0-b2b5-459e-8b1d-b56dec013f7b",
+        "dc898a88-8ead-45c4-aaaf-f21e1a67b900",
+        "66e8f02f-52f7-4f15-9fe3-ec16c4650904",
+        "59db1b51-7dde-49a3-b5d1-5307c034e865",
+        "639e48cd-9332-4d78-b201-9ac07ccd46ba",
+        "b86859d6-95f0-4cf4-90f9-f21405270d43",
+        "9a942a52-bc3e-4e06-9e9d-d41a4e7ecc64",
+        "e7719f39-8522-4f2e-987a-357c0163430f",
+        "7d424a95-3aaf-4507-a875-bd6727442950",
+        "161c89eb-1264-4c5b-a0c1-c4191f47c027",
+        "5d126943-f84f-4ab9-996d-3e6af30e6dfe",
+        "2e6a56bc-a7b1-47a6-bd42-c0fb14f7f9ab",
+        "74d3f4bd-8fdb-43a4-824d-f9dd31a297d6",
+        "72197764-0750-48a7-b69b-07b5f65a1151",
+        "78f6d529-9f9f-41ab-9b12-3c172740b140",
+        "32dab3cd-bcf4-4380-bd85-978a7d921860",
+        "ee2d3bf3-28de-4cd2-a8f8-4ce92283467b",
+        "203fac16-3d56-4190-a358-13e2a7454cd9",
+        "a1b9b75c-e7df-4ebd-8995-ae2ecb20ba5f",
+        "5df1a1b9-aa8b-4485-a6d3-e24ff8daee78",
+        "872220fb-22a2-435d-9e3c-349270a20051",
+        "a31e2cc0-63f9-4c2b-87ea-f048f142ea78",
+        "58e4c1c0-5861-4da3-aa86-23554c0681a4",
+        "46aab03f-5510-4159-85ea-b39313975888",
+        "34cbd10c-b329-471f-9bb1-70091ec7e901",
+        "fd92d509-442e-43fc-b074-0bc8394912d0",
+        "97a7fe20-96d9-43ee-844e-fcbf200ead81"
+      ],
+      "source": "https://wuu.wikipedia.org/wiki/%E7%AC%AC%E4%B8%80%E6%AC%A1%E5%B7%A5%E4%B8%9A%E9%9D%A9%E5%91%BD"
+    },
+    "83bf248a-3a41-43a0-8458-7e1eb78d7a69": {
+      "id": "83bf248a-3a41-43a0-8458-7e1eb78d7a69",
+      "text": "在迭段辰光里厢，人类生产逐渐转向新个制造过程，出现了以机器取代人力、兽力个趋势，以大规模个工厂生产取代个体工场手工生产额一场生产搭子科技革命。",
+      "wordIds": [
+        "b69a1115-9763-42ad-a8c2-7927b7cbc38c",
+        "80b88cbe-46a7-448f-808e-5d34a289de05",
+        "2c8b7628-bd41-4be6-9cf7-99df733c4228",
+        "520e466d-c48d-4402-bee7-8e281bdcbd2d",
+        "f3d0857f-8b59-414d-a726-2a882fa5b564",
+        "d4ee20b8-3ef0-46f6-9761-ec114ac64d39",
+        "13110d82-116a-4692-afb3-2a11c4fe1163",
+        "d754b97b-b9ac-48c6-aff3-77f0a2caac22",
+        "39f38279-cc38-48d9-a1ed-837cc61aea51",
+        "2b7f9b8b-9a67-4fd5-bbe4-863a8cbc3d94",
+        "39724b1e-7fb8-46a5-bdbe-8931c03cc081",
+        "0ffcfdd7-3c47-4b34-8d23-1cbf70d99188",
+        "4b0302e9-bdbf-4ea1-a9d3-adbefe112404",
+        "03eade00-e963-4581-8073-027bcbc9f441",
+        "9a9feb19-e8d7-4abf-b9a8-58f702c97e3d",
+        "4459eaad-68b2-40c9-ba7b-dabb8b04b31e",
+        "d4573190-4723-451b-9737-e5cd8d4a5d6c",
+        "806d1a77-c87f-467a-9651-0697eefb2163",
+        "35f4b405-06f4-49c3-8018-ce1dd46d8eb3",
+        "3d1cbda4-82b7-4e00-9ad4-29f6a9e52bef",
+        "db42c1a0-b61a-46e6-b294-679348c22c2a",
+        "535adfde-cb13-4ac0-a9b8-28304f1cf09e",
+        "a26b4c24-5965-4c8f-bbe6-80bb5a226372",
+        "5e2d8545-c1c5-4121-a05c-c17924bec259",
+        "df93fbdb-c1b2-4097-8a81-2d7f1d054b76",
+        "89c3d66f-8e6f-4075-80f1-52f774087743",
+        "50ab2f7e-cc52-4116-8c1c-d417f40f35ce",
+        "7f4f46d6-bafc-4aa3-a75d-d9f5c47d9c65"
+      ],
+      "source": "https://wuu.wikipedia.org/wiki/%E7%AC%AC%E4%B8%80%E6%AC%A1%E5%B7%A5%E4%B8%9A%E9%9D%A9%E5%91%BD"
+    },
+    "ffda43c6-7a50-400d-816e-2894ea48dc90": {
+      "id": "ffda43c6-7a50-400d-816e-2894ea48dc90",
+      "text": "瑞士的中立政策開始於1815年，由當年的《巴黎條約》上提出，並在同年的維也納會議上為各國所承認[17][18]。",
+      "wordIds": [
+        "d7ea0e65-c9f7-4fe1-a7f1-88b6af06adb6",
+        "3152f6e1-d4b7-46e3-a4a5-55033bf642cd",
+        "5ccb56e9-e271-43b5-868e-e9839cb2b96e",
+        "9350eb04-aa79-4006-99ec-173e0f788ae6",
+        "0e91efc5-029c-47ba-8f72-514617b44621",
+        "84c20705-bc27-4154-b9c2-98979b314991",
+        "2cea3213-5cde-428b-89f2-030920e28c6c",
+        "b236c290-87dd-42f1-b6d0-2495581eab10",
+        "28200e77-2418-4447-8ea3-d0015ddf6c30",
+        "7974e7c6-b492-4a09-b0a4-78505fbdf0d5",
+        "0cfb2be4-fed3-47b2-81af-1c5cf69a1de4",
+        "1e57ec10-46c5-4409-b91a-4913f18c006b",
+        "4b00b2dd-023e-41b1-95b0-5416b9b9a2e2",
+        "9c5c2143-9927-44be-915f-b83b9a7028d0",
+        "0b2befc0-9621-416c-abb5-221c9eaf47be",
+        "814c050b-ba62-473b-81eb-7eac62239fb2",
+        "9c6144db-2758-4018-ba1b-bca868e2f359",
+        "741d87be-2884-4d52-b2f1-dcaf543a9497",
+        "247b52f4-fc0a-4c0b-80db-62da4bef4f65",
+        "79748b61-2623-45fe-8cc4-1b9d4d27c374",
+        "e778e785-f154-47bb-adcf-b71b143c98f5",
+        "102e0509-b0c7-4080-b2c9-6494f2594913",
+        "034680d9-5621-4cac-96bb-b490e6368271",
+        "8333921e-eeae-439b-89e7-26249800b34a"
+      ],
+      "source": "https://zh.wikipedia.org/wiki/%E7%91%9E%E5%A3%AB"
+    },
+    "7b73eee5-21b5-41c5-a4ab-4322a6e2f048": {
+      "id": "7b73eee5-21b5-41c5-a4ab-4322a6e2f048",
+      "text": "瑞士的中立政策開始於1815年，由當年的《巴黎條約》上提出，並在同年的維也納會議上為各國所承認[17][18]。",
+      "wordIds": [
+        "4f598da6-d953-4378-b797-9c6190753da3",
+        "c52f64bb-0f63-477c-b4fb-8103ec68f528",
+        "ed770b22-089e-49b2-973d-dfd32aa405d6",
+        "c7d22f26-a2fa-45c8-b5b8-1f4007f55b6f",
+        "86651c09-8b66-4bab-9284-bab223733381",
+        "06cf1955-5212-432a-994d-fec11a7decc6",
+        "999d50c4-7b67-43f0-8dac-27f5ec3f1a20",
+        "937d2526-cce9-439b-9810-f12b517670bd",
+        "e26f9a21-c681-44ec-a6e3-9c9841c2db19",
+        "fdec9f86-e12a-4df1-834e-b5c63d6cd042",
+        "70adf7cc-8df2-4e3f-911e-ee257d9fbaf0",
+        "de9de4c8-7d90-4a4c-99f7-96bb1e3cf383",
+        "1640f609-da55-4f7a-a074-9ac1cde5c5a0",
+        "06d28229-97aa-4083-8a7d-b9a4b7d42b71",
+        "bc1e935b-b748-48f7-9058-e3e874273b94",
+        "a61a21f0-49c0-421e-a907-b2ebb2cb8b6c",
+        "c36e5a0e-c851-45d4-bc0a-8432c94d2c3f",
+        "69825d46-e12e-48bc-8747-e156f7150375",
+        "edfd813d-6bbd-4093-9b31-c77946dc2e68",
+        "7c01c93e-c45c-4bba-acde-ca6a079e9ca7",
+        "5a6d0662-7267-44fd-90b6-b783906cf84a",
+        "3dae6909-4fb7-4c9e-b00a-7fa732e1226f",
+        "e5ee667f-e064-4678-8945-f90881705653",
+        "9ac34843-5ccb-4e0c-a46a-7fb7e1eb7202",
+        "5527ac19-32b4-4e5f-ad95-468288ed8401"
+      ],
+      "source": "https://zh.wikipedia.org/wiki/%E7%91%9E%E5%A3%AB"
+    },
+    "ed1e5fe6-8421-4894-b1e6-fb7429271089": {
+      "id": "ed1e5fe6-8421-4894-b1e6-fb7429271089",
+      "text": "瑞士現今的聯邦政府體制自1848年施行瑞士聯邦憲法確立，最初奠基於1291年所締結的保護結盟，鬆散的邦聯關係存續了數世紀。",
+      "wordIds": [
+        "09efd528-a565-4211-b0f0-6b8db1dc37bd",
+        "cdadd527-7a1a-4168-a58b-1cd78ec24ad0",
+        "7256db1c-7a1f-4439-b523-922f765d9c99",
+        "e2eb5a8d-6d95-468d-b372-2e27f5888aa1",
+        "07efb8f1-a43e-41ba-8495-b0400198c61f",
+        "df7bb614-5309-4870-ae12-6a2e50bf24f7",
+        "6983cfa0-07c6-4493-8854-25606525b2a9",
+        "c4a8b8be-a901-4462-9b7e-aa9780fabc43",
+        "9141fb04-78db-4fbe-8f7a-055c504d0b0c",
+        "6ecc7f0c-400b-44c1-9627-f937392cd8b8",
+        "2a8e738b-977e-41a9-bd0d-bd89aa2bebcd",
+        "ce071438-5d62-4c4c-afc7-c68bb64fc2f0",
+        "ac89b8de-8deb-4b56-949a-80fcc8ceafd4",
+        "8f2951a5-5082-4203-9834-ec5237285750",
+        "1e87b85e-af05-4ca4-8770-0a60a3f7645f",
+        "02591554-2dd5-44ea-b02c-ddb14d470607",
+        "2954d42a-7fc5-4ae2-8311-7a232a70aad5",
+        "7cfbdc9a-f160-4267-bb0b-a14f57c6d2cd",
+        "4ed38f44-b512-47cf-ae90-f461bca5b393",
+        "21d0f93b-7728-41b9-a1d7-f6638024d14c",
+        "60572565-8980-45a9-8e46-9cc1ede3315c",
+        "f1f2fcf0-43d1-4823-ac99-65bcf30181f2",
+        "00bcf70e-a1fe-457c-a44d-bb7864507cc8",
+        "cbc4ee7c-f34a-4edd-925b-c0c02d6c0b76",
+        "a5ca3a04-ba5d-4306-89b3-7c5d72198a5c",
+        "59d3bc49-6f3b-48a8-a941-988cf00c72bf"
+      ],
+      "source": "https://zh.wikipedia.org/wiki/%E7%91%9E%E5%A3%AB"
+    },
+    "3481ee7c-c733-4b34-bb29-60bbf81498c5": {
+      "id": "3481ee7c-c733-4b34-bb29-60bbf81498c5",
+      "text": "瑞士山间谷地气候温和，高山较寒冷，一般屬溫帶氣候，但於不同地區則有相當大的差異[66][67]。",
+      "wordIds": [
+        "e016632a-90ad-477d-8925-2a6ef97553f0",
+        "e514048f-4520-4cea-bcf3-7640f1d333df",
+        "64c72ade-c71f-48bf-8086-f79105f4eac7",
+        "b65a1935-5a80-42cb-ab76-5e23329b2681",
+        "1ca1c274-22bc-4f30-a3ed-a6ef3505b56c",
+        "96540971-b8f2-4efd-b585-41caba435c55",
+        "2389def3-14d7-4e55-9973-09732cf88fda",
+        "d985ba42-ea71-446e-b446-8141b004d876",
+        "9ed1c784-d11e-4763-a898-9b137768249d",
+        "cf2c82df-496e-4368-9259-eae3824a22cb",
+        "5434baa2-ddca-4a68-81be-77962232054a",
+        "cf23f79e-9ba2-4dd3-852e-431709068744",
+        "b6f4b4bd-2b02-49b0-a30d-0344d10824a0",
+        "b128d0cd-3d2c-42db-8428-8da6d7d9cf93",
+        "a6848750-9737-468f-bd20-1b5434d39b01",
+        "941cc1fc-78e0-41ed-a27a-d0f8ef8f0b94",
+        "7a6217d4-7ba7-4478-8b10-c8611b13f97b",
+        "4f5dfccf-5deb-408c-8d76-18f1dadfd8f6",
+        "6a0e498b-2f68-42f8-a3d6-967fd04c47ad",
+        "b1f600ce-593f-4f1c-9036-7d37c8b95d19",
+        "f93a0be6-88c7-4370-985a-94c72807e60b",
+        "ce643e86-5dfc-4469-bb7d-8fefec8b95c3"
+      ],
+      "source": "https://zh.wikipedia.org/wiki/%E7%91%9E%E5%A3%AB"
+    },
+    "90819cb3-8752-4169-a564-5c1af54d50fc": {
+      "id": "90819cb3-8752-4169-a564-5c1af54d50fc",
+      "text": "瑞士氣候存在過渡性質，由西部的海洋性气候過渡至東部的大陸性氣候[",
+      "wordIds": [
+        "284ebaff-19a7-4a64-982b-c031a5d920a4",
+        "805f065b-58c5-4da8-b1d1-87ea041dfab5",
+        "4dcb6164-86f7-4d75-91b1-8bb9df486beb",
+        "da046c81-83dc-4893-a595-bcf85af30cd8",
+        "506ba804-4aef-4884-89c8-e57be4ea0043",
+        "16702f45-192f-44ca-83c9-fabcfc63d505",
+        "aa61e881-7222-440f-a370-b04703f14fd1",
+        "ff8d1ecd-c794-43b4-b4ac-fd5a15b7350c",
+        "18f9129f-4a62-4617-94bf-78fa8352131c",
+        "6cea3c58-4e6c-4ed1-8eae-c4b8ffd43492",
+        "5e75c2dc-9882-4f10-998f-a97b2f7728d7",
+        "05ae36e5-55b6-4651-bb3c-bae9b25be85e",
+        "99924ea1-7747-4acc-9540-1a806bf0d3b0",
+        "ef36cc1f-44cc-4e57-a7f1-8038297f6e60",
+        "f1c64cb0-8783-47c6-90ee-0acb27ac5a8f",
+        "eff54c86-415a-4e61-8d01-7adebf808130"
+      ],
+      "source": "https://zh.wikipedia.org/wiki/%E7%91%9E%E5%A3%AB"
+    },
+    "8c28fbbe-5809-4025-bf63-9a1a46d6423b": {
+      "id": "8c28fbbe-5809-4025-bf63-9a1a46d6423b",
+      "text": "瑞士山间谷地气候温和，高山较寒冷，一般屬溫帶氣候，但於不同地區則有相當大的差異[66][67]。",
+      "wordIds": [
+        "6afb9f32-31ed-4cab-95c3-76d040a86ed7",
+        "96b25bfb-d5c4-4322-b276-657ff6a9653d",
+        "9c2fcef8-ccac-4352-b911-b8df98e33e74",
+        "c64ae155-38cb-4832-a329-04a5fb259c1c",
+        "a78731b3-cc3b-41e3-adf0-5d18c1af4fa4",
+        "cf8b82ee-9707-4662-af0b-3fde26fc6bbc",
+        "14f60ba2-0e3f-44e3-a85f-4d168b725faa",
+        "6d479608-b61e-4c1b-b9bd-29009b39228b",
+        "302eed85-5fc6-413c-8e1c-86f6d70d36ca",
+        "58a1b274-9b6c-4ace-b272-d7933faf9de6",
+        "1acd4556-be6f-4795-8956-c3db80753b8c",
+        "1a5ad5a5-2ae3-4e45-a976-acde23a65351",
+        "3a7b2768-aa13-4b17-81f9-8fff88799442",
+        "c17f5783-e3f4-44b5-82bd-94e4358d3995",
+        "2a37a66e-5266-4c63-bbc2-db6fae868866",
+        "f911a30d-5d90-4ef6-ad42-8fd6c588f0bd",
+        "20ac584a-ae66-4701-94b5-cd234e9c4011",
+        "54497ec0-ba28-454b-b97e-55a46fdf8883",
+        "3df12b1d-0f01-4650-88b3-50f7217fa70d",
+        "a97fa20d-fd31-4788-ba1e-b041b1cd404f",
+        "c6f10706-8f52-453b-b836-8ac02d41ab75",
+        "9f03b3d5-bf07-4e7d-b2ff-afe739931810"
+      ],
+      "source": "https://zh.wikipedia.org/wiki/%E7%91%9E%E5%A3%AB"
+    },
+    "bfc54d03-6454-40b9-91fc-211ecd5aab18": {
+      "id": "bfc54d03-6454-40b9-91fc-211ecd5aab18",
+      "text": "瑞士氣候存在過渡性質，由西部的海洋性气候過渡至東部的大陸性氣候",
+      "wordIds": [
+        "8d0a7767-9ed0-4d01-9e20-b90b501ddefc",
+        "5fa3284b-850c-489d-a482-cc5e2d617b97",
+        "54ec830b-4bc6-4eab-a2c2-c47ca0ac9f1c",
+        "e2e2a93f-dd13-4bce-8109-fcebdf556507",
+        "b7996d0b-58ff-4c1c-a37c-aabcc73efced",
+        "27a45157-1ed8-4fca-9ea5-f1f8989784b4",
+        "18c9fd50-d94c-47f2-a4f1-df7e1a6f995a",
+        "82416a33-df0f-4944-8bf1-afcc6cff245c",
+        "ea9f0a86-57a6-4de8-b8cc-fbbc93bf98c8",
+        "91af72c1-d1de-47bb-b4e0-8da0da06df6b",
+        "8bfb8ce7-3fd3-4ad2-8c97-0e6bfe6e7a23",
+        "4fa49660-fd4d-45a9-8eec-4fd5c9abd050",
+        "546c50bb-ecd3-471d-bff3-2ba9cbd77eea",
+        "ba0b5486-230b-4508-96c4-050175edba06",
+        "5f4125ac-5379-49c6-88df-cb26c1ab1c5e",
+        "007a24ec-166c-47ed-930c-40dbcd1bbe51"
       ],
       "source": "https://zh.wikipedia.org/wiki/%E7%91%9E%E5%A3%AB"
     }

@@ -1,6 +1,9 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { readData } from "@/lib/storage";
+import Image from "next/image";
+import { existsSync } from "fs";
+import { join } from "path";
 
 interface CharacterPageProps {
   params: Promise<{ char: string }>;
@@ -77,10 +80,20 @@ function getCharacterDetails(char: string): CharacterDetails | null {
   }
 }
 
+function checkCharacterImage(char: string): boolean {
+  try {
+    const imagePath = join(process.cwd(), "public", "characters", `${char}.png`);
+    return existsSync(imagePath);
+  } catch {
+    return false;
+  }
+}
+
 export default async function CharacterPage({ params }: CharacterPageProps) {
   const { char } = await params;
   const decodedChar = decodeURIComponent(char);
   const details = getCharacterDetails(decodedChar);
+  const hasImage = checkCharacterImage(decodedChar);
 
   console.log(details);
   if (!details) {
@@ -88,30 +101,51 @@ export default async function CharacterPage({ params }: CharacterPageProps) {
   }
 
   return (
-    <div className="min-h-screen bg-white dark:bg-black">
-      <header className="my-8 font-mono text-2xl font-light tracking-tight text-black dark:text-white border-b-1 border-gray-200 dark:border-gray-800">
-        <div className="ml-3 mr-3">
+    <div className="h-screen overflow-hidden flex flex-col bg-white dark:bg-black">
+      {/* Full Width Header */}
+      <header className="w-full bg-white dark:bg-black z-20 py-8 border-b border-gray-200 dark:border-gray-800">
+        <div className="px-8">
           <Link
             href="/"
-            className="inline-block mb-8 text-gray-600 hover:text-black dark:text-gray-400 dark:hover:text-white transition-colors"
+            className="inline-block text-gray-600 hover:text-black dark:text-gray-400 dark:hover:text-white transition-colors"
           >
-            Back
+            ← Back
           </Link>
         </div>
       </header>
-      <main className="container mx-auto max-w-3xl border-top">
-        {/* Character Display */}
-        <div className="text-center mb-12">
-          <div className="text-8xl mb-4">{details.character}</div>
-          <div className="text-2xl text-gray-600 dark:text-gray-400 mb-2">
-            {details.pinyin}
-          </div>
-          {details.hanziData?.definition && (
-            <div className="text-lg text-gray-500 dark:text-gray-500">
-              {details.hanziData.definition}
+
+      {/* Split Content Area */}
+      <div className="flex flex-1 overflow-hidden">
+        {/* Left 1/3 - Image Section */}
+        {hasImage && (
+          <div className="w-1/3 h-full flex items-center justify-center p-8 border-r border-gray-200 dark:border-gray-800">
+            <div className="relative w-full h-full border border-gray-300 dark:border-gray-700 rounded-lg overflow-hidden p-4">
+              <Image
+                src={`/characters/${decodedChar}.png`}
+                alt={`${decodedChar} character image`}
+                fill
+                className="object-cover"
+                priority
+              />
             </div>
-          )}
-        </div>
+          </div>
+        )}
+
+        {/* Right 2/3 - Content Section (scrollable) */}
+        <div className={`${hasImage ? 'w-2/3' : 'w-full'} h-full overflow-y-auto`}>
+          <main className="px-8 py-12">
+            {/* Character Display */}
+            <div className="text-center mb-12">
+              <div className="text-8xl mb-4">{details.character}</div>
+              <div className="text-2xl text-gray-600 dark:text-gray-400 mb-2">
+                {details.pinyin}
+              </div>
+              {details.hanziData?.definition && (
+                <div className="text-lg text-gray-500 dark:text-gray-500">
+                  {details.hanziData.definition}
+                </div>
+              )}
+            </div>
 
         {/* Statistics */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-12 text-center">
@@ -169,41 +203,43 @@ export default async function CharacterPage({ params }: CharacterPageProps) {
           </div>
         )}
 
-        {/* Words Section */}
-        <div>
-          <h3 className="text-sm uppercase tracking-wide text-gray-500 mb-6">
-            Words ({details.words.length})
-          </h3>
+          {/* Words Section */}
+          <div>
+            <h3 className="text-sm uppercase tracking-wide text-gray-500 mb-6">
+              Words ({details.words.length})
+            </h3>
 
-          {details.words.length === 0 ? (
-            <p className="text-gray-400 dark:text-gray-600 text-sm">
-              No words captured yet
-            </p>
-          ) : (
-            <div className="space-y-3">
-              {details.words.map((word) => (
-                <Link
-                  key={word.id}
-                  href={`/word/${encodeURIComponent(word.word)}`}
-                  className="block py-3 border-b border-gray-200 dark:border-gray-800 hover:border-gray-400 dark:hover:border-gray-600 transition-colors"
-                >
-                  <div className="flex justify-between items-baseline">
-                    <div>
-                      <span className="text-xl mr-3">{word.word}</span>
-                      <span className="text-sm text-gray-500">
-                        {word.meaning}
+            {details.words.length === 0 ? (
+              <p className="text-gray-400 dark:text-gray-600 text-sm">
+                No words captured yet
+              </p>
+            ) : (
+              <div className="space-y-3">
+                {details.words.map((word) => (
+                  <Link
+                    key={word.id}
+                    href={`/word/${encodeURIComponent(word.word)}`}
+                    className="block py-3 border-b border-gray-200 dark:border-gray-800 hover:border-gray-400 dark:hover:border-gray-600 transition-colors"
+                  >
+                    <div className="flex justify-between items-baseline">
+                      <div>
+                        <span className="text-xl mr-3">{word.word}</span>
+                        <span className="text-sm text-gray-500">
+                          {word.meaning}
+                        </span>
+                      </div>
+                      <span className="text-xs text-gray-400">
+                        {word.seenCount}×
                       </span>
                     </div>
-                    <span className="text-xs text-gray-400">
-                      {word.seenCount}×
-                    </span>
-                  </div>
-                </Link>
-              ))}
-            </div>
-          )}
+                  </Link>
+                ))}
+              </div>
+            )}
+          </div>
+          </main>
         </div>
-      </main>
+      </div>
     </div>
   );
 }

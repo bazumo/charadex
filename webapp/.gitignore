@@ -39,3 +39,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# character images (optional - uncomment to exclude from git)
+# /public/characters/*.png
