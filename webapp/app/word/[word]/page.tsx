@@ -142,22 +142,18 @@ export default async function WordPage({ params }: WordPageProps) {
           ) : (
             <div className="space-y-6">
               {details.sentences.map((sentence) => (
-                <div
+                <Link
                   key={sentence.id}
-                  className="pb-6 border-b border-gray-200 dark:border-gray-800 last:border-0"
+                  href={`/sentence/${sentence.id}`}
+                  className="block pb-6 border-b border-gray-200 dark:border-gray-800 last:border-0 hover:bg-gray-50 dark:hover:bg-gray-900 -mx-4 px-4 transition-colors"
                 >
                   <div className="text-xl mb-3">
                     {sentence.text}
                   </div>
-                  <a
-                    href={sentence.source}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-xs text-gray-400 hover:text-gray-600 dark:hover:text-gray-300 transition-colors truncate block"
-                  >
-                    {sentence.source}
-                  </a>
-                </div>
+                  <span className="text-xs text-gray-400">
+                    Click to view details →
+                  </span>
+                </Link>
               ))}
             </div>
           )}
