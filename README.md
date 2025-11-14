@@ -1,5 +1,8 @@
 # Charadex
 
+
+[![Charadex Demo](https://img.youtube.com/vi/CwTEyKz6p7E/0.jpg)](https://www.youtube.com/watch?v=CwTEyKz6p7E)
+
 A Pokedex-like application for learning Chinese characters. Catch and track Chinese characters as you browse the web!
 
 ## Features
