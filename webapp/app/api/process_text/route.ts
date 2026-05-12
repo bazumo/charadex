@@ -1,21 +1,47 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { readData, writeData } from '@/lib/storage';
-import { processTextWithAI, storeProcessedData } from '@/lib/ai-processor';
+import { processTextWithAI } from '@/lib/ai-processor';
 
-// CORS headers
 const corsHeaders = {
   'Access-Control-Allow-Origin': '*',
   'Access-Control-Allow-Methods': 'POST, OPTIONS',
   'Access-Control-Allow-Headers': 'Content-Type',
 };
 
-// Handle OPTIONS request for CORS preflight
+const RATE_LIMIT_WINDOW_MS = 60 * 60 * 1000;
+const MAX_REQUESTS_PER_WINDOW = 5;
+const requestLog = new Map<string, number[]>();
+
+function isRateLimited(ip: string): boolean {
+  const now = Date.now();
+  const timestamps = requestLog.get(ip) || [];
+  const recent = timestamps.filter((t) => now - t < RATE_LIMIT_WINDOW_MS);
+  requestLog.set(ip, recent);
+
+  if (recent.length >= MAX_REQUESTS_PER_WINDOW) return true;
+
+  recent.push(now);
+  requestLog.set(ip, recent);
+  return false;
+}
+
 export async function OPTIONS() {
   return NextResponse.json({}, { headers: corsHeaders });
 }
 
 export async function POST(request: NextRequest) {
   try {
+    const ip =
+      request.headers.get('x-forwarded-for')?.split(',')[0]?.trim() ||
+      request.headers.get('x-real-ip') ||
+      'unknown';
+
+    if (isRateLimited(ip)) {
+      return NextResponse.json(
+        { error: 'Rate limit exceeded. Please try again later (max 5 requests per hour).' },
+        { status: 429, headers: corsHeaders }
+      );
+    }
+
     const body = await request.json();
     const { text, url } = body;
 
@@ -26,20 +52,28 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    // Process text with AI to extract sentences and words
-    const processed = await processTextWithAI(text);
+    if (!/[\u4e00-\u9fa5]/.test(text)) {
+      return NextResponse.json(
+        { error: 'No Chinese characters found in the input.' },
+        { status: 400, headers: corsHeaders }
+      );
+    }
 
-    // Store the processed data
-    const data = readData();
-    storeProcessedData(data, processed, url);
-    writeData(data);
+    if (text.length > 2000) {
+      return NextResponse.json(
+        { error: 'Text too long. Please limit to 2000 characters.' },
+        { status: 400, headers: corsHeaders }
+      );
+    }
+
+    const processed = await processTextWithAI(text);
 
     return NextResponse.json({
       success: true,
-      stats: {
-        sentences: processed.sentences.length,
-        words: processed.words.length,
-        characters: processed.characters.size
+      processed: {
+        sentences: processed.sentences,
+        words: processed.words.map(w => ({ word: w.word, meaning: w.meaning })),
+        characters: Array.from(processed.characters),
       }
     }, { headers: corsHeaders });
   } catch (error) {

@@ -20,7 +20,7 @@ function loadHanziDB(): Map<string, HanziData> {
   if (hanziDB) return hanziDB;
 
   try {
-    const hanziPath = path.join(process.cwd(), '..', 'hanziDB.json');
+    const hanziPath = path.join(process.cwd(), 'lib', 'hanziDB.json');
     const fileContent = fs.readFileSync(hanziPath, 'utf-8');
 
     // Parse NDJSON (newline-delimited JSON)
