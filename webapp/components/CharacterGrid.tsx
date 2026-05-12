@@ -3,22 +3,29 @@
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
 import { Character } from '@/lib/types';
+import { ensureSeeded, getCharacterList } from '@/lib/client-storage';
 
-export default function CharacterGrid() {
+const GRID_SIZE = 2000;
+const SKELETON_CELLS = Array.from({ length: GRID_SIZE });
+
+interface CharacterGridProps {
+  refreshKey?: number;
+}
+
+export default function CharacterGrid({ refreshKey }: CharacterGridProps) {
   const [characters, setCharacters] = useState<Character[]>([]);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetchCharacters();
-  }, []);
+    loadCharacters();
+  }, [refreshKey]);
 
-  const fetchCharacters = async () => {
+  const loadCharacters = async () => {
     try {
-      const response = await fetch('/api/characters');
-      const data = await response.json();
-      setCharacters(data);
+      const data = await ensureSeeded();
+      setCharacters(getCharacterList(data));
     } catch (error) {
-      console.error('Error fetching characters:', error);
+      console.error('Error loading characters:', error);
     } finally {
       setLoading(false);
     }
@@ -26,9 +33,15 @@ export default function CharacterGrid() {
 
   if (loading) {
     return (
-      <div className="text-center py-12">
-        <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-indigo-600 mx-auto"></div>
-        <p className="mt-4 text-gray-600 dark:text-gray-400">Loading characters...</p>
+      <div className="grid grid-cols-7 sm:grid-cols-10 md:grid-cols-15 lg:grid-cols-20 gap-px bg-gray-200 dark:bg-gray-800 border border-gray-200 dark:border-gray-800">
+        {SKELETON_CELLS.map((_, i) => (
+          <div
+            key={i}
+            className="aspect-square bg-white dark:bg-black"
+          >
+            <div className="w-full h-full animate-pulse bg-gray-100 dark:bg-gray-900" style={{ animationDelay: `${(i % 40) * 25}ms` }} />
+          </div>
+        ))}
       </div>
     );
   }

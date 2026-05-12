@@ -1,12 +1,12 @@
-import { notFound } from "next/navigation";
-import { readData } from "@/lib/storage";
-import PageHeader from "@/components/PageHeader";
-import WordTooltip from "@/components/WordTooltip";
-import Link from "next/link";
+'use client';
 
-interface SentencePageProps {
-  params: Promise<{ id: string }>;
-}
+import { useEffect, useState, use } from 'react';
+import { useRouter } from 'next/navigation';
+import { getDataStore, ensureSeeded } from '@/lib/client-storage';
+import { DataStore } from '@/lib/types';
+import PageHeader from '@/components/PageHeader';
+import WordTooltip from '@/components/WordTooltip';
+import Link from 'next/link';
 
 interface SentenceDetails {
   id: string;
@@ -22,66 +22,39 @@ interface SentenceDetails {
   }>;
 }
 
-function getSentenceDetails(id: string): SentenceDetails | null {
-  try {
-    const data = readData();
+function getSentenceDetails(data: DataStore, id: string): SentenceDetails | null {
+  const sentence = data.sentences[id];
+  if (!sentence) return null;
 
-    // Get sentence data
-    const sentence = data.sentences[id];
-
-    if (!sentence) {
-      return null;
-    }
-
-    // Get all word occurrences in this sentence
-    const occurrences = sentence.occurrenceIds?.map((occurrenceId) => {
-      const occurrence = data.wordOccurrences?.[occurrenceId];
-      if (!occurrence) return null;
-
-      return {
-        id: occurrence.id,
-        wordId: occurrence.wordId,
-        word: occurrence.word,
-        meaning: occurrence.meaning,
-        pinyin: occurrence.pinyin,
-        position: occurrence.position,
-      };
-    }).filter((occ): occ is NonNullable<typeof occ> => occ !== null)
-      .sort((a, b) => a.position - b.position) || []; // Sort by position
-
+  const occurrences = sentence.occurrenceIds?.map((occurrenceId) => {
+    const occurrence = data.wordOccurrences?.[occurrenceId];
+    if (!occurrence) return null;
     return {
-      id: sentence.id,
-      text: sentence.text,
-      source: sentence.source,
-      occurrences,
+      id: occurrence.id,
+      wordId: occurrence.wordId,
+      word: occurrence.word,
+      meaning: occurrence.meaning,
+      pinyin: occurrence.pinyin,
+      position: occurrence.position,
     };
-  } catch (error) {
-    console.error("Error fetching sentence details:", error);
-    return null;
-  }
+  }).filter((occ): occ is NonNullable<typeof occ> => occ !== null)
+    .sort((a, b) => a.position - b.position) || [];
+
+  return { id: sentence.id, text: sentence.text, source: sentence.source, occurrences };
 }
 
-// Function to split sentence text into word segments
 function segmentSentence(text: string, words: Array<{ word: string; meaning: string; pinyin: string }>): Array<{ text: string; word?: { word: string; meaning: string; pinyin: string } }> {
   const segments: Array<{ text: string; word?: { word: string; meaning: string; pinyin: string } }> = [];
-
-  // Sort words by length (longest first) to match longer words first
   const sortedWords = [...words].sort((a, b) => b.word.length - a.word.length);
-
   let position = 0;
 
   while (position < text.length) {
     const remainingText = text.slice(position);
     let matched = false;
 
-    // Try to find a matching word at current position (longest match first)
     for (const word of sortedWords) {
       if (remainingText.startsWith(word.word)) {
-        // Found a word match
-        segments.push({
-          text: word.word,
-          word: word,
-        });
+        segments.push({ text: word.word, word });
         position += word.word.length;
         matched = true;
         break;
@@ -89,9 +62,7 @@ function segmentSentence(text: string, words: Array<{ word: string; meaning: str
     }
 
     if (!matched) {
-      // No word match, add single character as plain text
       const char = text[position];
-      // Check if last segment is plain text, if so append to it
       if (segments.length > 0 && !segments[segments.length - 1].word) {
         segments[segments.length - 1].text += char;
       } else {
@@ -104,12 +75,35 @@ function segmentSentence(text: string, words: Array<{ word: string; meaning: str
   return segments;
 }
 
-export default async function SentencePage({ params }: SentencePageProps) {
-  const { id } = await params;
-  const details = getSentenceDetails(id);
+export default function SentencePage({ params }: { params: Promise<{ id: string }> }) {
+  const { id } = use(params);
+  const router = useRouter();
+  const [details, setDetails] = useState<SentenceDetails | null>(null);
+  const [loading, setLoading] = useState(true);
 
-  if (!details) {
-    notFound();
+  useEffect(() => {
+    async function load() {
+      const data = getDataStore() || await ensureSeeded();
+      const d = getSentenceDetails(data, id);
+      if (!d) {
+        router.replace('/');
+        return;
+      }
+      setDetails(d);
+      setLoading(false);
+    }
+    load();
+  }, [id, router]);
+
+  if (loading || !details) {
+    return (
+      <div className="h-screen flex flex-col bg-white dark:bg-black">
+        <PageHeader />
+        <div className="flex-1 flex items-center justify-center">
+          <div className="animate-pulse text-gray-200 dark:text-gray-800 text-2xl">Loading...</div>
+        </div>
+      </div>
+    );
   }
 
   const segments = segmentSentence(details.text, details.occurrences);
@@ -118,10 +112,8 @@ export default async function SentencePage({ params }: SentencePageProps) {
     <div className="h-screen overflow-hidden flex flex-col bg-white dark:bg-black">
       <PageHeader />
 
-      {/* Scrollable Content */}
       <div className="flex-1 overflow-y-auto">
         <main className="container mx-auto px-8 py-12 max-w-4xl">
-          {/* Sentence Display */}
           <div className="mb-12">
             <h1 className="text-4xl font-light text-gray-600 dark:text-gray-400 mb-8 text-center">
               Sentence
@@ -142,7 +134,6 @@ export default async function SentencePage({ params }: SentencePageProps) {
               ))}
             </div>
 
-            {/* Source */}
             <div className="text-center mb-12">
               <a
                 href={details.source}
@@ -155,7 +146,6 @@ export default async function SentencePage({ params }: SentencePageProps) {
             </div>
           </div>
 
-          {/* Words Section */}
           <div className="border-t border-gray-200 dark:border-gray-800 pt-12">
             <h2 className="text-sm uppercase tracking-wide text-gray-500 mb-6">
               Words in this sentence ({details.occurrences.length})
@@ -170,9 +160,7 @@ export default async function SentencePage({ params }: SentencePageProps) {
                 >
                   <div className="text-2xl mb-2">{occurrence.word}</div>
                   <div className="text-sm text-gray-500 mb-1">{occurrence.pinyin}</div>
-                  <div className="text-sm text-gray-600 dark:text-gray-400">
-                    {occurrence.meaning}
-                  </div>
+                  <div className="text-sm text-gray-600 dark:text-gray-400">{occurrence.meaning}</div>
                 </Link>
               ))}
             </div>

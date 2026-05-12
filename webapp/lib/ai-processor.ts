@@ -1,6 +1,4 @@
 import Anthropic from '@anthropic-ai/sdk';
-import { DataStore, Sentence, Word } from './types';
-import { v4 as uuidv4 } from 'uuid';
 
 interface ValidationResult {
   isValid: boolean;
@@ -138,17 +136,21 @@ function validateLLMOutput(result: any, originalText: string): ValidationResult 
   };
 }
 
-// Create Anthropic client
 const getClient = () => {
-  const apiKey = process.env.ANTHROPIC_API_KEY;
+  const apiKey = process.env.AI_GATEWAY_API_KEY || process.env.ANTHROPIC_API_KEY;
 
   if (!apiKey) {
-    throw new Error('ANTHROPIC_API_KEY environment variable is required');
+    throw new Error('AI_GATEWAY_API_KEY (or ANTHROPIC_API_KEY) environment variable is required');
   }
 
-  return new Anthropic({
-    apiKey: apiKey,
-  });
+  if (process.env.AI_GATEWAY_API_KEY) {
+    return new Anthropic({
+      apiKey,
+      baseURL: 'https://ai-gateway.vercel.sh',
+    });
+  }
+
+  return new Anthropic({ apiKey });
 };
 
 interface ProcessedText {
@@ -210,8 +212,12 @@ Important: Return ONLY the JSON, no additional text. DO NOT USE \`\`\`json \`\`\
   try {
     const client = getClient();
 
+    const model = process.env.AI_GATEWAY_API_KEY
+      ? 'anthropic/claude-sonnet-4-20250514'
+      : 'claude-sonnet-4-20250514';
+
     const response = await client.messages.create({
-      model: 'claude-sonnet-4-20250514',
+      model,
       max_tokens: 40000,
       messages: [
         {
@@ -268,118 +274,3 @@ Important: Return ONLY the JSON, no additional text. DO NOT USE \`\`\`json \`\`\
   }
 }
 
-export function storeProcessedData(
-  data: DataStore,
-  processed: ProcessedText,
-  sourceUrl: string
-): void {
-  // Initialize wordOccurrences if it doesn't exist (backward compatibility)
-  if (!data.wordOccurrences) {
-    data.wordOccurrences = {};
-  }
-
-  // Store sentences
-  const sentenceIds: string[] = [];
-
-  for (const sentenceData of processed.sentences) {
-    const sentenceId = uuidv4();
-    sentenceIds.push(sentenceId);
-
-    const occurrenceIds: string[] = [];
-
-    // Store word occurrences from this sentence
-    for (let position = 0; position < sentenceData.words.length; position++) {
-      const wordData = sentenceData.words[position];
-
-      // Use pinyin from LLM (which is context-aware)
-      const pinyin = wordData.pinyin || '';
-
-      // Check if word already exists, if not create it
-      let existingWord = Object.values(data.words).find(w => w.word === wordData.word);
-      let wordId: string;
-
-      if (existingWord) {
-        wordId = existingWord.id;
-        existingWord.seenCount++;
-        // Add meaning if it's not already in the list
-        if (!existingWord.meanings.includes(wordData.meaning)) {
-          existingWord.meanings.push(wordData.meaning);
-        }
-      } else {
-        wordId = uuidv4();
-        data.words[wordId] = {
-          id: wordId,
-          word: wordData.word,
-          meanings: [wordData.meaning],
-          seenCount: 1,
-          occurrenceIds: []
-        };
-        existingWord = data.words[wordId];
-      }
-
-      // Create word occurrence
-      const occurrenceId = uuidv4();
-      data.wordOccurrences[occurrenceId] = {
-        id: occurrenceId,
-        wordId: wordId,
-        word: wordData.word,
-        meaning: wordData.meaning,
-        pinyin: pinyin,
-        sentenceId: sentenceId,
-        position: position
-      };
-
-      occurrenceIds.push(occurrenceId);
-      existingWord.occurrenceIds.push(occurrenceId);
-
-      // Update character references and track pinyin variants
-      const pinyinParts = pinyin.split(/\s+/).filter((p: string) => p.length > 0);
-      const chars = Array.from(wordData.word).filter((c: string) => /[\u4e00-\u9fa5]/.test(c));
-
-      chars.forEach((char, idx) => {
-        if (!data.characters[char]) {
-          data.characters[char] = {
-            character: char,
-            seenCount: 0,
-            pinyin: '',
-            pinyinVariants: [],
-            wordReferences: []
-          };
-        }
-
-        data.characters[char].seenCount++;
-
-        // Track pinyin variant for this character
-        const charPinyin = pinyinParts[idx];
-        if (charPinyin) {
-          // Set primary pinyin if not set
-          if (!data.characters[char].pinyin) {
-            data.characters[char].pinyin = charPinyin;
-          }
-
-          // Initialize pinyinVariants if it doesn't exist
-          if (!data.characters[char].pinyinVariants) {
-            data.characters[char].pinyinVariants = [];
-          }
-
-          // Add to variants if not already present
-          if (!data.characters[char].pinyinVariants.includes(charPinyin)) {
-            data.characters[char].pinyinVariants.push(charPinyin);
-          }
-        }
-
-        if (!data.characters[char].wordReferences.includes(wordId)) {
-          data.characters[char].wordReferences.push(wordId);
-        }
-      });
-    }
-
-    // Store sentence
-    data.sentences[sentenceId] = {
-      id: sentenceId,
-      text: sentenceData.text,
-      occurrenceIds,
-      source: sourceUrl
-    };
-  }
-}

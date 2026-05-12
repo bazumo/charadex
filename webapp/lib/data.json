@@ -2,10 +2,10 @@
   "characters": {
     "的": {
       "character": "的",
-      "seenCount": 1,
+      "seenCount": 3,
       "pinyin": "de",
       "wordReferences": [
-        "d0322460-57fa-4d8a-a63d-774300dced81"
+        "f644ab88-5798-40a3-9255-3c88ce838ce3"
       ],
       "frequencyRank": "1",
       "definition": "possessive, adjectival suffix",
@@ -19,27 +19,37 @@
     },
     "一": {
       "character": "一",
-      "seenCount": 0,
+      "seenCount": 1,
       "pinyin": "yī",
-      "wordReferences": [],
+      "wordReferences": [
+        "726229f8-b098-4ec2-acce-53961014683d"
+      ],
       "frequencyRank": "2",
       "definition": "one; a, an; alone",
       "radical": "一",
       "radicalCode": "1.0",
       "strokeCount": "1",
-      "hskLevel": "1"
+      "hskLevel": "1",
+      "pinyinVariants": [
+        "yì"
+      ]
     },
     "是": {
       "character": "是",
-      "seenCount": 0,
+      "seenCount": 2,
       "pinyin": "shì",
-      "wordReferences": [],
+      "wordReferences": [
+        "3bdaca83-0252-4b52-9f26-ccced040a209"
+      ],
       "frequencyRank": "3",
       "definition": "indeed, yes, right; to be; demonstrative pronoun, this, that",
       "radical": "日",
       "radicalCode": "72.5",
       "strokeCount": "9",
-      "hskLevel": "1"
+      "hskLevel": "1",
+      "pinyinVariants": [
+        "shì"
+      ]
     },
     "不": {
       "character": "不",
@@ -55,27 +65,37 @@
     },
     "了": {
       "character": "了",
-      "seenCount": 0,
+      "seenCount": 1,
       "pinyin": "le",
-      "wordReferences": [],
+      "wordReferences": [
+        "68f7183a-76fb-492a-b719-6ed40d5d641e"
+      ],
       "frequencyRank": "5",
       "definition": "to finish; particle of completed action",
       "radical": "亅",
       "radicalCode": "6.1",
       "strokeCount": "2",
-      "hskLevel": "1"
+      "hskLevel": "1",
+      "pinyinVariants": [
+        "le"
+      ]
     },
     "在": {
       "character": "在",
-      "seenCount": 0,
+      "seenCount": 1,
       "pinyin": "zài",
-      "wordReferences": [],
+      "wordReferences": [
+        "9698d6cb-9e3a-4b84-9b48-28027319cc37"
+      ],
       "frequencyRank": "6",
       "definition": "be at, in, on; consist in, rest",
       "radical": "土",
       "radicalCode": "32.3",
       "strokeCount": "6",
-      "hskLevel": "1"
+      "hskLevel": "1",
+      "pinyinVariants": [
+        "zài"
+      ]
     },
     "人": {
       "character": "人",
@@ -91,87 +111,126 @@
     },
     "有": {
       "character": "有",
-      "seenCount": 0,
+      "seenCount": 1,
       "pinyin": "yǒu",
-      "wordReferences": [],
+      "wordReferences": [
+        "d9a72a2b-d968-4665-baf2-867aca9248d9"
+      ],
       "frequencyRank": "8",
       "definition": "have, own, possess; exist",
       "radical": "月",
       "radicalCode": "74.2",
       "strokeCount": "6",
-      "hskLevel": "1"
+      "hskLevel": "1",
+      "pinyinVariants": [
+        "yǒu"
+      ]
     },
     "我": {
       "character": "我",
-      "seenCount": 0,
+      "seenCount": 4,
       "pinyin": "wǒ",
-      "wordReferences": [],
+      "wordReferences": [
+        "2e82efdf-c3af-4411-bf66-3a64028d9cf0",
+        "b4681b21-8f06-4b56-a2e9-59dcaf599315"
+      ],
       "frequencyRank": "9",
       "definition": "our, us, i, me, my, we",
       "radical": "戈",
       "radicalCode": "62.3",
       "strokeCount": "7",
-      "hskLevel": "1"
+      "hskLevel": "1",
+      "pinyinVariants": [
+        "wǒ"
+      ]
     },
     "他": {
       "character": "他",
-      "seenCount": 0,
+      "seenCount": 1,
       "pinyin": "tā",
-      "wordReferences": [],
+      "wordReferences": [
+        "f20096fa-762c-414f-a4e3-c382fd19d339"
+      ],
       "frequencyRank": "10",
       "definition": "other, another; he, she, it",
       "radical": "人",
       "radicalCode": "9.3",
       "strokeCount": "5",
-      "hskLevel": "1"
+      "hskLevel": "1",
+      "pinyinVariants": [
+        "tā"
+      ]
     },
     "这": {
       "character": "这",
-      "seenCount": 0,
+      "seenCount": 2,
       "pinyin": "zhè",
-      "wordReferences": [],
+      "wordReferences": [
+        "18165248-e71c-4cd9-9988-c892c0e3f30f",
+        "6fa7378c-285a-46b9-bbdf-0be3b162e377"
+      ],
       "frequencyRank": "11",
       "definition": "this, the, here",
       "radical": "辵",
       "radicalCode": "162.4",
       "strokeCount": "7",
-      "hskLevel": "1"
+      "hskLevel": "1",
+      "pinyinVariants": [
+        "zhè"
+      ]
     },
     "个": {
       "character": "个",
-      "seenCount": 0,
+      "seenCount": 1,
       "pinyin": "gè",
-      "wordReferences": [],
+      "wordReferences": [
+        "6fa7378c-285a-46b9-bbdf-0be3b162e377"
+      ],
       "frequencyRank": "12",
       "definition": "numerary adjunct, piece; single",
       "radical": "丨",
       "radicalCode": "2.2",
       "strokeCount": "3",
-      "hskLevel": "1"
+      "hskLevel": "1",
+      "pinyinVariants": [
+        "ge"
+      ]
     },
     "们": {
       "character": "们",
-      "seenCount": 0,
+      "seenCount": 2,
       "pinyin": "men",
-      "wordReferences": [],
+      "wordReferences": [
+        "b4681b21-8f06-4b56-a2e9-59dcaf599315",
+        "90126397-4297-4cc9-830e-eee081609323"
+      ],
       "frequencyRank": "13",
       "definition": "adjunct pronoun indicate plural",
       "radical": "人",
       "radicalCode": "9.3",
       "strokeCount": "5",
-      "hskLevel": "1"
+      "hskLevel": "1",
+      "pinyinVariants": [
+        "men"
+      ]
     },
     "中": {
       "character": "中",
-      "seenCount": 0,
+      "seenCount": 3,
       "pinyin": "zhōng",
-      "wordReferences": [],
+      "wordReferences": [
+        "1ee74a7d-8f8b-435c-95cb-d0498d48972b",
+        "7b29599c-caf3-4e5f-9244-c38db836a54e"
+      ],
       "frequencyRank": "14",
       "definition": "central; center, middle; in the midst of; hit (target); attain",
       "radical": "丨",
       "radicalCode": "2.3",
       "strokeCount": "4",
-      "hskLevel": "1"
+      "hskLevel": "1",
+      "pinyinVariants": [
+        "zhōng"
+      ]
     },
     "来": {
       "character": "来",
@@ -187,15 +246,21 @@
     },
     "上": {
       "character": "上",
-      "seenCount": 0,
+      "seenCount": 2,
       "pinyin": "shàng",
-      "wordReferences": [],
+      "wordReferences": [
+        "dafce188-17d3-4e00-af3d-3a2c9a9f7367",
+        "b53be05f-09c8-419d-9760-b9d626a2be7c"
+      ],
       "frequencyRank": "16",
       "definition": "top; superior, highest; go up, send up",
       "radical": "一",
       "radicalCode": "1.2",
       "strokeCount": "3",
-      "hskLevel": "1"
+      "hskLevel": "1",
+      "pinyinVariants": [
+        "shàng"
+      ]
     },
     "大": {
       "character": "大",
@@ -235,49 +300,44 @@
     },
     "国": {
       "character": "国",
-      "seenCount": 0,
+      "seenCount": 2,
       "pinyin": "guó",
-      "wordReferences": [],
+      "wordReferences": [
+        "7b29599c-caf3-4e5f-9244-c38db836a54e"
+      ],
       "frequencyRank": "20",
       "definition": "nation, country, nation-state",
       "radical": "囗",
       "radicalCode": "31.5",
       "strokeCount": "8",
-      "hskLevel": "1"
+      "hskLevel": "1",
+      "pinyinVariants": [
+        "guó"
+      ]
     },
     "地": {
       "character": "地",
-      "seenCount": 1,
+      "seenCount": 0,
       "pinyin": "de",
-      "wordReferences": [
-        "79bf723b-5162-4e07-b3e6-7ff8cfe313b4"
-      ],
+      "wordReferences": [],
       "frequencyRank": "21",
       "definition": "earth; soil, ground; region",
       "radical": "土",
       "radicalCode": "32.3",
       "strokeCount": "6",
-      "hskLevel": "3",
-      "pinyinVariants": [
-        "de"
-      ]
+      "hskLevel": "3"
     },
     "到": {
       "character": "到",
-      "seenCount": 1,
+      "seenCount": 0,
       "pinyin": "dào",
-      "wordReferences": [
-        "9ae5544b-74e7-4b77-8307-3d35f5e9e48e"
-      ],
+      "wordReferences": [],
       "frequencyRank": "22",
       "definition": "go to, arrive, been to",
       "radical": "刀",
       "radicalCode": "18.6",
       "strokeCount": "8",
-      "hskLevel": "2",
-      "pinyinVariants": [
-        "dào"
-      ]
+      "hskLevel": "2"
     },
     "以": {
       "character": "以",
@@ -317,15 +377,20 @@
     },
     "要": {
       "character": "要",
-      "seenCount": 0,
+      "seenCount": 1,
       "pinyin": "yào",
-      "wordReferences": [],
+      "wordReferences": [
+        "4146e27b-2639-49f6-bf6d-5b74aac937e4"
+      ],
       "frequencyRank": "26",
       "definition": "necessary, essential; necessity",
       "radical": "襾",
       "radicalCode": "146.3",
       "strokeCount": "9",
-      "hskLevel": "2"
+      "hskLevel": "2",
+      "pinyinVariants": [
+        "yào"
+      ]
     },
     "就": {
       "character": "就",
@@ -389,15 +454,20 @@
     },
     "你": {
       "character": "你",
-      "seenCount": 0,
+      "seenCount": 1,
       "pinyin": "nǐ",
-      "wordReferences": [],
+      "wordReferences": [
+        "4123d555-b16a-4a1c-a557-7d8c1cfae044"
+      ],
       "frequencyRank": "32",
       "definition": "you, second person pronoun",
       "radical": "人",
       "radicalCode": "9.5",
       "strokeCount": "7",
-      "hskLevel": "1"
+      "hskLevel": "1",
+      "pinyinVariants": [
+        "nǐ"
+      ]
     },
     "对": {
       "character": "对",
@@ -413,15 +483,20 @@
     },
     "生": {
       "character": "生",
-      "seenCount": 0,
+      "seenCount": 1,
       "pinyin": "shēng",
-      "wordReferences": [],
+      "wordReferences": [
+        "36c853b0-ca9f-437f-a006-e4accd13b85d"
+      ],
       "frequencyRank": "34",
       "definition": "life, living, lifetime; birth",
       "radical": "生",
       "radicalCode": "100.0",
       "strokeCount": "5",
-      "hskLevel": "1"
+      "hskLevel": "1",
+      "pinyinVariants": [
+        "shēng"
+      ]
     },
     "能": {
       "character": "能",
@@ -605,15 +680,20 @@
     },
     "里": {
       "character": "里",
-      "seenCount": 0,
+      "seenCount": 1,
       "pinyin": "lǐ",
-      "wordReferences": [],
+      "wordReferences": [
+        "52aa64fa-5839-43b6-a199-14e79c05431f"
+      ],
       "frequencyRank": "50",
       "definition": "unit of distance; village; lane",
       "radical": "里",
       "radicalCode": "166.0",
       "strokeCount": "7",
-      "hskLevel": "1"
+      "hskLevel": "1",
+      "pinyinVariants": [
+        "lǐ"
+      ]
     },
     "用": {
       "character": "用",
@@ -641,24 +721,15 @@
     },
     "行": {
       "character": "行",
-      "seenCount": 4,
+      "seenCount": 0,
       "pinyin": "xíng",
-      "wordReferences": [
-        "fe3a49ab-4fd6-4a5d-8945-4f103ae27099",
-        "d2a15e7e-aac3-42bb-a3cb-ae546f462c3e",
-        "23b7b825-49fb-42f1-b76b-8d57bce2db79",
-        "64f376f0-af93-4460-884e-11c9fa5ba018"
-      ],
+      "wordReferences": [],
       "frequencyRank": "53",
       "definition": "go; walk; move, travel; circulate",
       "radical": "行",
       "radicalCode": "144.0",
       "strokeCount": "6",
-      "hskLevel": "3",
-      "pinyinVariants": [
-        "xíng",
-        "háng"
-      ]
+      "hskLevel": "3"
     },
     "所": {
       "character": "所",
@@ -770,27 +841,37 @@
     },
     "么": {
       "character": "么",
-      "seenCount": 0,
+      "seenCount": 1,
       "pinyin": "me",
-      "wordReferences": [],
+      "wordReferences": [
+        "1d772c34-a5d7-464d-ba7c-b26beb0fe475"
+      ],
       "frequencyRank": "63",
       "definition": "interrogative particle; repetition of a tune small; tender",
       "radical": "丿",
       "radicalCode": "4.2",
       "strokeCount": "3",
-      "hskLevel": "1"
+      "hskLevel": "1",
+      "pinyinVariants": [
+        "me"
+      ]
     },
     "去": {
       "character": "去",
-      "seenCount": 0,
+      "seenCount": 2,
       "pinyin": "qù",
-      "wordReferences": [],
+      "wordReferences": [
+        "abc5e7cd-f216-4f9a-ac6b-3996bbb0703c"
+      ],
       "frequencyRank": "64",
       "definition": "go away, leave, depart",
       "radical": "厶",
       "radicalCode": "28.3",
       "strokeCount": "5",
-      "hskLevel": "1"
+      "hskLevel": "1",
+      "pinyinVariants": [
+        "qù"
+      ]
     },
     "法": {
       "character": "法",
@@ -806,15 +887,21 @@
     },
     "学": {
       "character": "学",
-      "seenCount": 0,
+      "seenCount": 2,
       "pinyin": "xué",
-      "wordReferences": [],
+      "wordReferences": [
+        "5144039f-0c30-478b-9201-41a65af8581d",
+        "36c853b0-ca9f-437f-a006-e4accd13b85d"
+      ],
       "frequencyRank": "66",
       "definition": "learning, knowledge; school",
       "radical": "子",
       "radicalCode": "39.5",
       "strokeCount": "8",
-      "hskLevel": "1"
+      "hskLevel": "1",
+      "pinyinVariants": [
+        "xué"
+      ]
     },
     "如": {
       "character": "如",
@@ -830,15 +917,20 @@
     },
     "都": {
       "character": "都",
-      "seenCount": 0,
+      "seenCount": 1,
       "pinyin": "dōu",
-      "wordReferences": [],
+      "wordReferences": [
+        "ff822a11-1b95-4945-be80-67cd1392a0e8"
+      ],
       "frequencyRank": "68",
       "definition": "metropolis, capital; all, the whole; elegant, refined",
       "radical": "邑",
       "radicalCode": "163.9",
       "strokeCount": "10",
-      "hskLevel": "1"
+      "hskLevel": "1",
+      "pinyinVariants": [
+        "dū"
+      ]
     },
     "同": {
       "character": "同",
@@ -914,27 +1006,38 @@
     },
     "起": {
       "character": "起",
-      "seenCount": 0,
+      "seenCount": 1,
       "pinyin": "qǐ",
-      "wordReferences": [],
+      "wordReferences": [
+        "726229f8-b098-4ec2-acce-53961014683d"
+      ],
       "frequencyRank": "75",
       "definition": "rise, stand up; go up; begin",
       "radical": "走",
       "radicalCode": "156.3",
       "strokeCount": "10",
-      "hskLevel": "1"
+      "hskLevel": "1",
+      "pinyinVariants": [
+        "qǐ"
+      ]
     },
     "看": {
       "character": "看",
-      "seenCount": 0,
+      "seenCount": 2,
       "pinyin": "kàn",
-      "wordReferences": [],
+      "wordReferences": [
+        "eafbf203-d778-407c-9c64-4b92f30ea19a",
+        "a10f9e88-212b-424a-9403-d79599c457f5"
+      ],
       "frequencyRank": "76",
       "definition": "look, see; examine, scrutinize",
       "radical": "目",
       "radicalCode": "109.4",
       "strokeCount": "9",
-      "hskLevel": "1"
+      "hskLevel": "1",
+      "pinyinVariants": [
+        "kàn"
+      ]
     },
     "定": {
       "character": "定",
@@ -950,15 +1053,23 @@
     },
     "天": {
       "character": "天",
-      "seenCount": 0,
+      "seenCount": 4,
       "pinyin": "tiān",
-      "wordReferences": [],
+      "wordReferences": [
+        "9856bf84-42fb-4c40-a854-3ad0c93af860",
+        "45911558-8766-4bfe-b3f4-cffd6bc6124a",
+        "a3a69240-a212-47f5-b333-f32af92ec6c4",
+        "2abcac39-b1ca-4ca6-9d5f-14fd4f8c36aa"
+      ],
       "frequencyRank": "78",
       "definition": "sky, heaven; god, celestial",
       "radical": "大",
       "radicalCode": "37.1",
       "strokeCount": "4",
-      "hskLevel": "1"
+      "hskLevel": "1",
+      "pinyinVariants": [
+        "tiān"
+      ]
     },
     "分": {
       "character": "分",
@@ -998,15 +1109,21 @@
     },
     "好": {
       "character": "好",
-      "seenCount": 0,
+      "seenCount": 2,
       "pinyin": "hǎo",
-      "wordReferences": [],
+      "wordReferences": [
+        "ae5bc672-0dd5-4f24-90c7-e1f8c776d9b2",
+        "eafbf203-d778-407c-9c64-4b92f30ea19a"
+      ],
       "frequencyRank": "82",
       "definition": "good, excellent, fine; well",
       "radical": "女",
       "radicalCode": "38.3",
       "strokeCount": "6",
-      "hskLevel": "1"
+      "hskLevel": "1",
+      "pinyinVariants": [
+        "hǎo"
+      ]
     },
     "小": {
       "character": "小",
@@ -1106,27 +1223,37 @@
     },
     "她": {
       "character": "她",
-      "seenCount": 0,
+      "seenCount": 1,
       "pinyin": "tā",
-      "wordReferences": [],
+      "wordReferences": [
+        "fcb3ded3-c14b-4853-8c83-291d5c6401a0"
+      ],
       "frequencyRank": "91",
       "definition": "she, her",
       "radical": "女",
       "radicalCode": "38.3",
       "strokeCount": "6",
-      "hskLevel": "1"
+      "hskLevel": "1",
+      "pinyinVariants": [
+        "tā"
+      ]
     },
     "本": {
       "character": "本",
-      "seenCount": 0,
+      "seenCount": 1,
       "pinyin": "běn",
-      "wordReferences": [],
+      "wordReferences": [
+        "1671ee4f-b7d7-44ad-a4a2-cf767bce631d"
+      ],
       "frequencyRank": "92",
       "definition": "root, origin, source; basis",
       "radical": "木",
       "radicalCode": "75.1",
       "strokeCount": "5",
-      "hskLevel": "1"
+      "hskLevel": "1",
+      "pinyinVariants": [
+        "běn"
+      ]
     },
     "前": {
       "character": "前",
@@ -1202,15 +1329,20 @@
     },
     "想": {
       "character": "想",
-      "seenCount": 0,
+      "seenCount": 1,
       "pinyin": "xiǎng",
-      "wordReferences": [],
+      "wordReferences": [
+        "c45339f4-68a9-4d44-9899-af5e405606ee"
+      ],
       "frequencyRank": "99",
       "definition": "think, speculate, plan, consider",
       "radical": "心",
       "radicalCode": "61.9",
       "strokeCount": "13",
-      "hskLevel": "1"
+      "hskLevel": "1",
+      "pinyinVariants": [
+        "xiǎng"
+      ]
     },
     "实": {
       "character": "实",
@@ -1262,15 +1394,20 @@
     },
     "意": {
       "character": "意",
-      "seenCount": 0,
+      "seenCount": 1,
       "pinyin": "yì",
-      "wordReferences": [],
+      "wordReferences": [
+        "d9a72a2b-d968-4665-baf2-867aca9248d9"
+      ],
       "frequencyRank": "104",
       "definition": "thought, idea, opinion; think",
       "radical": "心",
       "radicalCode": "61.9",
       "strokeCount": "13",
-      "hskLevel": "2"
+      "hskLevel": "2",
+      "pinyinVariants": [
+        "yì"
+      ]
     },
     "无": {
       "character": "无",
@@ -1325,7 +1462,7 @@
       "seenCount": 1,
       "pinyin": "zhǎng",
       "wordReferences": [
-        "64f376f0-af93-4460-884e-11c9fa5ba018"
+        "3f8a92d6-c8bd-43ea-86ed-7fc524c06ad8"
       ],
       "frequencyRank": "109",
       "definition": "long; length; excel in; leader",
@@ -1334,25 +1471,20 @@
       "strokeCount": "4",
       "hskLevel": "2",
       "pinyinVariants": [
-        "zhǎng"
+        "cháng"
       ]
     },
     "把": {
       "character": "把",
-      "seenCount": 1,
+      "seenCount": 0,
       "pinyin": "bǎ",
-      "wordReferences": [
-        "f8ff861c-5ee1-4084-a76f-4f45d9b53606"
-      ],
+      "wordReferences": [],
       "frequencyRank": "110",
       "definition": "hold, take; guard; regard as",
       "radical": "手",
       "radicalCode": "64.4",
       "strokeCount": "7",
-      "hskLevel": "3",
-      "pinyinVariants": [
-        "bǎ"
-      ]
+      "hskLevel": "3"
     },
     "机": {
       "character": "机",
@@ -1404,20 +1536,15 @@
     },
     "公": {
       "character": "公",
-      "seenCount": 1,
+      "seenCount": 0,
       "pinyin": "gōng",
-      "wordReferences": [
-        "7eaab1a4-76d6-45ed-9dec-8efa775315b5"
-      ],
+      "wordReferences": [],
       "frequencyRank": "115",
       "definition": "fair, equitable; public; duke",
       "radical": "八",
       "radicalCode": "12.2",
       "strokeCount": "4",
-      "hskLevel": "2",
-      "pinyinVariants": [
-        "gōng"
-      ]
+      "hskLevel": "2"
     },
     "此": {
       "character": "此",
@@ -1481,15 +1608,20 @@
     },
     "明": {
       "character": "明",
-      "seenCount": 0,
+      "seenCount": 1,
       "pinyin": "míng",
-      "wordReferences": [],
+      "wordReferences": [
+        "2abcac39-b1ca-4ca6-9d5f-14fd4f8c36aa"
+      ],
       "frequencyRank": "121",
       "definition": "bright, light, brilliant; clear",
       "radical": "日",
       "radicalCode": "72.4",
       "strokeCount": "8",
-      "hskLevel": "1"
+      "hskLevel": "1",
+      "pinyinVariants": [
+        "míng"
+      ]
     },
     "性": {
       "character": "性",
@@ -1673,27 +1805,37 @@
     },
     "问": {
       "character": "问",
-      "seenCount": 0,
+      "seenCount": 1,
       "pinyin": "wèn",
-      "wordReferences": [],
+      "wordReferences": [
+        "ce1c90f6-421b-4fc2-983f-f9dc0e356d2b"
+      ],
       "frequencyRank": "137",
       "definition": "ask about, inquire after",
       "radical": "門",
       "radicalCode": "169.3",
       "strokeCount": "6",
-      "hskLevel": "2"
+      "hskLevel": "2",
+      "pinyinVariants": [
+        "wèn"
+      ]
     },
     "很": {
       "character": "很",
-      "seenCount": 0,
+      "seenCount": 2,
       "pinyin": "hěn",
-      "wordReferences": [],
+      "wordReferences": [
+        "5d8c7dfe-938e-45ec-b97e-8558fadc146c"
+      ],
       "frequencyRank": "138",
       "definition": "very, quite, much",
       "radical": "彳",
       "radicalCode": "60.6",
       "strokeCount": "9",
-      "hskLevel": "1"
+      "hskLevel": "1",
+      "pinyinVariants": [
+        "hěn"
+      ]
     },
     "最": {
       "character": "最",
@@ -1709,21 +1851,15 @@
     },
     "重": {
       "character": "重",
-      "seenCount": 2,
+      "seenCount": 0,
       "pinyin": "zhòng",
-      "wordReferences": [
-        "79bf723b-5162-4e07-b3e6-7ff8cfe313b4"
-      ],
+      "wordReferences": [],
       "frequencyRank": "140",
       "definition": "heavy, weighty; double",
       "radical": "里",
       "radicalCode": "166.2",
       "strokeCount": "9",
-      "hskLevel": "3",
-      "pinyinVariants": [
-        "zhòng",
-        "chóng"
-      ]
+      "hskLevel": "3"
     },
     "并": {
       "character": "并",
@@ -1811,15 +1947,20 @@
     },
     "文": {
       "character": "文",
-      "seenCount": 0,
+      "seenCount": 1,
       "pinyin": "wén",
-      "wordReferences": [],
+      "wordReferences": [
+        "1ee74a7d-8f8b-435c-95cb-d0498d48972b"
+      ],
       "frequencyRank": "148",
       "definition": "literature, culture, writing",
       "radical": "文",
       "radicalCode": "67.0",
       "strokeCount": "4",
-      "hskLevel": "3"
+      "hskLevel": "3",
+      "pinyinVariants": [
+        "wén"
+      ]
     },
     "体": {
       "character": "体",
@@ -1907,15 +2048,20 @@
     },
     "什": {
       "character": "什",
-      "seenCount": 0,
+      "seenCount": 1,
       "pinyin": "shén",
-      "wordReferences": [],
+      "wordReferences": [
+        "1d772c34-a5d7-464d-ba7c-b26beb0fe475"
+      ],
       "frequencyRank": "156",
       "definition": "file of ten soldiers; mixed, miscellaneous",
       "radical": "人",
       "radicalCode": "9.2",
       "strokeCount": "4",
-      "hskLevel": "1"
+      "hskLevel": "1",
+      "pinyinVariants": [
+        "shén"
+      ]
     },
     "二": {
       "character": "二",
@@ -2279,15 +2425,20 @@
     },
     "常": {
       "character": "常",
-      "seenCount": 0,
+      "seenCount": 1,
       "pinyin": "cháng",
-      "wordReferences": [],
+      "wordReferences": [
+        "d4b05aa6-ab84-4580-80ea-3641ee0b3d6d"
+      ],
       "frequencyRank": "187",
       "definition": "common, normal, frequent, regular",
       "radical": "巾",
       "radicalCode": "50.8",
       "strokeCount": "11",
-      "hskLevel": "2"
+      "hskLevel": "2",
+      "pinyinVariants": [
+        "cháng"
+      ]
     },
     "先": {
       "character": "先",
@@ -2327,15 +2478,20 @@
     },
     "教": {
       "character": "教",
-      "seenCount": 0,
+      "seenCount": 1,
       "pinyin": "jiào",
-      "wordReferences": [],
+      "wordReferences": [
+        "a4f9ff28-ae56-47cc-ae11-28c495a6571b"
+      ],
       "frequencyRank": "191",
       "definition": "teach, class",
       "radical": "攴",
       "radicalCode": "66.7",
       "strokeCount": "11",
-      "hskLevel": "2"
+      "hskLevel": "2",
+      "pinyinVariants": [
+        "jiào"
+      ]
     },
     "儿": {
       "character": "儿",
@@ -2471,15 +2627,20 @@
     },
     "名": {
       "character": "名",
-      "seenCount": 0,
+      "seenCount": 1,
       "pinyin": "míng",
-      "wordReferences": [],
+      "wordReferences": [
+        "785f79d3-c577-4b86-8efc-2604babbe6e3"
+      ],
       "frequencyRank": "203",
       "definition": "name, rank, title, position",
       "radical": "口",
       "radicalCode": "30.3",
       "strokeCount": "6",
-      "hskLevel": "1"
+      "hskLevel": "1",
+      "pinyinVariants": [
+        "míng"
+      ]
     },
     "真": {
       "character": "真",
@@ -2639,15 +2800,20 @@
     },
     "气": {
       "character": "气",
-      "seenCount": 0,
+      "seenCount": 1,
       "pinyin": "qì",
-      "wordReferences": [],
+      "wordReferences": [
+        "45911558-8766-4bfe-b3f4-cffd6bc6124a"
+      ],
       "frequencyRank": "217",
       "definition": "steam, vapor; KangXi radical 84",
       "radical": "气",
       "radicalCode": "84.0",
       "strokeCount": "4",
-      "hskLevel": "1"
+      "hskLevel": "1",
+      "pinyinVariants": [
+        "qì"
+      ]
     },
     "题": {
       "character": "题",
@@ -2795,15 +2961,20 @@
     },
     "电": {
       "character": "电",
-      "seenCount": 0,
+      "seenCount": 1,
       "pinyin": "diàn",
-      "wordReferences": [],
+      "wordReferences": [
+        "405b3e09-2005-4768-ab3f-dea4b7345f0f"
+      ],
       "frequencyRank": "230",
       "definition": "electricity; electric; lightning",
       "radical": "曰",
       "radicalCode": "73.1",
       "strokeCount": "5",
-      "hskLevel": "1"
+      "hskLevel": "1",
+      "pinyinVariants": [
+        "diàn"
+      ]
     },
     "数": {
       "character": "数",
@@ -2915,15 +3086,20 @@
     },
     "太": {
       "character": "太",
-      "seenCount": 0,
+      "seenCount": 1,
       "pinyin": "tài",
-      "wordReferences": [],
+      "wordReferences": [
+        "a4ab18ed-489f-46f0-9912-ba10dabd4896"
+      ],
       "frequencyRank": "240",
       "definition": "very, too, much; big; extreme",
       "radical": "大",
       "radicalCode": "37.1",
       "strokeCount": "4",
-      "hskLevel": "1"
+      "hskLevel": "1",
+      "pinyinVariants": [
+        "tài"
+      ]
     },
     "量": {
       "character": "量",
@@ -3419,27 +3595,39 @@
     },
     "书": {
       "character": "书",
-      "seenCount": 0,
+      "seenCount": 3,
       "pinyin": "shū",
-      "wordReferences": [],
+      "wordReferences": [
+        "453a35fe-edf9-4ab4-bcf7-7804bc5962e5",
+        "71e5fa9e-0113-439e-9247-7a60c9d39d7b",
+        "a10f9e88-212b-424a-9403-d79599c457f5"
+      ],
       "frequencyRank": "282",
       "definition": "book, letter, document; writings",
       "radical": "丨",
       "radicalCode": "2.3",
       "strokeCount": "4",
-      "hskLevel": "1"
+      "hskLevel": "1",
+      "pinyinVariants": [
+        "shū"
+      ]
     },
     "非": {
       "character": "非",
-      "seenCount": 0,
+      "seenCount": 1,
       "pinyin": "fēi",
-      "wordReferences": [],
+      "wordReferences": [
+        "d4b05aa6-ab84-4580-80ea-3641ee0b3d6d"
+      ],
       "frequencyRank": "283",
       "definition": "not, negative, non-; oppose",
       "radical": "非",
       "radicalCode": "175.0",
       "strokeCount": "8",
-      "hskLevel": "2"
+      "hskLevel": "2",
+      "pinyinVariants": [
+        "fēi"
+      ]
     },
     "则": {
       "character": "则",
@@ -3611,15 +3799,20 @@
     },
     "思": {
       "character": "思",
-      "seenCount": 0,
+      "seenCount": 1,
       "pinyin": "sī",
-      "wordReferences": [],
+      "wordReferences": [
+        "d9a72a2b-d968-4665-baf2-867aca9248d9"
+      ],
       "frequencyRank": "298",
       "definition": "think, consider, ponder; final particle",
       "radical": "心",
       "radicalCode": "61.5",
       "strokeCount": "9",
-      "hskLevel": "2"
+      "hskLevel": "2",
+      "pinyinVariants": [
+        "si"
+      ]
     },
     "王": {
       "character": "王",
@@ -3815,15 +4008,20 @@
     },
     "北": {
       "character": "北",
-      "seenCount": 0,
+      "seenCount": 1,
       "pinyin": "běi",
-      "wordReferences": [],
+      "wordReferences": [
+        "021c53ae-7b17-479d-ba49-46eaf973dea0"
+      ],
       "frequencyRank": "315",
       "definition": "north; northern; northward",
       "radical": "匕",
       "radicalCode": "21.3",
       "strokeCount": "5",
-      "hskLevel": "1"
+      "hskLevel": "1",
+      "pinyinVariants": [
+        "běi"
+      ]
     },
     "边": {
       "character": "边",
@@ -4067,15 +4265,20 @@
     },
     "今": {
       "character": "今",
-      "seenCount": 0,
+      "seenCount": 1,
       "pinyin": "jīn",
-      "wordReferences": [],
+      "wordReferences": [
+        "9856bf84-42fb-4c40-a854-3ad0c93af860"
+      ],
       "frequencyRank": "336",
       "definition": "now, today, modern era",
       "radical": "人",
       "radicalCode": "9.2",
       "strokeCount": "4",
-      "hskLevel": "1"
+      "hskLevel": "1",
+      "pinyinVariants": [
+        "jīn"
+      ]
     },
     "切": {
       "character": "切",
@@ -4223,15 +4426,20 @@
     },
     "步": {
       "character": "步",
-      "seenCount": 0,
+      "seenCount": 1,
       "pinyin": "bù",
-      "wordReferences": [],
+      "wordReferences": [
+        "6005a1d2-5435-4209-a0a3-b1456ded42f5"
+      ],
       "frequencyRank": "349",
       "definition": "step, pace; walk, stroll",
       "radical": "止",
       "radicalCode": "77.3",
       "strokeCount": "7",
-      "hskLevel": "2"
+      "hskLevel": "2",
+      "pinyinVariants": [
+        "bù"
+      ]
     },
     "改": {
       "character": "改",
@@ -4343,15 +4551,20 @@
     },
     "每": {
       "character": "每",
-      "seenCount": 0,
+      "seenCount": 1,
       "pinyin": "měi",
-      "wordReferences": [],
+      "wordReferences": [
+        "a3a69240-a212-47f5-b333-f32af92ec6c4"
+      ],
       "frequencyRank": "359",
       "definition": "every, each",
       "radical": "毋",
       "radicalCode": "80.3",
       "strokeCount": "7",
-      "hskLevel": "2"
+      "hskLevel": "2",
+      "pinyinVariants": [
+        "měi"
+      ]
     },
     "济": {
       "character": "济",
@@ -4439,20 +4652,15 @@
     },
     "办": {
       "character": "办",
-      "seenCount": 1,
+      "seenCount": 0,
       "pinyin": "bàn",
-      "wordReferences": [
-        "7eaab1a4-76d6-45ed-9dec-8efa775315b5"
-      ],
+      "wordReferences": [],
       "frequencyRank": "367",
       "definition": "manage, do, handle; deal with",
       "radical": "力",
       "radicalCode": "19.2",
       "strokeCount": "4",
-      "hskLevel": "3",
-      "pinyinVariants": [
-        "bàn"
-      ]
+      "hskLevel": "3"
     },
     "议": {
       "character": "议",
@@ -4684,15 +4892,20 @@
     },
     "叫": {
       "character": "叫",
-      "seenCount": 0,
+      "seenCount": 1,
       "pinyin": "jiào",
-      "wordReferences": [],
+      "wordReferences": [
+        "7718f971-d982-4c68-b85d-43abd87bbb4f"
+      ],
       "frequencyRank": "387",
       "definition": "cry, shout; hail, greet, call",
       "radical": "口",
       "radicalCode": "30.2",
       "strokeCount": "5",
-      "hskLevel": "1"
+      "hskLevel": "1",
+      "pinyinVariants": [
+        "jiào"
+      ]
     },
     "台": {
       "character": "台",
@@ -4720,15 +4933,20 @@
     },
     "影": {
       "character": "影",
-      "seenCount": 0,
+      "seenCount": 1,
       "pinyin": "yǐng",
-      "wordReferences": [],
+      "wordReferences": [
+        "405b3e09-2005-4768-ab3f-dea4b7345f0f"
+      ],
       "frequencyRank": "390",
       "definition": "shadow; image, reflection; photograph",
       "radical": "彡",
       "radicalCode": "59.12",
       "strokeCount": "15",
-      "hskLevel": "1"
+      "hskLevel": "1",
+      "pinyinVariants": [
+        "yǐng"
+      ]
     },
     "具": {
       "character": "具",
@@ -4756,15 +4974,20 @@
     },
     "字": {
       "character": "字",
-      "seenCount": 0,
+      "seenCount": 1,
       "pinyin": "zì",
-      "wordReferences": [],
+      "wordReferences": [
+        "785f79d3-c577-4b86-8efc-2604babbe6e3"
+      ],
       "frequencyRank": "393",
       "definition": "letter, character, word",
       "radical": "子",
       "radicalCode": "39.3",
       "strokeCount": "6",
-      "hskLevel": "1"
+      "hskLevel": "1",
+      "pinyinVariants": [
+        "zì"
+      ]
     },
     "爱": {
       "character": "爱",
@@ -5092,15 +5315,20 @@
     },
     "请": {
       "character": "请",
-      "seenCount": 0,
+      "seenCount": 1,
       "pinyin": "qǐng",
-      "wordReferences": [],
+      "wordReferences": [
+        "ce1c90f6-421b-4fc2-983f-f9dc0e356d2b"
+      ],
       "frequencyRank": "421",
       "definition": "ask, request; invite; please",
       "radical": "言",
       "radicalCode": "149.8",
       "strokeCount": "10",
-      "hskLevel": "1"
+      "hskLevel": "1",
+      "pinyinVariants": [
+        "qǐng"
+      ]
     },
     "技": {
       "character": "技",
@@ -5512,15 +5740,20 @@
     },
     "史": {
       "character": "史",
-      "seenCount": 0,
+      "seenCount": 1,
       "pinyin": "shǐ",
-      "wordReferences": [],
+      "wordReferences": [
+        "b2f13014-fc52-4374-9857-72b9c8354f7c"
+      ],
       "frequencyRank": "456",
       "definition": "history, chronicle, annals",
       "radical": "口",
       "radicalCode": "30.2",
       "strokeCount": "5",
-      "hskLevel": "3"
+      "hskLevel": "3",
+      "pinyinVariants": [
+        "shǐ"
+      ]
     },
     "委": {
       "character": "委",
@@ -5584,15 +5817,20 @@
     },
     "早": {
       "character": "早",
-      "seenCount": 0,
+      "seenCount": 1,
       "pinyin": "zǎo",
-      "wordReferences": [],
+      "wordReferences": [
+        "dafce188-17d3-4e00-af3d-3a2c9a9f7367"
+      ],
       "frequencyRank": "462",
       "definition": "early; soon; morning",
       "radical": "日",
       "radicalCode": "72.2",
       "strokeCount": "6",
-      "hskLevel": "2"
+      "hskLevel": "2",
+      "pinyinVariants": [
+        "zǎo"
+      ]
     },
     "曾": {
       "character": "曾",
@@ -5680,15 +5918,20 @@
     },
     "吧": {
       "character": "吧",
-      "seenCount": 0,
+      "seenCount": 1,
       "pinyin": "ba",
-      "wordReferences": [],
+      "wordReferences": [
+        "b2020bcd-1c80-4047-8d97-f55f90c3e4fe"
+      ],
       "frequencyRank": "470",
       "definition": "emphatic final particle",
       "radical": "口",
       "radicalCode": "30.4",
       "strokeCount": "7",
-      "hskLevel": "2"
+      "hskLevel": "2",
+      "pinyinVariants": [
+        "ba"
+      ]
     },
     "阿": {
       "character": "阿",
@@ -5704,20 +5947,15 @@
     },
     "李": {
       "character": "李",
-      "seenCount": 1,
+      "seenCount": 0,
       "pinyin": "lǐ",
-      "wordReferences": [
-        "fe3a49ab-4fd6-4a5d-8945-4f103ae27099"
-      ],
+      "wordReferences": [],
       "frequencyRank": "472",
       "definition": "plum; judge; surname",
       "radical": "木",
       "radicalCode": "75.3",
       "strokeCount": "7",
-      "hskLevel": "3",
-      "pinyinVariants": [
-        "lǐ"
-      ]
+      "hskLevel": "3"
     },
     "标": {
       "character": "标",
@@ -5745,27 +5983,37 @@
     },
     "吃": {
       "character": "吃",
-      "seenCount": 0,
+      "seenCount": 1,
       "pinyin": "chī",
-      "wordReferences": [],
+      "wordReferences": [
+        "a6991404-6cfc-4915-a713-95fa33e73cee"
+      ],
       "frequencyRank": "475",
       "definition": "eat; drink; suffer, endure, bear",
       "radical": "口",
       "radicalCode": "30.3",
       "strokeCount": "6",
-      "hskLevel": "1"
+      "hskLevel": "1",
+      "pinyinVariants": [
+        "chī"
+      ]
     },
     "图": {
       "character": "图",
-      "seenCount": 0,
+      "seenCount": 1,
       "pinyin": "tú",
-      "wordReferences": [],
+      "wordReferences": [
+        "71e5fa9e-0113-439e-9247-7a60c9d39d7b"
+      ],
       "frequencyRank": "476",
       "definition": "diagram; chart, map, picture",
       "radical": "囗",
       "radicalCode": "31.5",
       "strokeCount": "8",
-      "hskLevel": "3"
+      "hskLevel": "3",
+      "pinyinVariants": [
+        "tú"
+      ]
     },
     "念": {
       "character": "念",
@@ -5805,27 +6053,37 @@
     },
     "历": {
       "character": "历",
-      "seenCount": 0,
+      "seenCount": 1,
       "pinyin": "lì",
-      "wordReferences": [],
+      "wordReferences": [
+        "b2f13014-fc52-4374-9857-72b9c8354f7c"
+      ],
       "frequencyRank": "480",
       "definition": "history; calendar",
       "radical": "厂",
       "radicalCode": "27.2",
       "strokeCount": "4",
-      "hskLevel": "3"
+      "hskLevel": "3",
+      "pinyinVariants": [
+        "lì"
+      ]
     },
     "首": {
       "character": "首",
-      "seenCount": 0,
+      "seenCount": 1,
       "pinyin": "shǒu",
-      "wordReferences": [],
+      "wordReferences": [
+        "ff822a11-1b95-4945-be80-67cd1392a0e8"
+      ],
       "frequencyRank": "481",
       "definition": "head; first; leader, chief; a poem",
       "radical": "首",
       "radicalCode": "185.0",
       "strokeCount": "9",
-      "hskLevel": "4"
+      "hskLevel": "4",
+      "pinyinVariants": [
+        "shǒu"
+      ]
     },
     "医": {
       "character": "医",
@@ -6837,15 +7095,20 @@
     },
     "京": {
       "character": "京",
-      "seenCount": 0,
+      "seenCount": 1,
       "pinyin": "jīng",
-      "wordReferences": [],
+      "wordReferences": [
+        "021c53ae-7b17-479d-ba49-46eaf973dea0"
+      ],
       "frequencyRank": "566",
       "definition": "capital city",
       "radical": "亠",
       "radicalCode": "8.6",
       "strokeCount": "8",
-      "hskLevel": "1"
+      "hskLevel": "1",
+      "pinyinVariants": [
+        "jīng"
+      ]
     },
     "段": {
       "character": "段",
@@ -7173,15 +7436,20 @@
     },
     "友": {
       "character": "友",
-      "seenCount": 0,
+      "seenCount": 1,
       "pinyin": "yǒu",
-      "wordReferences": [],
+      "wordReferences": [
+        "926bb926-d0ee-4bce-a926-b5bbcf7120d3"
+      ],
       "frequencyRank": "594",
       "definition": "friend, companion; fraternity",
       "radical": "又",
       "radicalCode": "29.2",
       "strokeCount": "4",
-      "hskLevel": "1"
+      "hskLevel": "1",
+      "pinyinVariants": [
+        "yǒu"
+      ]
     },
     "诉": {
       "character": "诉",
@@ -8157,15 +8425,20 @@
     },
     "习": {
       "character": "习",
-      "seenCount": 0,
+      "seenCount": 1,
       "pinyin": "xí",
-      "wordReferences": [],
+      "wordReferences": [
+        "5144039f-0c30-478b-9201-41a65af8581d"
+      ],
       "frequencyRank": "676",
       "definition": "practice; flapping wings",
       "radical": "冫",
       "radicalCode": "15.1",
       "strokeCount": "3",
-      "hskLevel": "1"
+      "hskLevel": "1",
+      "pinyinVariants": [
+        "xí"
+      ]
     },
     "置": {
       "character": "置",
@@ -8544,7 +8817,7 @@
       "seenCount": 1,
       "pinyin": "shì",
       "wordReferences": [
-        "7eaab1a4-76d6-45ed-9dec-8efa775315b5"
+        "a4f9ff28-ae56-47cc-ae11-28c495a6571b"
       ],
       "frequencyRank": "708",
       "definition": "room, home, house, chamber",
@@ -9134,20 +9407,15 @@
     },
     "银": {
       "character": "银",
-      "seenCount": 1,
+      "seenCount": 0,
       "pinyin": "yín",
-      "wordReferences": [
-        "23b7b825-49fb-42f1-b76b-8d57bce2db79"
-      ],
+      "wordReferences": [],
       "frequencyRank": "757",
       "definition": "silver; cash, money, wealth",
       "radical": "金",
       "radicalCode": "167.6",
       "strokeCount": "11",
-      "hskLevel": "3",
-      "pinyinVariants": [
-        "yín"
-      ]
+      "hskLevel": "3"
     },
     "买": {
       "character": "买",
@@ -10423,15 +10691,20 @@
     },
     "跑": {
       "character": "跑",
-      "seenCount": 0,
+      "seenCount": 1,
       "pinyin": "pǎo",
-      "wordReferences": [],
+      "wordReferences": [
+        "6005a1d2-5435-4209-a0a3-b1456ded42f5"
+      ],
       "frequencyRank": "864",
       "definition": "run, flee, leave in hurry",
       "radical": "足",
       "radicalCode": "157.5",
       "strokeCount": "12",
-      "hskLevel": "2"
+      "hskLevel": "2",
+      "pinyinVariants": [
+        "pǎo"
+      ]
     },
     "梦": {
       "character": "梦",
@@ -10639,15 +10912,20 @@
     },
     "朋": {
       "character": "朋",
-      "seenCount": 0,
+      "seenCount": 1,
       "pinyin": "péng",
-      "wordReferences": [],
+      "wordReferences": [
+        "926bb926-d0ee-4bce-a926-b5bbcf7120d3"
+      ],
       "frequencyRank": "882",
       "definition": "friend, pal, acquaintance",
       "radical": "月",
       "radicalCode": "74.4",
       "strokeCount": "8",
-      "hskLevel": "1"
+      "hskLevel": "1",
+      "pinyinVariants": [
+        "péng"
+      ]
     },
     "画": {
       "character": "画",
@@ -11275,15 +11553,20 @@
     },
     "饭": {
       "character": "饭",
-      "seenCount": 0,
+      "seenCount": 1,
       "pinyin": "fàn",
-      "wordReferences": [],
+      "wordReferences": [
+        "a6991404-6cfc-4915-a713-95fa33e73cee"
+      ],
       "frequencyRank": "935",
       "definition": "cooked rice; food, meal",
       "radical": "食",
       "radicalCode": "184.4",
       "strokeCount": "7",
-      "hskLevel": "1"
+      "hskLevel": "1",
+      "pinyinVariants": [
+        "fàn"
+      ]
     },
     "额": {
       "character": "额",
@@ -12187,15 +12470,20 @@
     },
     "馆": {
       "character": "馆",
-      "seenCount": 0,
+      "seenCount": 1,
       "pinyin": "guǎn",
-      "wordReferences": [],
+      "wordReferences": [
+        "71e5fa9e-0113-439e-9247-7a60c9d39d7b"
+      ],
       "frequencyRank": "1011",
       "definition": "public building",
       "radical": "食",
       "radicalCode": "184.8",
       "strokeCount": "11",
-      "hskLevel": "2"
+      "hskLevel": "2",
+      "pinyinVariants": [
+        "guǎn"
+      ]
     },
     "遍": {
       "character": "遍",
@@ -14551,15 +14839,20 @@
     },
     "课": {
       "character": "课",
-      "seenCount": 0,
+      "seenCount": 1,
       "pinyin": "kè",
-      "wordReferences": [],
+      "wordReferences": [
+        "b53be05f-09c8-419d-9760-b9d626a2be7c"
+      ],
       "frequencyRank": "1208",
       "definition": "lesson; course; classwork",
       "radical": "言",
       "radicalCode": "149.8",
       "strokeCount": "10",
-      "hskLevel": "2"
+      "hskLevel": "2",
+      "pinyinVariants": [
+        "kè"
+      ]
     },
     "敬": {
       "character": "敬",
@@ -24064,754 +24357,1255 @@
       "radicalCode": "85.5",
       "strokeCount": "8",
       "hskLevel": "6"
-    },
-    "馅": {
-      "character": "馅",
-      "seenCount": 0,
-      "pinyin": "",
-      "wordReferences": []
-    },
-    "甜": {
-      "character": "甜",
-      "seenCount": 0,
-      "pinyin": "",
-      "wordReferences": []
-    },
-    "麵": {
-      "character": "麵",
-      "seenCount": 0,
-      "pinyin": "",
-      "wordReferences": []
-    },
-    "飽": {
-      "character": "飽",
-      "seenCount": 0,
-      "pinyin": "",
-      "wordReferences": []
-    },
-    "義": {
-      "character": "義",
-      "seenCount": 0,
-      "pinyin": "",
-      "wordReferences": []
-    },
-    "麭": {
-      "character": "麭",
-      "seenCount": 0,
-      "pinyin": "",
-      "wordReferences": []
-    },
-    "簡": {
-      "character": "簡",
-      "seenCount": 0,
-      "pinyin": "",
-      "wordReferences": []
-    },
-    "稱": {
-      "character": "稱",
-      "seenCount": 0,
-      "pinyin": "",
-      "wordReferences": []
-    },
-    "葡": {
-      "character": "葡",
-      "seenCount": 0,
-      "pinyin": "",
-      "wordReferences": []
-    },
-    "語": {
-      "character": "語",
-      "seenCount": 0,
-      "pinyin": "",
-      "wordReferences": []
-    },
-    "譯": {
-      "character": "譯",
-      "seenCount": 0,
-      "pinyin": "",
-      "wordReferences": []
-    },
-    "單": {
-      "character": "單",
-      "seenCount": 0,
-      "pinyin": "",
-      "wordReferences": []
-    },
-    "純": {
-      "character": "純",
-      "seenCount": 0,
-      "pinyin": "",
-      "wordReferences": []
-    },
-    "昇": {
-      "character": "昇",
-      "seenCount": 0,
-      "pinyin": "",
-      "wordReferences": []
-    },
-    "導": {
-      "character": "導",
-      "seenCount": 0,
-      "pinyin": "",
-      "wordReferences": []
-    },
-    "質": {
-      "character": "質",
-      "seenCount": 0,
-      "pinyin": "",
-      "wordReferences": []
-    },
-    "庸": {
-      "character": "庸",
-      "seenCount": 0,
-      "pinyin": "",
-      "wordReferences": []
-    },
-    "個": {
-      "character": "個",
-      "seenCount": 0,
-      "pinyin": "",
-      "wordReferences": []
-    },
-    "內": {
-      "character": "內",
-      "seenCount": 0,
-      "pinyin": "",
-      "wordReferences": []
-    },
-    "陸": {
-      "character": "陸",
-      "seenCount": 0,
-      "pinyin": "",
-      "wordReferences": []
-    },
-    "國": {
-      "character": "國",
-      "seenCount": 0,
-      "pinyin": "",
-      "wordReferences": []
-    },
-    "劃": {
-      "character": "劃",
-      "seenCount": 0,
-      "pinyin": "",
-      "wordReferences": []
-    },
-    "爾": {
-      "character": "爾",
-      "seenCount": 0,
-      "pinyin": "",
-      "wordReferences": []
-    },
-    "卑": {
-      "character": "卑",
-      "seenCount": 0,
-      "pinyin": "",
-      "wordReferences": []
-    },
-    "侏": {
-      "character": "侏",
-      "seenCount": 0,
-      "pinyin": "",
-      "wordReferences": []
-    },
-    "羅": {
-      "character": "羅",
-      "seenCount": 0,
-      "pinyin": "",
-      "wordReferences": []
-    },
-    "脈": {
-      "character": "脈",
-      "seenCount": 0,
-      "pinyin": "",
-      "wordReferences": []
-    },
-    "總": {
-      "character": "總",
-      "seenCount": 0,
-      "pinyin": "",
-      "wordReferences": []
-    },
-    "積": {
-      "character": "積",
-      "seenCount": 0,
-      "pinyin": "",
-      "wordReferences": []
-    },
-    "達": {
-      "character": "達",
-      "seenCount": 0,
-      "pinyin": "",
-      "wordReferences": []
-    },
-    "當": {
-      "character": "當",
-      "seenCount": 0,
-      "pinyin": "",
-      "wordReferences": []
-    },
-    "為": {
-      "character": "為",
-      "seenCount": 0,
-      "pinyin": "",
-      "wordReferences": []
-    },
-    "廣": {
-      "character": "廣",
-      "seenCount": 0,
-      "pinyin": "",
-      "wordReferences": []
-    },
-    "闊": {
-      "character": "闊",
-      "seenCount": 0,
-      "pinyin": "",
-      "wordReferences": []
-    },
-    "僅": {
-      "character": "僅",
-      "seenCount": 0,
-      "pinyin": "",
-      "wordReferences": []
-    },
-    "萬": {
-      "character": "萬",
-      "seenCount": 0,
-      "pinyin": "",
-      "wordReferences": []
-    },
-    "區": {
-      "character": "區",
-      "seenCount": 0,
-      "pinyin": "",
-      "wordReferences": []
-    },
-    "該": {
-      "character": "該",
-      "seenCount": 0,
-      "pinyin": "",
-      "wordReferences": []
-    },
-    "經": {
-      "character": "經",
-      "seenCount": 0,
-      "pinyin": "",
-      "wordReferences": []
-    },
-    "濟": {
-      "character": "濟",
-      "seenCount": 0,
-      "pinyin": "",
-      "wordReferences": []
-    },
-    "蘇": {
-      "character": "蘇",
-      "seenCount": 0,
-      "pinyin": "",
-      "wordReferences": []
-    },
-    "風": {
-      "character": "風",
-      "seenCount": 0,
-      "pinyin": "",
-      "wordReferences": []
-    },
-    "氣": {
-      "character": "氣",
-      "seenCount": 0,
-      "pinyin": "",
-      "wordReferences": []
-    },
-    "條": {
-      "character": "條",
-      "seenCount": 0,
-      "pinyin": "",
-      "wordReferences": []
-    },
-    "優": {
-      "character": "優",
-      "seenCount": 0,
-      "pinyin": "",
-      "wordReferences": []
-    },
-    "園": {
-      "character": "園",
-      "seenCount": 0,
-      "pinyin": "",
-      "wordReferences": []
-    },
-    "譽": {
-      "character": "譽",
-      "seenCount": 0,
-      "pinyin": "",
-      "wordReferences": []
-    },
-    "迭": {
-      "character": "迭",
-      "seenCount": 0,
-      "pinyin": "",
-      "wordReferences": []
-    },
-    "辰": {
-      "character": "辰",
-      "seenCount": 0,
-      "pinyin": "",
-      "wordReferences": []
-    },
-    "厢": {
-      "character": "厢",
-      "seenCount": 0,
-      "pinyin": "",
-      "wordReferences": []
-    },
-    "開": {
-      "character": "開",
-      "seenCount": 0,
-      "pinyin": "",
-      "wordReferences": []
-    },
-    "於": {
-      "character": "於",
-      "seenCount": 0,
-      "pinyin": "",
-      "wordReferences": []
-    },
-    "約": {
-      "character": "約",
-      "seenCount": 0,
-      "pinyin": "",
-      "wordReferences": []
-    },
-    "並": {
-      "character": "並",
-      "seenCount": 0,
-      "pinyin": "",
-      "wordReferences": []
-    },
-    "維": {
-      "character": "維",
-      "seenCount": 0,
-      "pinyin": "",
-      "wordReferences": []
-    },
-    "納": {
-      "character": "納",
-      "seenCount": 0,
-      "pinyin": "",
-      "wordReferences": []
-    },
-    "會": {
-      "character": "會",
-      "seenCount": 0,
-      "pinyin": "",
-      "wordReferences": []
-    },
-    "議": {
-      "character": "議",
-      "seenCount": 0,
-      "pinyin": "",
-      "wordReferences": []
-    },
-    "認": {
-      "character": "認",
-      "seenCount": 0,
-      "pinyin": "",
-      "wordReferences": []
-    },
-    "現": {
-      "character": "現",
-      "seenCount": 0,
-      "pinyin": "",
-      "wordReferences": []
-    },
-    "聯": {
-      "character": "聯",
-      "seenCount": 0,
-      "pinyin": "",
-      "wordReferences": []
-    },
-    "體": {
-      "character": "體",
-      "seenCount": 0,
-      "pinyin": "",
-      "wordReferences": []
-    },
-    "憲": {
-      "character": "憲",
-      "seenCount": 0,
-      "pinyin": "",
-      "wordReferences": []
-    },
-    "確": {
-      "character": "確",
-      "seenCount": 0,
-      "pinyin": "",
-      "wordReferences": []
-    },
-    "奠": {
-      "character": "奠",
-      "seenCount": 0,
-      "pinyin": "",
-      "wordReferences": []
-    },
-    "締": {
-      "character": "締",
-      "seenCount": 0,
-      "pinyin": "",
-      "wordReferences": []
-    },
-    "結": {
-      "character": "結",
-      "seenCount": 0,
-      "pinyin": "",
-      "wordReferences": []
-    },
-    "護": {
-      "character": "護",
-      "seenCount": 0,
-      "pinyin": "",
-      "wordReferences": []
-    },
-    "鬆": {
-      "character": "鬆",
-      "seenCount": 0,
-      "pinyin": "",
-      "wordReferences": []
-    },
-    "關": {
-      "character": "關",
-      "seenCount": 0,
-      "pinyin": "",
-      "wordReferences": []
-    },
-    "係": {
-      "character": "係",
-      "seenCount": 0,
-      "pinyin": "",
-      "wordReferences": []
-    },
-    "續": {
-      "character": "續",
-      "seenCount": 0,
-      "pinyin": "",
-      "wordReferences": []
-    },
-    "數": {
-      "character": "數",
-      "seenCount": 0,
-      "pinyin": "",
-      "wordReferences": []
-    },
-    "紀": {
-      "character": "紀",
-      "seenCount": 0,
-      "pinyin": "",
-      "wordReferences": []
-    },
-    "屬": {
-      "character": "屬",
-      "seenCount": 0,
-      "pinyin": "",
-      "wordReferences": []
-    },
-    "溫": {
-      "character": "溫",
-      "seenCount": 0,
-      "pinyin": "",
-      "wordReferences": []
-    },
-    "帶": {
-      "character": "帶",
-      "seenCount": 0,
-      "pinyin": "",
-      "wordReferences": []
-    },
-    "則": {
-      "character": "則",
-      "seenCount": 0,
-      "pinyin": "",
-      "wordReferences": []
-    },
-    "異": {
-      "character": "異",
-      "seenCount": 0,
-      "pinyin": "",
-      "wordReferences": []
-    },
-    "過": {
-      "character": "過",
-      "seenCount": 0,
-      "pinyin": "",
-      "wordReferences": []
-    },
-    "東": {
-      "character": "東",
-      "seenCount": 0,
-      "pinyin": "",
-      "wordReferences": []
-    },
-    "種": {
-      "character": "種",
-      "seenCount": 0,
-      "pinyin": "",
-      "wordReferences": []
-    },
-    "酵": {
-      "character": "酵",
-      "seenCount": 0,
-      "pinyin": "",
-      "wordReferences": []
-    },
-    "蓬": {
-      "character": "蓬",
-      "seenCount": 0,
-      "pinyin": "",
-      "wordReferences": []
-    },
-    "較": {
-      "character": "較",
-      "seenCount": 0,
-      "pinyin": "",
-      "wordReferences": []
-    },
-    "烘": {
-      "character": "烘",
-      "seenCount": 0,
-      "pinyin": "",
-      "wordReferences": []
-    },
-    "焙": {
-      "character": "焙",
-      "seenCount": 0,
-      "pinyin": "",
-      "wordReferences": []
-    },
-    "揉": {
-      "character": "揉",
-      "seenCount": 0,
-      "pinyin": "",
-      "wordReferences": []
-    },
-    "烤": {
-      "character": "烤",
-      "seenCount": 0,
-      "pinyin": "",
-      "wordReferences": []
-    },
-    "紐": {
-      "character": "紐",
-      "seenCount": 0,
-      "pinyin": "",
-      "wordReferences": []
-    },
-    "蘭": {
-      "character": "蘭",
-      "seenCount": 0,
-      "pinyin": "",
-      "wordReferences": []
     }
   },
   "words": {
-    "79bf723b-5162-4e07-b3e6-7ff8cfe313b4": {
-      "id": "79bf723b-5162-4e07-b3e6-7ff8cfe313b4",
-      "word": "重重地",
+    "9856bf84-42fb-4c40-a854-3ad0c93af860": {
+      "id": "9856bf84-42fb-4c40-a854-3ad0c93af860",
+      "word": "今天",
       "meanings": [
-        "heavily"
+        "today"
       ],
       "seenCount": 1,
       "occurrenceIds": [
-        "195f95ae-1f1a-4cd8-a4ec-ea84267bce26"
+        "56bce221-a0df-46b3-9718-9e3a37ec4ab0"
       ]
     },
-    "f8ff861c-5ee1-4084-a76f-4f45d9b53606": {
-      "id": "f8ff861c-5ee1-4084-a76f-4f45d9b53606",
-      "word": "把",
+    "45911558-8766-4bfe-b3f4-cffd6bc6124a": {
+      "id": "45911558-8766-4bfe-b3f4-cffd6bc6124a",
+      "word": "天气",
       "meanings": [
-        "particle indicating disposal/handling"
+        "weather"
       ],
       "seenCount": 1,
       "occurrenceIds": [
-        "84f9915e-235e-40a0-8ee0-449a98427780"
+        "a08e92e9-de58-4c16-af41-aaccf6a4f084"
       ]
     },
-    "fe3a49ab-4fd6-4a5d-8945-4f103ae27099": {
-      "id": "fe3a49ab-4fd6-4a5d-8945-4f103ae27099",
-      "word": "行李",
+    "5d8c7dfe-938e-45ec-b97e-8558fadc146c": {
+      "id": "5d8c7dfe-938e-45ec-b97e-8558fadc146c",
+      "word": "很",
       "meanings": [
-        "luggage"
+        "very"
+      ],
+      "seenCount": 2,
+      "occurrenceIds": [
+        "c76b0627-f984-4374-aad4-4dbc5d297a0c",
+        "87ec1a09-aac1-4837-9531-f581dd777243"
+      ]
+    },
+    "ae5bc672-0dd5-4f24-90c7-e1f8c776d9b2": {
+      "id": "ae5bc672-0dd5-4f24-90c7-e1f8c776d9b2",
+      "word": "好",
+      "meanings": [
+        "good"
       ],
       "seenCount": 1,
       "occurrenceIds": [
-        "2b725c5e-84b3-4702-a94f-406cb39b816b"
+        "ce2bc703-da2f-4ac2-b65d-50bc6f84528f"
       ]
     },
-    "d2a15e7e-aac3-42bb-a3cb-ae546f462c3e": {
-      "id": "d2a15e7e-aac3-42bb-a3cb-ae546f462c3e",
-      "word": "行",
+    "2e82efdf-c3af-4411-bf66-3a64028d9cf0": {
+      "id": "2e82efdf-c3af-4411-bf66-3a64028d9cf0",
+      "word": "我",
       "meanings": [
-        "to carry/transport"
+        "I, me"
+      ],
+      "seenCount": 3,
+      "occurrenceIds": [
+        "f72a5097-8354-4d38-9902-55ffc3305805",
+        "3f90c697-915b-4f03-b534-d76847375956",
+        "f8ead372-4f15-414a-8980-f7b493a76c5d"
+      ]
+    },
+    "c45339f4-68a9-4d44-9899-af5e405606ee": {
+      "id": "c45339f4-68a9-4d44-9899-af5e405606ee",
+      "word": "想",
+      "meanings": [
+        "to want, to think"
       ],
       "seenCount": 1,
       "occurrenceIds": [
-        "586da9b8-3242-49ca-b766-deba6ec39a4e"
+        "40dd7fed-250f-40bd-ab2c-54049d8834e6"
       ]
     },
-    "9ae5544b-74e7-4b77-8307-3d35f5e9e48e": {
-      "id": "9ae5544b-74e7-4b77-8307-3d35f5e9e48e",
-      "word": "到",
+    "5144039f-0c30-478b-9201-41a65af8581d": {
+      "id": "5144039f-0c30-478b-9201-41a65af8581d",
+      "word": "学习",
       "meanings": [
-        "to/until"
+        "to study, to learn"
       ],
       "seenCount": 1,
       "occurrenceIds": [
-        "824a2ba1-56b5-49ea-9014-cc685a90a53a"
+        "cc40067f-ee84-48e4-ad39-7cc00f1c2659"
       ]
     },
-    "23b7b825-49fb-42f1-b76b-8d57bce2db79": {
-      "id": "23b7b825-49fb-42f1-b76b-8d57bce2db79",
-      "word": "银行",
+    "1ee74a7d-8f8b-435c-95cb-d0498d48972b": {
+      "id": "1ee74a7d-8f8b-435c-95cb-d0498d48972b",
+      "word": "中文",
       "meanings": [
-        "bank"
+        "Chinese language"
       ],
       "seenCount": 1,
       "occurrenceIds": [
-        "cbb16cd0-cac9-4da1-a3f3-d13b5c0b318e"
+        "0817533f-ea30-474c-8c4e-d4e3ad1222ae"
       ]
     },
-    "64f376f0-af93-4460-884e-11c9fa5ba018": {
-      "id": "64f376f0-af93-4460-884e-11c9fa5ba018",
-      "word": "行长",
+    "f20096fa-762c-414f-a4e3-c382fd19d339": {
+      "id": "f20096fa-762c-414f-a4e3-c382fd19d339",
+      "word": "他",
       "meanings": [
-        "bank president/manager"
+        "he, him"
       ],
       "seenCount": 1,
       "occurrenceIds": [
-        "6f2eb932-bfb8-4df2-8321-d80a95cd567f"
+        "132b529d-5274-4724-8011-4703fef08088"
       ]
     },
-    "d0322460-57fa-4d8a-a63d-774300dced81": {
-      "id": "d0322460-57fa-4d8a-a63d-774300dced81",
+    "3bdaca83-0252-4b52-9f26-ccced040a209": {
+      "id": "3bdaca83-0252-4b52-9f26-ccced040a209",
+      "word": "是",
+      "meanings": [
+        "to be"
+      ],
+      "seenCount": 2,
+      "occurrenceIds": [
+        "ef09c1e0-a261-46f6-8de7-f0a3f615f82c",
+        "54f80abc-6b47-4eb9-a033-fd6e15e20461"
+      ]
+    },
+    "f644ab88-5798-40a3-9255-3c88ce838ce3": {
+      "id": "f644ab88-5798-40a3-9255-3c88ce838ce3",
       "word": "的",
       "meanings": [
         "possessive particle"
       ],
-      "seenCount": 1,
+      "seenCount": 3,
       "occurrenceIds": [
-        "37def26c-6a28-43f9-b7c4-a531c7f3edc5"
+        "36fe46d6-f1ed-4844-8030-d2424caa9b70",
+        "748100dc-8af2-4d46-a048-6dfa75cdf0c5",
+        "525792db-ba27-4de5-81a9-65d16a0bd33f"
       ]
     },
-    "7eaab1a4-76d6-45ed-9dec-8efa775315b5": {
-      "id": "7eaab1a4-76d6-45ed-9dec-8efa775315b5",
-      "word": "办公室",
+    "926bb926-d0ee-4bce-a926-b5bbcf7120d3": {
+      "id": "926bb926-d0ee-4bce-a926-b5bbcf7120d3",
+      "word": "朋友",
       "meanings": [
-        "office"
+        "friend"
       ],
       "seenCount": 1,
       "occurrenceIds": [
-        "7d4ee2f8-349b-4fca-b5be-a43f3502d311"
+        "a28d2458-db7c-4bbb-965e-8df25fb7389a"
       ]
-    }
-  },
-  "sentences": {
-    "705d685e-dcaf-43c9-87c9-fd308b7e25c6": {
-      "id": "705d685e-dcaf-43c9-87c9-fd308b7e25c6",
-      "text": "重重地把行李行到银行行长的办公室。",
-      "occurrenceIds": [
-        "195f95ae-1f1a-4cd8-a4ec-ea84267bce26",
-        "84f9915e-235e-40a0-8ee0-449a98427780",
-        "2b725c5e-84b3-4702-a94f-406cb39b816b",
-        "586da9b8-3242-49ca-b766-deba6ec39a4e",
-        "824a2ba1-56b5-49ea-9014-cc685a90a53a",
-        "cbb16cd0-cac9-4da1-a3f3-d13b5c0b318e",
-        "6f2eb932-bfb8-4df2-8321-d80a95cd567f",
-        "37def26c-6a28-43f9-b7c4-a531c7f3edc5",
-        "7d4ee2f8-349b-4fca-b5be-a43f3502d311"
+    },
+    "18165248-e71c-4cd9-9988-c892c0e3f30f": {
+      "id": "18165248-e71c-4cd9-9988-c892c0e3f30f",
+      "word": "这",
+      "meanings": [
+        "this"
       ],
-      "source": "https://chatgpt.com/c/68fd6188-7bb4-8328-8672-7566af1aa4af"
+      "seenCount": 1,
+      "occurrenceIds": [
+        "71b4f223-af67-4416-a0fe-00c7a3a97dab"
+      ]
+    },
+    "1671ee4f-b7d7-44ad-a4a2-cf767bce631d": {
+      "id": "1671ee4f-b7d7-44ad-a4a2-cf767bce631d",
+      "word": "本",
+      "meanings": [
+        "measure word for books"
+      ],
+      "seenCount": 1,
+      "occurrenceIds": [
+        "29651790-3929-4a18-b082-7c407c1baa75"
+      ]
+    },
+    "453a35fe-edf9-4ab4-bcf7-7804bc5962e5": {
+      "id": "453a35fe-edf9-4ab4-bcf7-7804bc5962e5",
+      "word": "书",
+      "meanings": [
+        "book"
+      ],
+      "seenCount": 1,
+      "occurrenceIds": [
+        "1c4a9218-190a-438e-8d3b-a6c203fbe86f"
+      ]
+    },
+    "d4b05aa6-ab84-4580-80ea-3641ee0b3d6d": {
+      "id": "d4b05aa6-ab84-4580-80ea-3641ee0b3d6d",
+      "word": "非常",
+      "meanings": [
+        "very, extremely"
+      ],
+      "seenCount": 1,
+      "occurrenceIds": [
+        "ef3ae166-1358-4964-a789-bf386fa631c1"
+      ]
+    },
+    "d9a72a2b-d968-4665-baf2-867aca9248d9": {
+      "id": "d9a72a2b-d968-4665-baf2-867aca9248d9",
+      "word": "有意思",
+      "meanings": [
+        "interesting"
+      ],
+      "seenCount": 1,
+      "occurrenceIds": [
+        "0a2fc942-41d6-41f3-a19f-ac4345c65f12"
+      ]
+    },
+    "ce1c90f6-421b-4fc2-983f-f9dc0e356d2b": {
+      "id": "ce1c90f6-421b-4fc2-983f-f9dc0e356d2b",
+      "word": "请问",
+      "meanings": [
+        "may I ask"
+      ],
+      "seenCount": 1,
+      "occurrenceIds": [
+        "f98c9675-e5d6-4fcf-9770-6df9f7bade0c"
+      ]
+    },
+    "4123d555-b16a-4a1c-a557-7d8c1cfae044": {
+      "id": "4123d555-b16a-4a1c-a557-7d8c1cfae044",
+      "word": "你",
+      "meanings": [
+        "you"
+      ],
+      "seenCount": 1,
+      "occurrenceIds": [
+        "931d3e9f-1313-4b01-b439-1a80c2c02287"
+      ]
+    },
+    "7718f971-d982-4c68-b85d-43abd87bbb4f": {
+      "id": "7718f971-d982-4c68-b85d-43abd87bbb4f",
+      "word": "叫",
+      "meanings": [
+        "to be called"
+      ],
+      "seenCount": 1,
+      "occurrenceIds": [
+        "f77a1690-9ed5-4644-b663-94fac6b1a79e"
+      ]
+    },
+    "1d772c34-a5d7-464d-ba7c-b26beb0fe475": {
+      "id": "1d772c34-a5d7-464d-ba7c-b26beb0fe475",
+      "word": "什么",
+      "meanings": [
+        "what"
+      ],
+      "seenCount": 1,
+      "occurrenceIds": [
+        "bff132f4-405d-49c7-a960-b66c102a264d"
+      ]
+    },
+    "785f79d3-c577-4b86-8efc-2604babbe6e3": {
+      "id": "785f79d3-c577-4b86-8efc-2604babbe6e3",
+      "word": "名字",
+      "meanings": [
+        "name"
+      ],
+      "seenCount": 1,
+      "occurrenceIds": [
+        "8e508f66-bd13-4448-8de9-15f0904d9248"
+      ]
+    },
+    "7b29599c-caf3-4e5f-9244-c38db836a54e": {
+      "id": "7b29599c-caf3-4e5f-9244-c38db836a54e",
+      "word": "中国",
+      "meanings": [
+        "China"
+      ],
+      "seenCount": 2,
+      "occurrenceIds": [
+        "9b6c097f-7593-49ed-9e1f-727c0d2324ad",
+        "62af7c5b-65b0-48d1-90bf-383f9777f1bf"
+      ]
+    },
+    "b2f13014-fc52-4374-9857-72b9c8354f7c": {
+      "id": "b2f13014-fc52-4374-9857-72b9c8354f7c",
+      "word": "历史",
+      "meanings": [
+        "history"
+      ],
+      "seenCount": 1,
+      "occurrenceIds": [
+        "a1d6fa75-00b3-4b70-a7b5-addcfc78243c"
+      ]
+    },
+    "3f8a92d6-c8bd-43ea-86ed-7fc524c06ad8": {
+      "id": "3f8a92d6-c8bd-43ea-86ed-7fc524c06ad8",
+      "word": "长",
+      "meanings": [
+        "long"
+      ],
+      "seenCount": 1,
+      "occurrenceIds": [
+        "bc39e1f7-3749-4f60-b0bf-37742e9113f2"
+      ]
+    },
+    "fcb3ded3-c14b-4853-8c83-291d5c6401a0": {
+      "id": "fcb3ded3-c14b-4853-8c83-291d5c6401a0",
+      "word": "她",
+      "meanings": [
+        "she, her"
+      ],
+      "seenCount": 1,
+      "occurrenceIds": [
+        "918f94ae-56ce-49bf-b07c-4716a2d580a9"
+      ]
+    },
+    "a3a69240-a212-47f5-b333-f32af92ec6c4": {
+      "id": "a3a69240-a212-47f5-b333-f32af92ec6c4",
+      "word": "每天",
+      "meanings": [
+        "every day"
+      ],
+      "seenCount": 1,
+      "occurrenceIds": [
+        "e55b75d2-32ff-4ddd-9547-ae530cb53f0e"
+      ]
+    },
+    "dafce188-17d3-4e00-af3d-3a2c9a9f7367": {
+      "id": "dafce188-17d3-4e00-af3d-3a2c9a9f7367",
+      "word": "早上",
+      "meanings": [
+        "morning"
+      ],
+      "seenCount": 1,
+      "occurrenceIds": [
+        "285cfa43-7b9f-49e6-950e-c3f87aedaa5a"
+      ]
+    },
+    "6005a1d2-5435-4209-a0a3-b1456ded42f5": {
+      "id": "6005a1d2-5435-4209-a0a3-b1456ded42f5",
+      "word": "跑步",
+      "meanings": [
+        "to jog, to run"
+      ],
+      "seenCount": 1,
+      "occurrenceIds": [
+        "ba239187-d001-4ae9-9511-0fc858b70490"
+      ]
+    },
+    "b4681b21-8f06-4b56-a2e9-59dcaf599315": {
+      "id": "b4681b21-8f06-4b56-a2e9-59dcaf599315",
+      "word": "我们",
+      "meanings": [
+        "we, us"
+      ],
+      "seenCount": 1,
+      "occurrenceIds": [
+        "76a16075-4fac-4d83-a512-f32a2e4badbc"
+      ]
+    },
+    "726229f8-b098-4ec2-acce-53961014683d": {
+      "id": "726229f8-b098-4ec2-acce-53961014683d",
+      "word": "一起",
+      "meanings": [
+        "together"
+      ],
+      "seenCount": 1,
+      "occurrenceIds": [
+        "2f18919b-39fd-4433-accd-9741daa08a68"
+      ]
+    },
+    "abc5e7cd-f216-4f9a-ac6b-3996bbb0703c": {
+      "id": "abc5e7cd-f216-4f9a-ac6b-3996bbb0703c",
+      "word": "去",
+      "meanings": [
+        "to go"
+      ],
+      "seenCount": 2,
+      "occurrenceIds": [
+        "5686eeb7-3e50-4a77-96d3-2c4b408415ce",
+        "65dff44b-f42c-45ee-ba4e-348b3a5e876f"
+      ]
+    },
+    "a6991404-6cfc-4915-a713-95fa33e73cee": {
+      "id": "a6991404-6cfc-4915-a713-95fa33e73cee",
+      "word": "吃饭",
+      "meanings": [
+        "to eat (a meal)"
+      ],
+      "seenCount": 1,
+      "occurrenceIds": [
+        "7e1f61b4-1c67-44e8-acf0-dec528b5f8a1"
+      ]
+    },
+    "b2020bcd-1c80-4047-8d97-f55f90c3e4fe": {
+      "id": "b2020bcd-1c80-4047-8d97-f55f90c3e4fe",
+      "word": "吧",
+      "meanings": [
+        "suggestion particle"
+      ],
+      "seenCount": 1,
+      "occurrenceIds": [
+        "291f1c93-517c-4575-9f5a-9852960c42b2"
+      ]
+    },
+    "021c53ae-7b17-479d-ba49-46eaf973dea0": {
+      "id": "021c53ae-7b17-479d-ba49-46eaf973dea0",
+      "word": "北京",
+      "meanings": [
+        "Beijing"
+      ],
+      "seenCount": 1,
+      "occurrenceIds": [
+        "9dfebedc-76bb-4de8-9ccf-2a11318fd823"
+      ]
+    },
+    "ff822a11-1b95-4945-be80-67cd1392a0e8": {
+      "id": "ff822a11-1b95-4945-be80-67cd1392a0e8",
+      "word": "首都",
+      "meanings": [
+        "capital city"
+      ],
+      "seenCount": 1,
+      "occurrenceIds": [
+        "9ae4138e-e85c-4ccb-94dc-b253dac281ef"
+      ]
+    },
+    "36c853b0-ca9f-437f-a006-e4accd13b85d": {
+      "id": "36c853b0-ca9f-437f-a006-e4accd13b85d",
+      "word": "学生",
+      "meanings": [
+        "student"
+      ],
+      "seenCount": 1,
+      "occurrenceIds": [
+        "7ea0c721-91be-4c9e-aa51-153a23a409ad"
+      ]
+    },
+    "90126397-4297-4cc9-830e-eee081609323": {
+      "id": "90126397-4297-4cc9-830e-eee081609323",
+      "word": "们",
+      "meanings": [
+        "plural suffix"
+      ],
+      "seenCount": 1,
+      "occurrenceIds": [
+        "2bde386f-010e-438e-87f2-1c2a275fbef0"
+      ]
+    },
+    "9698d6cb-9e3a-4b84-9b48-28027319cc37": {
+      "id": "9698d6cb-9e3a-4b84-9b48-28027319cc37",
+      "word": "在",
+      "meanings": [
+        "at, in"
+      ],
+      "seenCount": 1,
+      "occurrenceIds": [
+        "88e12323-34f2-434e-9509-42cc87da050d"
+      ]
+    },
+    "a4f9ff28-ae56-47cc-ae11-28c495a6571b": {
+      "id": "a4f9ff28-ae56-47cc-ae11-28c495a6571b",
+      "word": "教室",
+      "meanings": [
+        "classroom"
+      ],
+      "seenCount": 1,
+      "occurrenceIds": [
+        "7d407941-73ac-4f5a-98f9-371b43c276a1"
+      ]
+    },
+    "52aa64fa-5839-43b6-a199-14e79c05431f": {
+      "id": "52aa64fa-5839-43b6-a199-14e79c05431f",
+      "word": "里",
+      "meanings": [
+        "inside"
+      ],
+      "seenCount": 1,
+      "occurrenceIds": [
+        "daaca2e6-883e-4037-ada1-ff2b5edfd01a"
+      ]
+    },
+    "b53be05f-09c8-419d-9760-b9d626a2be7c": {
+      "id": "b53be05f-09c8-419d-9760-b9d626a2be7c",
+      "word": "上课",
+      "meanings": [
+        "to attend class"
+      ],
+      "seenCount": 1,
+      "occurrenceIds": [
+        "a3d50c0d-d1ae-48ec-b84b-f694d5815522"
+      ]
+    },
+    "6fa7378c-285a-46b9-bbdf-0be3b162e377": {
+      "id": "6fa7378c-285a-46b9-bbdf-0be3b162e377",
+      "word": "这个",
+      "meanings": [
+        "this"
+      ],
+      "seenCount": 1,
+      "occurrenceIds": [
+        "4651791f-8ba2-4242-a92d-32753ee01932"
+      ]
+    },
+    "405b3e09-2005-4768-ab3f-dea4b7345f0f": {
+      "id": "405b3e09-2005-4768-ab3f-dea4b7345f0f",
+      "word": "电影",
+      "meanings": [
+        "movie, film"
+      ],
+      "seenCount": 1,
+      "occurrenceIds": [
+        "4e53c76c-7cdb-4502-b80b-9a76f3b29842"
+      ]
+    },
+    "a4ab18ed-489f-46f0-9912-ba10dabd4896": {
+      "id": "a4ab18ed-489f-46f0-9912-ba10dabd4896",
+      "word": "太",
+      "meanings": [
+        "too, extremely"
+      ],
+      "seenCount": 1,
+      "occurrenceIds": [
+        "fc30d021-f177-428a-9251-0724e91815d2"
+      ]
+    },
+    "eafbf203-d778-407c-9c64-4b92f30ea19a": {
+      "id": "eafbf203-d778-407c-9c64-4b92f30ea19a",
+      "word": "好看",
+      "meanings": [
+        "good-looking, worth watching"
+      ],
+      "seenCount": 1,
+      "occurrenceIds": [
+        "4a62c7e4-eedf-490f-bf12-c493efc0bb03"
+      ]
+    },
+    "68f7183a-76fb-492a-b719-6ed40d5d641e": {
+      "id": "68f7183a-76fb-492a-b719-6ed40d5d641e",
+      "word": "了",
+      "meanings": [
+        "completion particle"
+      ],
+      "seenCount": 1,
+      "occurrenceIds": [
+        "b19445f7-d03a-40b0-958a-198b91a1bb1c"
+      ]
+    },
+    "2abcac39-b1ca-4ca6-9d5f-14fd4f8c36aa": {
+      "id": "2abcac39-b1ca-4ca6-9d5f-14fd4f8c36aa",
+      "word": "明天",
+      "meanings": [
+        "tomorrow"
+      ],
+      "seenCount": 1,
+      "occurrenceIds": [
+        "2323a7ad-92dd-4634-ba4b-4d0ecd71fb2b"
+      ]
+    },
+    "4146e27b-2639-49f6-bf6d-5b74aac937e4": {
+      "id": "4146e27b-2639-49f6-bf6d-5b74aac937e4",
+      "word": "要",
+      "meanings": [
+        "to want, will"
+      ],
+      "seenCount": 1,
+      "occurrenceIds": [
+        "47f1f47a-1332-4db1-b969-9dd7df57b0bc"
+      ]
+    },
+    "71e5fa9e-0113-439e-9247-7a60c9d39d7b": {
+      "id": "71e5fa9e-0113-439e-9247-7a60c9d39d7b",
+      "word": "图书馆",
+      "meanings": [
+        "library"
+      ],
+      "seenCount": 1,
+      "occurrenceIds": [
+        "86ceef4b-1762-4832-8f29-8a15912237d3"
+      ]
+    },
+    "a10f9e88-212b-424a-9403-d79599c457f5": {
+      "id": "a10f9e88-212b-424a-9403-d79599c457f5",
+      "word": "看书",
+      "meanings": [
+        "to read books"
+      ],
+      "seenCount": 1,
+      "occurrenceIds": [
+        "68b4fbcd-d54e-409e-82a2-bca7d86069f8"
+      ]
     }
   },
   "wordOccurrences": {
-    "195f95ae-1f1a-4cd8-a4ec-ea84267bce26": {
-      "id": "195f95ae-1f1a-4cd8-a4ec-ea84267bce26",
-      "wordId": "79bf723b-5162-4e07-b3e6-7ff8cfe313b4",
-      "word": "重重地",
-      "meaning": "heavily",
-      "pinyin": "chóng chóng de",
-      "sentenceId": "705d685e-dcaf-43c9-87c9-fd308b7e25c6",
+    "56bce221-a0df-46b3-9718-9e3a37ec4ab0": {
+      "id": "56bce221-a0df-46b3-9718-9e3a37ec4ab0",
+      "wordId": "9856bf84-42fb-4c40-a854-3ad0c93af860",
+      "word": "今天",
+      "meaning": "today",
+      "pinyin": "jīn tiān",
+      "sentenceId": "5f2abb63-6d8c-46cf-b172-0feb63a538e7",
       "position": 0
     },
-    "84f9915e-235e-40a0-8ee0-449a98427780": {
-      "id": "84f9915e-235e-40a0-8ee0-449a98427780",
-      "wordId": "f8ff861c-5ee1-4084-a76f-4f45d9b53606",
-      "word": "把",
-      "meaning": "particle indicating disposal/handling",
-      "pinyin": "bǎ",
-      "sentenceId": "705d685e-dcaf-43c9-87c9-fd308b7e25c6",
+    "a08e92e9-de58-4c16-af41-aaccf6a4f084": {
+      "id": "a08e92e9-de58-4c16-af41-aaccf6a4f084",
+      "wordId": "45911558-8766-4bfe-b3f4-cffd6bc6124a",
+      "word": "天气",
+      "meaning": "weather",
+      "pinyin": "tiān qì",
+      "sentenceId": "5f2abb63-6d8c-46cf-b172-0feb63a538e7",
       "position": 1
     },
-    "2b725c5e-84b3-4702-a94f-406cb39b816b": {
-      "id": "2b725c5e-84b3-4702-a94f-406cb39b816b",
-      "wordId": "fe3a49ab-4fd6-4a5d-8945-4f103ae27099",
-      "word": "行李",
-      "meaning": "luggage",
-      "pinyin": "xíng lǐ",
-      "sentenceId": "705d685e-dcaf-43c9-87c9-fd308b7e25c6",
+    "c76b0627-f984-4374-aad4-4dbc5d297a0c": {
+      "id": "c76b0627-f984-4374-aad4-4dbc5d297a0c",
+      "wordId": "5d8c7dfe-938e-45ec-b97e-8558fadc146c",
+      "word": "很",
+      "meaning": "very",
+      "pinyin": "hěn",
+      "sentenceId": "5f2abb63-6d8c-46cf-b172-0feb63a538e7",
       "position": 2
     },
-    "586da9b8-3242-49ca-b766-deba6ec39a4e": {
-      "id": "586da9b8-3242-49ca-b766-deba6ec39a4e",
-      "wordId": "d2a15e7e-aac3-42bb-a3cb-ae546f462c3e",
-      "word": "行",
-      "meaning": "to carry/transport",
-      "pinyin": "xíng",
-      "sentenceId": "705d685e-dcaf-43c9-87c9-fd308b7e25c6",
+    "ce2bc703-da2f-4ac2-b65d-50bc6f84528f": {
+      "id": "ce2bc703-da2f-4ac2-b65d-50bc6f84528f",
+      "wordId": "ae5bc672-0dd5-4f24-90c7-e1f8c776d9b2",
+      "word": "好",
+      "meaning": "good",
+      "pinyin": "hǎo",
+      "sentenceId": "5f2abb63-6d8c-46cf-b172-0feb63a538e7",
       "position": 3
     },
-    "824a2ba1-56b5-49ea-9014-cc685a90a53a": {
-      "id": "824a2ba1-56b5-49ea-9014-cc685a90a53a",
-      "wordId": "9ae5544b-74e7-4b77-8307-3d35f5e9e48e",
-      "word": "到",
-      "meaning": "to/until",
-      "pinyin": "dào",
-      "sentenceId": "705d685e-dcaf-43c9-87c9-fd308b7e25c6",
-      "position": 4
+    "f72a5097-8354-4d38-9902-55ffc3305805": {
+      "id": "f72a5097-8354-4d38-9902-55ffc3305805",
+      "wordId": "2e82efdf-c3af-4411-bf66-3a64028d9cf0",
+      "word": "我",
+      "meaning": "I, me",
+      "pinyin": "wǒ",
+      "sentenceId": "13d3880e-a257-4eae-a1a7-2e4a9fec9347",
+      "position": 0
     },
-    "cbb16cd0-cac9-4da1-a3f3-d13b5c0b318e": {
-      "id": "cbb16cd0-cac9-4da1-a3f3-d13b5c0b318e",
-      "wordId": "23b7b825-49fb-42f1-b76b-8d57bce2db79",
-      "word": "银行",
-      "meaning": "bank",
-      "pinyin": "yín háng",
-      "sentenceId": "705d685e-dcaf-43c9-87c9-fd308b7e25c6",
-      "position": 5
+    "40dd7fed-250f-40bd-ab2c-54049d8834e6": {
+      "id": "40dd7fed-250f-40bd-ab2c-54049d8834e6",
+      "wordId": "c45339f4-68a9-4d44-9899-af5e405606ee",
+      "word": "想",
+      "meaning": "to want, to think",
+      "pinyin": "xiǎng",
+      "sentenceId": "13d3880e-a257-4eae-a1a7-2e4a9fec9347",
+      "position": 1
     },
-    "6f2eb932-bfb8-4df2-8321-d80a95cd567f": {
-      "id": "6f2eb932-bfb8-4df2-8321-d80a95cd567f",
-      "wordId": "64f376f0-af93-4460-884e-11c9fa5ba018",
-      "word": "行长",
-      "meaning": "bank president/manager",
-      "pinyin": "háng zhǎng",
-      "sentenceId": "705d685e-dcaf-43c9-87c9-fd308b7e25c6",
-      "position": 6
+    "cc40067f-ee84-48e4-ad39-7cc00f1c2659": {
+      "id": "cc40067f-ee84-48e4-ad39-7cc00f1c2659",
+      "wordId": "5144039f-0c30-478b-9201-41a65af8581d",
+      "word": "学习",
+      "meaning": "to study, to learn",
+      "pinyin": "xué xí",
+      "sentenceId": "13d3880e-a257-4eae-a1a7-2e4a9fec9347",
+      "position": 2
     },
-    "37def26c-6a28-43f9-b7c4-a531c7f3edc5": {
-      "id": "37def26c-6a28-43f9-b7c4-a531c7f3edc5",
-      "wordId": "d0322460-57fa-4d8a-a63d-774300dced81",
+    "0817533f-ea30-474c-8c4e-d4e3ad1222ae": {
+      "id": "0817533f-ea30-474c-8c4e-d4e3ad1222ae",
+      "wordId": "1ee74a7d-8f8b-435c-95cb-d0498d48972b",
+      "word": "中文",
+      "meaning": "Chinese language",
+      "pinyin": "zhōng wén",
+      "sentenceId": "13d3880e-a257-4eae-a1a7-2e4a9fec9347",
+      "position": 3
+    },
+    "132b529d-5274-4724-8011-4703fef08088": {
+      "id": "132b529d-5274-4724-8011-4703fef08088",
+      "wordId": "f20096fa-762c-414f-a4e3-c382fd19d339",
+      "word": "他",
+      "meaning": "he, him",
+      "pinyin": "tā",
+      "sentenceId": "0c03c809-6835-40e8-ac16-c0b4e5b022e9",
+      "position": 0
+    },
+    "ef09c1e0-a261-46f6-8de7-f0a3f615f82c": {
+      "id": "ef09c1e0-a261-46f6-8de7-f0a3f615f82c",
+      "wordId": "3bdaca83-0252-4b52-9f26-ccced040a209",
+      "word": "是",
+      "meaning": "to be",
+      "pinyin": "shì",
+      "sentenceId": "0c03c809-6835-40e8-ac16-c0b4e5b022e9",
+      "position": 1
+    },
+    "3f90c697-915b-4f03-b534-d76847375956": {
+      "id": "3f90c697-915b-4f03-b534-d76847375956",
+      "wordId": "2e82efdf-c3af-4411-bf66-3a64028d9cf0",
+      "word": "我",
+      "meaning": "I, me",
+      "pinyin": "wǒ",
+      "sentenceId": "0c03c809-6835-40e8-ac16-c0b4e5b022e9",
+      "position": 2
+    },
+    "36fe46d6-f1ed-4844-8030-d2424caa9b70": {
+      "id": "36fe46d6-f1ed-4844-8030-d2424caa9b70",
+      "wordId": "f644ab88-5798-40a3-9255-3c88ce838ce3",
       "word": "的",
       "meaning": "possessive particle",
       "pinyin": "de",
-      "sentenceId": "705d685e-dcaf-43c9-87c9-fd308b7e25c6",
-      "position": 7
+      "sentenceId": "0c03c809-6835-40e8-ac16-c0b4e5b022e9",
+      "position": 3
     },
-    "7d4ee2f8-349b-4fca-b5be-a43f3502d311": {
-      "id": "7d4ee2f8-349b-4fca-b5be-a43f3502d311",
-      "wordId": "7eaab1a4-76d6-45ed-9dec-8efa775315b5",
-      "word": "办公室",
-      "meaning": "office",
-      "pinyin": "bàn gōng shì",
-      "sentenceId": "705d685e-dcaf-43c9-87c9-fd308b7e25c6",
-      "position": 8
+    "a28d2458-db7c-4bbb-965e-8df25fb7389a": {
+      "id": "a28d2458-db7c-4bbb-965e-8df25fb7389a",
+      "wordId": "926bb926-d0ee-4bce-a926-b5bbcf7120d3",
+      "word": "朋友",
+      "meaning": "friend",
+      "pinyin": "péng yǒu",
+      "sentenceId": "0c03c809-6835-40e8-ac16-c0b4e5b022e9",
+      "position": 4
+    },
+    "71b4f223-af67-4416-a0fe-00c7a3a97dab": {
+      "id": "71b4f223-af67-4416-a0fe-00c7a3a97dab",
+      "wordId": "18165248-e71c-4cd9-9988-c892c0e3f30f",
+      "word": "这",
+      "meaning": "this",
+      "pinyin": "zhè",
+      "sentenceId": "af7c11ab-6e20-4c89-98f5-e4dd84fc27e0",
+      "position": 0
+    },
+    "29651790-3929-4a18-b082-7c407c1baa75": {
+      "id": "29651790-3929-4a18-b082-7c407c1baa75",
+      "wordId": "1671ee4f-b7d7-44ad-a4a2-cf767bce631d",
+      "word": "本",
+      "meaning": "measure word for books",
+      "pinyin": "běn",
+      "sentenceId": "af7c11ab-6e20-4c89-98f5-e4dd84fc27e0",
+      "position": 1
+    },
+    "1c4a9218-190a-438e-8d3b-a6c203fbe86f": {
+      "id": "1c4a9218-190a-438e-8d3b-a6c203fbe86f",
+      "wordId": "453a35fe-edf9-4ab4-bcf7-7804bc5962e5",
+      "word": "书",
+      "meaning": "book",
+      "pinyin": "shū",
+      "sentenceId": "af7c11ab-6e20-4c89-98f5-e4dd84fc27e0",
+      "position": 2
+    },
+    "ef3ae166-1358-4964-a789-bf386fa631c1": {
+      "id": "ef3ae166-1358-4964-a789-bf386fa631c1",
+      "wordId": "d4b05aa6-ab84-4580-80ea-3641ee0b3d6d",
+      "word": "非常",
+      "meaning": "very, extremely",
+      "pinyin": "fēi cháng",
+      "sentenceId": "af7c11ab-6e20-4c89-98f5-e4dd84fc27e0",
+      "position": 3
+    },
+    "0a2fc942-41d6-41f3-a19f-ac4345c65f12": {
+      "id": "0a2fc942-41d6-41f3-a19f-ac4345c65f12",
+      "wordId": "d9a72a2b-d968-4665-baf2-867aca9248d9",
+      "word": "有意思",
+      "meaning": "interesting",
+      "pinyin": "yǒu yì si",
+      "sentenceId": "af7c11ab-6e20-4c89-98f5-e4dd84fc27e0",
+      "position": 4
+    },
+    "f98c9675-e5d6-4fcf-9770-6df9f7bade0c": {
+      "id": "f98c9675-e5d6-4fcf-9770-6df9f7bade0c",
+      "wordId": "ce1c90f6-421b-4fc2-983f-f9dc0e356d2b",
+      "word": "请问",
+      "meaning": "may I ask",
+      "pinyin": "qǐng wèn",
+      "sentenceId": "a6b7715a-5fea-49b5-9da2-be7c50583553",
+      "position": 0
+    },
+    "931d3e9f-1313-4b01-b439-1a80c2c02287": {
+      "id": "931d3e9f-1313-4b01-b439-1a80c2c02287",
+      "wordId": "4123d555-b16a-4a1c-a557-7d8c1cfae044",
+      "word": "你",
+      "meaning": "you",
+      "pinyin": "nǐ",
+      "sentenceId": "a6b7715a-5fea-49b5-9da2-be7c50583553",
+      "position": 1
+    },
+    "f77a1690-9ed5-4644-b663-94fac6b1a79e": {
+      "id": "f77a1690-9ed5-4644-b663-94fac6b1a79e",
+      "wordId": "7718f971-d982-4c68-b85d-43abd87bbb4f",
+      "word": "叫",
+      "meaning": "to be called",
+      "pinyin": "jiào",
+      "sentenceId": "a6b7715a-5fea-49b5-9da2-be7c50583553",
+      "position": 2
+    },
+    "bff132f4-405d-49c7-a960-b66c102a264d": {
+      "id": "bff132f4-405d-49c7-a960-b66c102a264d",
+      "wordId": "1d772c34-a5d7-464d-ba7c-b26beb0fe475",
+      "word": "什么",
+      "meaning": "what",
+      "pinyin": "shén me",
+      "sentenceId": "a6b7715a-5fea-49b5-9da2-be7c50583553",
+      "position": 3
+    },
+    "8e508f66-bd13-4448-8de9-15f0904d9248": {
+      "id": "8e508f66-bd13-4448-8de9-15f0904d9248",
+      "wordId": "785f79d3-c577-4b86-8efc-2604babbe6e3",
+      "word": "名字",
+      "meaning": "name",
+      "pinyin": "míng zì",
+      "sentenceId": "a6b7715a-5fea-49b5-9da2-be7c50583553",
+      "position": 4
+    },
+    "9b6c097f-7593-49ed-9e1f-727c0d2324ad": {
+      "id": "9b6c097f-7593-49ed-9e1f-727c0d2324ad",
+      "wordId": "7b29599c-caf3-4e5f-9244-c38db836a54e",
+      "word": "中国",
+      "meaning": "China",
+      "pinyin": "zhōng guó",
+      "sentenceId": "2adfe36f-a996-4c15-8fd2-8fc70640b225",
+      "position": 0
+    },
+    "748100dc-8af2-4d46-a048-6dfa75cdf0c5": {
+      "id": "748100dc-8af2-4d46-a048-6dfa75cdf0c5",
+      "wordId": "f644ab88-5798-40a3-9255-3c88ce838ce3",
+      "word": "的",
+      "meaning": "possessive particle",
+      "pinyin": "de",
+      "sentenceId": "2adfe36f-a996-4c15-8fd2-8fc70640b225",
+      "position": 1
+    },
+    "a1d6fa75-00b3-4b70-a7b5-addcfc78243c": {
+      "id": "a1d6fa75-00b3-4b70-a7b5-addcfc78243c",
+      "wordId": "b2f13014-fc52-4374-9857-72b9c8354f7c",
+      "word": "历史",
+      "meaning": "history",
+      "pinyin": "lì shǐ",
+      "sentenceId": "2adfe36f-a996-4c15-8fd2-8fc70640b225",
+      "position": 2
+    },
+    "87ec1a09-aac1-4837-9531-f581dd777243": {
+      "id": "87ec1a09-aac1-4837-9531-f581dd777243",
+      "wordId": "5d8c7dfe-938e-45ec-b97e-8558fadc146c",
+      "word": "很",
+      "meaning": "very",
+      "pinyin": "hěn",
+      "sentenceId": "2adfe36f-a996-4c15-8fd2-8fc70640b225",
+      "position": 3
+    },
+    "bc39e1f7-3749-4f60-b0bf-37742e9113f2": {
+      "id": "bc39e1f7-3749-4f60-b0bf-37742e9113f2",
+      "wordId": "3f8a92d6-c8bd-43ea-86ed-7fc524c06ad8",
+      "word": "长",
+      "meaning": "long",
+      "pinyin": "cháng",
+      "sentenceId": "2adfe36f-a996-4c15-8fd2-8fc70640b225",
+      "position": 4
+    },
+    "918f94ae-56ce-49bf-b07c-4716a2d580a9": {
+      "id": "918f94ae-56ce-49bf-b07c-4716a2d580a9",
+      "wordId": "fcb3ded3-c14b-4853-8c83-291d5c6401a0",
+      "word": "她",
+      "meaning": "she, her",
+      "pinyin": "tā",
+      "sentenceId": "b6acc33f-1652-4701-8389-e32e1747cc86",
+      "position": 0
+    },
+    "e55b75d2-32ff-4ddd-9547-ae530cb53f0e": {
+      "id": "e55b75d2-32ff-4ddd-9547-ae530cb53f0e",
+      "wordId": "a3a69240-a212-47f5-b333-f32af92ec6c4",
+      "word": "每天",
+      "meaning": "every day",
+      "pinyin": "měi tiān",
+      "sentenceId": "b6acc33f-1652-4701-8389-e32e1747cc86",
+      "position": 1
+    },
+    "285cfa43-7b9f-49e6-950e-c3f87aedaa5a": {
+      "id": "285cfa43-7b9f-49e6-950e-c3f87aedaa5a",
+      "wordId": "dafce188-17d3-4e00-af3d-3a2c9a9f7367",
+      "word": "早上",
+      "meaning": "morning",
+      "pinyin": "zǎo shàng",
+      "sentenceId": "b6acc33f-1652-4701-8389-e32e1747cc86",
+      "position": 2
+    },
+    "ba239187-d001-4ae9-9511-0fc858b70490": {
+      "id": "ba239187-d001-4ae9-9511-0fc858b70490",
+      "wordId": "6005a1d2-5435-4209-a0a3-b1456ded42f5",
+      "word": "跑步",
+      "meaning": "to jog, to run",
+      "pinyin": "pǎo bù",
+      "sentenceId": "b6acc33f-1652-4701-8389-e32e1747cc86",
+      "position": 3
+    },
+    "76a16075-4fac-4d83-a512-f32a2e4badbc": {
+      "id": "76a16075-4fac-4d83-a512-f32a2e4badbc",
+      "wordId": "b4681b21-8f06-4b56-a2e9-59dcaf599315",
+      "word": "我们",
+      "meaning": "we, us",
+      "pinyin": "wǒ men",
+      "sentenceId": "9062c18f-c374-4c3b-8312-8836cccdac3e",
+      "position": 0
+    },
+    "2f18919b-39fd-4433-accd-9741daa08a68": {
+      "id": "2f18919b-39fd-4433-accd-9741daa08a68",
+      "wordId": "726229f8-b098-4ec2-acce-53961014683d",
+      "word": "一起",
+      "meaning": "together",
+      "pinyin": "yì qǐ",
+      "sentenceId": "9062c18f-c374-4c3b-8312-8836cccdac3e",
+      "position": 1
+    },
+    "5686eeb7-3e50-4a77-96d3-2c4b408415ce": {
+      "id": "5686eeb7-3e50-4a77-96d3-2c4b408415ce",
+      "wordId": "abc5e7cd-f216-4f9a-ac6b-3996bbb0703c",
+      "word": "去",
+      "meaning": "to go",
+      "pinyin": "qù",
+      "sentenceId": "9062c18f-c374-4c3b-8312-8836cccdac3e",
+      "position": 2
+    },
+    "7e1f61b4-1c67-44e8-acf0-dec528b5f8a1": {
+      "id": "7e1f61b4-1c67-44e8-acf0-dec528b5f8a1",
+      "wordId": "a6991404-6cfc-4915-a713-95fa33e73cee",
+      "word": "吃饭",
+      "meaning": "to eat (a meal)",
+      "pinyin": "chī fàn",
+      "sentenceId": "9062c18f-c374-4c3b-8312-8836cccdac3e",
+      "position": 3
+    },
+    "291f1c93-517c-4575-9f5a-9852960c42b2": {
+      "id": "291f1c93-517c-4575-9f5a-9852960c42b2",
+      "wordId": "b2020bcd-1c80-4047-8d97-f55f90c3e4fe",
+      "word": "吧",
+      "meaning": "suggestion particle",
+      "pinyin": "ba",
+      "sentenceId": "9062c18f-c374-4c3b-8312-8836cccdac3e",
+      "position": 4
+    },
+    "9dfebedc-76bb-4de8-9ccf-2a11318fd823": {
+      "id": "9dfebedc-76bb-4de8-9ccf-2a11318fd823",
+      "wordId": "021c53ae-7b17-479d-ba49-46eaf973dea0",
+      "word": "北京",
+      "meaning": "Beijing",
+      "pinyin": "běi jīng",
+      "sentenceId": "412cac26-bcf0-450d-bbaf-635f78cfcbab",
+      "position": 0
+    },
+    "54f80abc-6b47-4eb9-a033-fd6e15e20461": {
+      "id": "54f80abc-6b47-4eb9-a033-fd6e15e20461",
+      "wordId": "3bdaca83-0252-4b52-9f26-ccced040a209",
+      "word": "是",
+      "meaning": "to be",
+      "pinyin": "shì",
+      "sentenceId": "412cac26-bcf0-450d-bbaf-635f78cfcbab",
+      "position": 1
+    },
+    "62af7c5b-65b0-48d1-90bf-383f9777f1bf": {
+      "id": "62af7c5b-65b0-48d1-90bf-383f9777f1bf",
+      "wordId": "7b29599c-caf3-4e5f-9244-c38db836a54e",
+      "word": "中国",
+      "meaning": "China",
+      "pinyin": "zhōng guó",
+      "sentenceId": "412cac26-bcf0-450d-bbaf-635f78cfcbab",
+      "position": 2
+    },
+    "525792db-ba27-4de5-81a9-65d16a0bd33f": {
+      "id": "525792db-ba27-4de5-81a9-65d16a0bd33f",
+      "wordId": "f644ab88-5798-40a3-9255-3c88ce838ce3",
+      "word": "的",
+      "meaning": "possessive particle",
+      "pinyin": "de",
+      "sentenceId": "412cac26-bcf0-450d-bbaf-635f78cfcbab",
+      "position": 3
+    },
+    "9ae4138e-e85c-4ccb-94dc-b253dac281ef": {
+      "id": "9ae4138e-e85c-4ccb-94dc-b253dac281ef",
+      "wordId": "ff822a11-1b95-4945-be80-67cd1392a0e8",
+      "word": "首都",
+      "meaning": "capital city",
+      "pinyin": "shǒu dū",
+      "sentenceId": "412cac26-bcf0-450d-bbaf-635f78cfcbab",
+      "position": 4
+    },
+    "7ea0c721-91be-4c9e-aa51-153a23a409ad": {
+      "id": "7ea0c721-91be-4c9e-aa51-153a23a409ad",
+      "wordId": "36c853b0-ca9f-437f-a006-e4accd13b85d",
+      "word": "学生",
+      "meaning": "student",
+      "pinyin": "xué shēng",
+      "sentenceId": "4b07533c-8f03-4511-821b-12b643ae4c26",
+      "position": 0
+    },
+    "2bde386f-010e-438e-87f2-1c2a275fbef0": {
+      "id": "2bde386f-010e-438e-87f2-1c2a275fbef0",
+      "wordId": "90126397-4297-4cc9-830e-eee081609323",
+      "word": "们",
+      "meaning": "plural suffix",
+      "pinyin": "men",
+      "sentenceId": "4b07533c-8f03-4511-821b-12b643ae4c26",
+      "position": 1
+    },
+    "88e12323-34f2-434e-9509-42cc87da050d": {
+      "id": "88e12323-34f2-434e-9509-42cc87da050d",
+      "wordId": "9698d6cb-9e3a-4b84-9b48-28027319cc37",
+      "word": "在",
+      "meaning": "at, in",
+      "pinyin": "zài",
+      "sentenceId": "4b07533c-8f03-4511-821b-12b643ae4c26",
+      "position": 2
+    },
+    "7d407941-73ac-4f5a-98f9-371b43c276a1": {
+      "id": "7d407941-73ac-4f5a-98f9-371b43c276a1",
+      "wordId": "a4f9ff28-ae56-47cc-ae11-28c495a6571b",
+      "word": "教室",
+      "meaning": "classroom",
+      "pinyin": "jiào shì",
+      "sentenceId": "4b07533c-8f03-4511-821b-12b643ae4c26",
+      "position": 3
+    },
+    "daaca2e6-883e-4037-ada1-ff2b5edfd01a": {
+      "id": "daaca2e6-883e-4037-ada1-ff2b5edfd01a",
+      "wordId": "52aa64fa-5839-43b6-a199-14e79c05431f",
+      "word": "里",
+      "meaning": "inside",
+      "pinyin": "lǐ",
+      "sentenceId": "4b07533c-8f03-4511-821b-12b643ae4c26",
+      "position": 4
+    },
+    "a3d50c0d-d1ae-48ec-b84b-f694d5815522": {
+      "id": "a3d50c0d-d1ae-48ec-b84b-f694d5815522",
+      "wordId": "b53be05f-09c8-419d-9760-b9d626a2be7c",
+      "word": "上课",
+      "meaning": "to attend class",
+      "pinyin": "shàng kè",
+      "sentenceId": "4b07533c-8f03-4511-821b-12b643ae4c26",
+      "position": 5
+    },
+    "4651791f-8ba2-4242-a92d-32753ee01932": {
+      "id": "4651791f-8ba2-4242-a92d-32753ee01932",
+      "wordId": "6fa7378c-285a-46b9-bbdf-0be3b162e377",
+      "word": "这个",
+      "meaning": "this",
+      "pinyin": "zhè ge",
+      "sentenceId": "b1cc4412-3b36-407a-b98c-f258a6a50ead",
+      "position": 0
+    },
+    "4e53c76c-7cdb-4502-b80b-9a76f3b29842": {
+      "id": "4e53c76c-7cdb-4502-b80b-9a76f3b29842",
+      "wordId": "405b3e09-2005-4768-ab3f-dea4b7345f0f",
+      "word": "电影",
+      "meaning": "movie, film",
+      "pinyin": "diàn yǐng",
+      "sentenceId": "b1cc4412-3b36-407a-b98c-f258a6a50ead",
+      "position": 1
+    },
+    "fc30d021-f177-428a-9251-0724e91815d2": {
+      "id": "fc30d021-f177-428a-9251-0724e91815d2",
+      "wordId": "a4ab18ed-489f-46f0-9912-ba10dabd4896",
+      "word": "太",
+      "meaning": "too, extremely",
+      "pinyin": "tài",
+      "sentenceId": "b1cc4412-3b36-407a-b98c-f258a6a50ead",
+      "position": 2
+    },
+    "4a62c7e4-eedf-490f-bf12-c493efc0bb03": {
+      "id": "4a62c7e4-eedf-490f-bf12-c493efc0bb03",
+      "wordId": "eafbf203-d778-407c-9c64-4b92f30ea19a",
+      "word": "好看",
+      "meaning": "good-looking, worth watching",
+      "pinyin": "hǎo kàn",
+      "sentenceId": "b1cc4412-3b36-407a-b98c-f258a6a50ead",
+      "position": 3
+    },
+    "b19445f7-d03a-40b0-958a-198b91a1bb1c": {
+      "id": "b19445f7-d03a-40b0-958a-198b91a1bb1c",
+      "wordId": "68f7183a-76fb-492a-b719-6ed40d5d641e",
+      "word": "了",
+      "meaning": "completion particle",
+      "pinyin": "le",
+      "sentenceId": "b1cc4412-3b36-407a-b98c-f258a6a50ead",
+      "position": 4
+    },
+    "2323a7ad-92dd-4634-ba4b-4d0ecd71fb2b": {
+      "id": "2323a7ad-92dd-4634-ba4b-4d0ecd71fb2b",
+      "wordId": "2abcac39-b1ca-4ca6-9d5f-14fd4f8c36aa",
+      "word": "明天",
+      "meaning": "tomorrow",
+      "pinyin": "míng tiān",
+      "sentenceId": "247a0ec0-b0f9-47c3-8b38-eaa1c0b2dc30",
+      "position": 0
+    },
+    "f8ead372-4f15-414a-8980-f7b493a76c5d": {
+      "id": "f8ead372-4f15-414a-8980-f7b493a76c5d",
+      "wordId": "2e82efdf-c3af-4411-bf66-3a64028d9cf0",
+      "word": "我",
+      "meaning": "I, me",
+      "pinyin": "wǒ",
+      "sentenceId": "247a0ec0-b0f9-47c3-8b38-eaa1c0b2dc30",
+      "position": 1
+    },
+    "47f1f47a-1332-4db1-b969-9dd7df57b0bc": {
+      "id": "47f1f47a-1332-4db1-b969-9dd7df57b0bc",
+      "wordId": "4146e27b-2639-49f6-bf6d-5b74aac937e4",
+      "word": "要",
+      "meaning": "to want, will",
+      "pinyin": "yào",
+      "sentenceId": "247a0ec0-b0f9-47c3-8b38-eaa1c0b2dc30",
+      "position": 2
+    },
+    "65dff44b-f42c-45ee-ba4e-348b3a5e876f": {
+      "id": "65dff44b-f42c-45ee-ba4e-348b3a5e876f",
+      "wordId": "abc5e7cd-f216-4f9a-ac6b-3996bbb0703c",
+      "word": "去",
+      "meaning": "to go",
+      "pinyin": "qù",
+      "sentenceId": "247a0ec0-b0f9-47c3-8b38-eaa1c0b2dc30",
+      "position": 3
+    },
+    "86ceef4b-1762-4832-8f29-8a15912237d3": {
+      "id": "86ceef4b-1762-4832-8f29-8a15912237d3",
+      "wordId": "71e5fa9e-0113-439e-9247-7a60c9d39d7b",
+      "word": "图书馆",
+      "meaning": "library",
+      "pinyin": "tú shū guǎn",
+      "sentenceId": "247a0ec0-b0f9-47c3-8b38-eaa1c0b2dc30",
+      "position": 4
+    },
+    "68b4fbcd-d54e-409e-82a2-bca7d86069f8": {
+      "id": "68b4fbcd-d54e-409e-82a2-bca7d86069f8",
+      "wordId": "a10f9e88-212b-424a-9403-d79599c457f5",
+      "word": "看书",
+      "meaning": "to read books",
+      "pinyin": "kàn shū",
+      "sentenceId": "247a0ec0-b0f9-47c3-8b38-eaa1c0b2dc30",
+      "position": 5
+    }
+  },
+  "sentences": {
+    "5f2abb63-6d8c-46cf-b172-0feb63a538e7": {
+      "id": "5f2abb63-6d8c-46cf-b172-0feb63a538e7",
+      "text": "今天天气很好",
+      "occurrenceIds": [
+        "56bce221-a0df-46b3-9718-9e3a37ec4ab0",
+        "a08e92e9-de58-4c16-af41-aaccf6a4f084",
+        "c76b0627-f984-4374-aad4-4dbc5d297a0c",
+        "ce2bc703-da2f-4ac2-b65d-50bc6f84528f"
+      ],
+      "source": "https://zh.wikipedia.org/wiki/天气"
+    },
+    "13d3880e-a257-4eae-a1a7-2e4a9fec9347": {
+      "id": "13d3880e-a257-4eae-a1a7-2e4a9fec9347",
+      "text": "我想学习中文",
+      "occurrenceIds": [
+        "f72a5097-8354-4d38-9902-55ffc3305805",
+        "40dd7fed-250f-40bd-ab2c-54049d8834e6",
+        "cc40067f-ee84-48e4-ad39-7cc00f1c2659",
+        "0817533f-ea30-474c-8c4e-d4e3ad1222ae"
+      ],
+      "source": "https://zh.wikipedia.org/wiki/汉语"
+    },
+    "0c03c809-6835-40e8-ac16-c0b4e5b022e9": {
+      "id": "0c03c809-6835-40e8-ac16-c0b4e5b022e9",
+      "text": "他是我的朋友",
+      "occurrenceIds": [
+        "132b529d-5274-4724-8011-4703fef08088",
+        "ef09c1e0-a261-46f6-8de7-f0a3f615f82c",
+        "3f90c697-915b-4f03-b534-d76847375956",
+        "36fe46d6-f1ed-4844-8030-d2424caa9b70",
+        "a28d2458-db7c-4bbb-965e-8df25fb7389a"
+      ],
+      "source": "https://zh.wikipedia.org/wiki/友谊"
+    },
+    "af7c11ab-6e20-4c89-98f5-e4dd84fc27e0": {
+      "id": "af7c11ab-6e20-4c89-98f5-e4dd84fc27e0",
+      "text": "这本书非常有意思",
+      "occurrenceIds": [
+        "71b4f223-af67-4416-a0fe-00c7a3a97dab",
+        "29651790-3929-4a18-b082-7c407c1baa75",
+        "1c4a9218-190a-438e-8d3b-a6c203fbe86f",
+        "ef3ae166-1358-4964-a789-bf386fa631c1",
+        "0a2fc942-41d6-41f3-a19f-ac4345c65f12"
+      ],
+      "source": "https://zh.wikipedia.org/wiki/文学"
+    },
+    "a6b7715a-5fea-49b5-9da2-be7c50583553": {
+      "id": "a6b7715a-5fea-49b5-9da2-be7c50583553",
+      "text": "请问你叫什么名字",
+      "occurrenceIds": [
+        "f98c9675-e5d6-4fcf-9770-6df9f7bade0c",
+        "931d3e9f-1313-4b01-b439-1a80c2c02287",
+        "f77a1690-9ed5-4644-b663-94fac6b1a79e",
+        "bff132f4-405d-49c7-a960-b66c102a264d",
+        "8e508f66-bd13-4448-8de9-15f0904d9248"
+      ],
+      "source": "https://zh.wikipedia.org/wiki/自我介绍"
+    },
+    "2adfe36f-a996-4c15-8fd2-8fc70640b225": {
+      "id": "2adfe36f-a996-4c15-8fd2-8fc70640b225",
+      "text": "中国的历史很长",
+      "occurrenceIds": [
+        "9b6c097f-7593-49ed-9e1f-727c0d2324ad",
+        "748100dc-8af2-4d46-a048-6dfa75cdf0c5",
+        "a1d6fa75-00b3-4b70-a7b5-addcfc78243c",
+        "87ec1a09-aac1-4837-9531-f581dd777243",
+        "bc39e1f7-3749-4f60-b0bf-37742e9113f2"
+      ],
+      "source": "https://zh.wikipedia.org/wiki/中国历史"
+    },
+    "b6acc33f-1652-4701-8389-e32e1747cc86": {
+      "id": "b6acc33f-1652-4701-8389-e32e1747cc86",
+      "text": "她每天早上跑步",
+      "occurrenceIds": [
+        "918f94ae-56ce-49bf-b07c-4716a2d580a9",
+        "e55b75d2-32ff-4ddd-9547-ae530cb53f0e",
+        "285cfa43-7b9f-49e6-950e-c3f87aedaa5a",
+        "ba239187-d001-4ae9-9511-0fc858b70490"
+      ],
+      "source": "https://zh.wikipedia.org/wiki/跑步"
+    },
+    "9062c18f-c374-4c3b-8312-8836cccdac3e": {
+      "id": "9062c18f-c374-4c3b-8312-8836cccdac3e",
+      "text": "我们一起去吃饭吧",
+      "occurrenceIds": [
+        "76a16075-4fac-4d83-a512-f32a2e4badbc",
+        "2f18919b-39fd-4433-accd-9741daa08a68",
+        "5686eeb7-3e50-4a77-96d3-2c4b408415ce",
+        "7e1f61b4-1c67-44e8-acf0-dec528b5f8a1",
+        "291f1c93-517c-4575-9f5a-9852960c42b2"
+      ],
+      "source": "https://zh.wikipedia.org/wiki/中国菜"
+    },
+    "412cac26-bcf0-450d-bbaf-635f78cfcbab": {
+      "id": "412cac26-bcf0-450d-bbaf-635f78cfcbab",
+      "text": "北京是中国的首都",
+      "occurrenceIds": [
+        "9dfebedc-76bb-4de8-9ccf-2a11318fd823",
+        "54f80abc-6b47-4eb9-a033-fd6e15e20461",
+        "62af7c5b-65b0-48d1-90bf-383f9777f1bf",
+        "525792db-ba27-4de5-81a9-65d16a0bd33f",
+        "9ae4138e-e85c-4ccb-94dc-b253dac281ef"
+      ],
+      "source": "https://zh.wikipedia.org/wiki/北京"
+    },
+    "4b07533c-8f03-4511-821b-12b643ae4c26": {
+      "id": "4b07533c-8f03-4511-821b-12b643ae4c26",
+      "text": "学生们在教室里上课",
+      "occurrenceIds": [
+        "7ea0c721-91be-4c9e-aa51-153a23a409ad",
+        "2bde386f-010e-438e-87f2-1c2a275fbef0",
+        "88e12323-34f2-434e-9509-42cc87da050d",
+        "7d407941-73ac-4f5a-98f9-371b43c276a1",
+        "daaca2e6-883e-4037-ada1-ff2b5edfd01a",
+        "a3d50c0d-d1ae-48ec-b84b-f694d5815522"
+      ],
+      "source": "https://zh.wikipedia.org/wiki/教育"
+    },
+    "b1cc4412-3b36-407a-b98c-f258a6a50ead": {
+      "id": "b1cc4412-3b36-407a-b98c-f258a6a50ead",
+      "text": "这个电影太好看了",
+      "occurrenceIds": [
+        "4651791f-8ba2-4242-a92d-32753ee01932",
+        "4e53c76c-7cdb-4502-b80b-9a76f3b29842",
+        "fc30d021-f177-428a-9251-0724e91815d2",
+        "4a62c7e4-eedf-490f-bf12-c493efc0bb03",
+        "b19445f7-d03a-40b0-958a-198b91a1bb1c"
+      ],
+      "source": "https://zh.wikipedia.org/wiki/电影"
+    },
+    "247a0ec0-b0f9-47c3-8b38-eaa1c0b2dc30": {
+      "id": "247a0ec0-b0f9-47c3-8b38-eaa1c0b2dc30",
+      "text": "明天我要去图书馆看书",
+      "occurrenceIds": [
+        "2323a7ad-92dd-4634-ba4b-4d0ecd71fb2b",
+        "f8ead372-4f15-414a-8980-f7b493a76c5d",
+        "47f1f47a-1332-4db1-b969-9dd7df57b0bc",
+        "65dff44b-f42c-45ee-ba4e-348b3a5e876f",
+        "86ceef4b-1762-4832-8f29-8a15912237d3",
+        "68b4fbcd-d54e-409e-82a2-bca7d86069f8"
+      ],
+      "source": "https://zh.wikipedia.org/wiki/图书馆"
     }
   }
 }
